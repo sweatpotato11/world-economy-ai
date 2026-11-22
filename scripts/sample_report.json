@@ -1,0 +1,538 @@
+{
+ "articles": [
+  {
+   "id": "s10",
+   "title": "[샘플] 미국 기준금리 결정 관련 샘플 기사 1",
+   "snippet": "샘플 기사 설명이에요.",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T00:00:00+00:00"
+  },
+  {
+   "id": "s11",
+   "title": "[샘플] 미국 기준금리 결정 관련 샘플 기사 2",
+   "snippet": "샘플 기사 설명이에요.",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-21T01:00:00+00:00"
+  },
+  {
+   "id": "s12",
+   "title": "[샘플] 미국 기준금리 결정 관련 샘플 기사 3",
+   "snippet": "샘플 기사 설명이에요.",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T02:00:00+00:00"
+  },
+  {
+   "id": "s20",
+   "title": "[샘플] 중국 수출 지표 발표 관련 샘플 기사 1",
+   "snippet": "샘플 기사 설명이에요.",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T00:00:00+00:00"
+  },
+  {
+   "id": "s21",
+   "title": "[샘플] 중국 수출 지표 발표 관련 샘플 기사 2",
+   "snippet": "샘플 기사 설명이에요.",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-21T01:00:00+00:00"
+  },
+  {
+   "id": "s22",
+   "title": "[샘플] 중국 수출 지표 발표 관련 샘플 기사 3",
+   "snippet": "샘플 기사 설명이에요.",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T02:00:00+00:00"
+  },
+  {
+   "id": "s30",
+   "title": "[샘플] 한국 반도체 수출 흐름 관련 샘플 기사 1",
+   "snippet": "샘플 기사 설명이에요.",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T00:00:00+00:00"
+  },
+  {
+   "id": "s31",
+   "title": "[샘플] 한국 반도체 수출 흐름 관련 샘플 기사 2",
+   "snippet": "샘플 기사 설명이에요.",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-21T01:00:00+00:00"
+  },
+  {
+   "id": "s32",
+   "title": "[샘플] 한국 반도체 수출 흐름 관련 샘플 기사 3",
+   "snippet": "샘플 기사 설명이에요.",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T02:00:00+00:00"
+  },
+  {
+   "id": "s40",
+   "title": "[샘플] 유럽 에너지 가격 변동 관련 샘플 기사 1",
+   "snippet": "샘플 기사 설명이에요.",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T00:00:00+00:00"
+  },
+  {
+   "id": "s41",
+   "title": "[샘플] 유럽 에너지 가격 변동 관련 샘플 기사 2",
+   "snippet": "샘플 기사 설명이에요.",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-21T01:00:00+00:00"
+  },
+  {
+   "id": "s42",
+   "title": "[샘플] 유럽 에너지 가격 변동 관련 샘플 기사 3",
+   "snippet": "샘플 기사 설명이에요.",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T02:00:00+00:00"
+  },
+  {
+   "id": "s50",
+   "title": "[샘플] 중동 정세와 국제 유가 관련 샘플 기사 1",
+   "snippet": "샘플 기사 설명이에요.",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T00:00:00+00:00"
+  },
+  {
+   "id": "s51",
+   "title": "[샘플] 중동 정세와 국제 유가 관련 샘플 기사 2",
+   "snippet": "샘플 기사 설명이에요.",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-21T01:00:00+00:00"
+  },
+  {
+   "id": "s52",
+   "title": "[샘플] 중동 정세와 국제 유가 관련 샘플 기사 3",
+   "snippet": "샘플 기사 설명이에요.",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T02:00:00+00:00"
+  },
+  {
+   "id": "s60",
+   "title": "[샘플] 엔화 환율 움직임 관련 샘플 기사 1",
+   "snippet": "샘플 기사 설명이에요.",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T00:00:00+00:00"
+  },
+  {
+   "id": "s61",
+   "title": "[샘플] 엔화 환율 움직임 관련 샘플 기사 2",
+   "snippet": "샘플 기사 설명이에요.",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-21T01:00:00+00:00"
+  },
+  {
+   "id": "s62",
+   "title": "[샘플] 엔화 환율 움직임 관련 샘플 기사 3",
+   "snippet": "샘플 기사 설명이에요.",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T02:00:00+00:00"
+  }
+ ],
+ "indicators": [
+  {
+   "name": "원/달러 환율",
+   "value": "0,000.00",
+   "change": "+0.00%",
+   "direction": "up",
+   "points": "2.0,22.0 16.0,15.3 30.0,18.7 44.0,8.7 58.0,12.0 72.0,2.0"
+  },
+  {
+   "name": "코스피",
+   "value": "0,000.00",
+   "change": "+0.00%",
+   "direction": "down",
+   "points": "2.0,2.0 16.0,8.7 30.0,5.3 44.0,15.3 58.0,12.0 72.0,22.0"
+  },
+  {
+   "name": "S&P 500",
+   "value": "0,000.00",
+   "change": "+0.00%",
+   "direction": "up",
+   "points": "2.0,22.0 16.0,17.0 30.0,20.0 44.0,12.0 58.0,8.0 72.0,2.0"
+  },
+  {
+   "name": "미국 10년 금리",
+   "value": "0,000.00",
+   "change": "+0.00%",
+   "direction": "flat",
+   "points": "2.0,22.0 16.0,2.0 30.0,22.0 44.0,12.0 58.0,22.0 72.0,22.0"
+  },
+  {
+   "name": "WTI 유가",
+   "value": "0,000.00",
+   "change": "+0.00%",
+   "direction": "down",
+   "points": "2.0,2.0 16.0,8.7 30.0,5.3 44.0,15.3 58.0,22.0 72.0,18.7"
+  },
+  {
+   "name": "금 (온스)",
+   "value": "0,000.00",
+   "change": "+0.00%",
+   "direction": "up",
+   "points": "2.0,22.0 16.0,15.3 30.0,12.0 44.0,15.3 58.0,8.7 72.0,2.0"
+  }
+ ],
+ "report": {
+  "briefing": {
+   "summary": "샘플 데이터예요. 진짜로 실행하면 이 자리에 AI가 오늘 세계 경제 흐름을 2~3문장으로 정리해요.",
+   "top_issue": "[샘플] 미국 기준금리 결정",
+   "focus_region": "미국",
+   "mood": "중립"
+  },
+  "issues": [
+   {
+    "title": "[샘플] 미국 기준금리 결정",
+    "region": "미국",
+    "sector": "금리",
+    "impact": "중립",
+    "importance": 5,
+    "what": "샘플: 무슨 일이 있었는지 한 줄 요약이 들어가요",
+    "why": "샘플: 왜 중요한지 한 줄",
+    "effect": "샘플: 어떤 시장에 영향이 가는지 한 줄",
+    "easy_summary": [
+     "샘플: 쉬운 설명 첫째 줄",
+     "샘플: 쉬운 설명 둘째 줄",
+     "샘플: 쉬운 설명 셋째 줄"
+    ],
+    "pro_summary": [
+     "샘플: 자세한 설명 첫째 줄",
+     "샘플: 자세한 설명 둘째 줄",
+     "샘플: 자세한 설명 셋째 줄"
+    ],
+    "why_important": "샘플: 이 이슈가 왜 중요한지 3~4문장으로 설명하는 자리예요. 진짜 실행하면 AI가 기사를 읽고 채워요.",
+    "market_effects": [
+     {
+      "name": "달러 가치",
+      "direction": "up",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "원/달러 환율",
+      "direction": "up",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "미국 주식",
+      "direction": "flat",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "금 가격",
+      "direction": "down",
+      "reason": "샘플 이유"
+     }
+    ],
+    "article_ids": [
+     "s10",
+     "s11",
+     "s12"
+    ]
+   },
+   {
+    "title": "[샘플] 중국 수출 지표 발표",
+    "region": "중국",
+    "sector": "무역",
+    "impact": "부정",
+    "importance": 4,
+    "what": "샘플: 무슨 일이 있었는지 한 줄 요약이 들어가요",
+    "why": "샘플: 왜 중요한지 한 줄",
+    "effect": "샘플: 어떤 시장에 영향이 가는지 한 줄",
+    "easy_summary": [
+     "샘플: 쉬운 설명 첫째 줄",
+     "샘플: 쉬운 설명 둘째 줄",
+     "샘플: 쉬운 설명 셋째 줄"
+    ],
+    "pro_summary": [
+     "샘플: 자세한 설명 첫째 줄",
+     "샘플: 자세한 설명 둘째 줄",
+     "샘플: 자세한 설명 셋째 줄"
+    ],
+    "why_important": "샘플: 이 이슈가 왜 중요한지 3~4문장으로 설명하는 자리예요. 진짜 실행하면 AI가 기사를 읽고 채워요.",
+    "market_effects": [
+     {
+      "name": "달러 가치",
+      "direction": "up",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "원/달러 환율",
+      "direction": "up",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "미국 주식",
+      "direction": "flat",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "금 가격",
+      "direction": "down",
+      "reason": "샘플 이유"
+     }
+    ],
+    "article_ids": [
+     "s20",
+     "s21",
+     "s22"
+    ]
+   },
+   {
+    "title": "[샘플] 한국 반도체 수출 흐름",
+    "region": "한국",
+    "sector": "기술",
+    "impact": "긍정",
+    "importance": 4,
+    "what": "샘플: 무슨 일이 있었는지 한 줄 요약이 들어가요",
+    "why": "샘플: 왜 중요한지 한 줄",
+    "effect": "샘플: 어떤 시장에 영향이 가는지 한 줄",
+    "easy_summary": [
+     "샘플: 쉬운 설명 첫째 줄",
+     "샘플: 쉬운 설명 둘째 줄",
+     "샘플: 쉬운 설명 셋째 줄"
+    ],
+    "pro_summary": [
+     "샘플: 자세한 설명 첫째 줄",
+     "샘플: 자세한 설명 둘째 줄",
+     "샘플: 자세한 설명 셋째 줄"
+    ],
+    "why_important": "샘플: 이 이슈가 왜 중요한지 3~4문장으로 설명하는 자리예요. 진짜 실행하면 AI가 기사를 읽고 채워요.",
+    "market_effects": [
+     {
+      "name": "달러 가치",
+      "direction": "up",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "원/달러 환율",
+      "direction": "up",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "미국 주식",
+      "direction": "flat",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "금 가격",
+      "direction": "down",
+      "reason": "샘플 이유"
+     }
+    ],
+    "article_ids": [
+     "s30",
+     "s31",
+     "s32"
+    ]
+   },
+   {
+    "title": "[샘플] 유럽 에너지 가격 변동",
+    "region": "유럽",
+    "sector": "에너지",
+    "impact": "부정",
+    "importance": 3,
+    "what": "샘플: 무슨 일이 있었는지 한 줄 요약이 들어가요",
+    "why": "샘플: 왜 중요한지 한 줄",
+    "effect": "샘플: 어떤 시장에 영향이 가는지 한 줄",
+    "easy_summary": [
+     "샘플: 쉬운 설명 첫째 줄",
+     "샘플: 쉬운 설명 둘째 줄",
+     "샘플: 쉬운 설명 셋째 줄"
+    ],
+    "pro_summary": [
+     "샘플: 자세한 설명 첫째 줄",
+     "샘플: 자세한 설명 둘째 줄",
+     "샘플: 자세한 설명 셋째 줄"
+    ],
+    "why_important": "샘플: 이 이슈가 왜 중요한지 3~4문장으로 설명하는 자리예요. 진짜 실행하면 AI가 기사를 읽고 채워요.",
+    "market_effects": [
+     {
+      "name": "달러 가치",
+      "direction": "up",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "원/달러 환율",
+      "direction": "up",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "미국 주식",
+      "direction": "flat",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "금 가격",
+      "direction": "down",
+      "reason": "샘플 이유"
+     }
+    ],
+    "article_ids": [
+     "s40",
+     "s41",
+     "s42"
+    ]
+   },
+   {
+    "title": "[샘플] 중동 정세와 국제 유가",
+    "region": "중동",
+    "sector": "에너지",
+    "impact": "부정",
+    "importance": 3,
+    "what": "샘플: 무슨 일이 있었는지 한 줄 요약이 들어가요",
+    "why": "샘플: 왜 중요한지 한 줄",
+    "effect": "샘플: 어떤 시장에 영향이 가는지 한 줄",
+    "easy_summary": [
+     "샘플: 쉬운 설명 첫째 줄",
+     "샘플: 쉬운 설명 둘째 줄",
+     "샘플: 쉬운 설명 셋째 줄"
+    ],
+    "pro_summary": [
+     "샘플: 자세한 설명 첫째 줄",
+     "샘플: 자세한 설명 둘째 줄",
+     "샘플: 자세한 설명 셋째 줄"
+    ],
+    "why_important": "샘플: 이 이슈가 왜 중요한지 3~4문장으로 설명하는 자리예요. 진짜 실행하면 AI가 기사를 읽고 채워요.",
+    "market_effects": [
+     {
+      "name": "달러 가치",
+      "direction": "up",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "원/달러 환율",
+      "direction": "up",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "미국 주식",
+      "direction": "flat",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "금 가격",
+      "direction": "down",
+      "reason": "샘플 이유"
+     }
+    ],
+    "article_ids": [
+     "s50",
+     "s51",
+     "s52"
+    ]
+   },
+   {
+    "title": "[샘플] 엔화 환율 움직임",
+    "region": "일본",
+    "sector": "환율",
+    "impact": "중립",
+    "importance": 2,
+    "what": "샘플: 무슨 일이 있었는지 한 줄 요약이 들어가요",
+    "why": "샘플: 왜 중요한지 한 줄",
+    "effect": "샘플: 어떤 시장에 영향이 가는지 한 줄",
+    "easy_summary": [
+     "샘플: 쉬운 설명 첫째 줄",
+     "샘플: 쉬운 설명 둘째 줄",
+     "샘플: 쉬운 설명 셋째 줄"
+    ],
+    "pro_summary": [
+     "샘플: 자세한 설명 첫째 줄",
+     "샘플: 자세한 설명 둘째 줄",
+     "샘플: 자세한 설명 셋째 줄"
+    ],
+    "why_important": "샘플: 이 이슈가 왜 중요한지 3~4문장으로 설명하는 자리예요. 진짜 실행하면 AI가 기사를 읽고 채워요.",
+    "market_effects": [
+     {
+      "name": "달러 가치",
+      "direction": "up",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "원/달러 환율",
+      "direction": "up",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "미국 주식",
+      "direction": "flat",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "금 가격",
+      "direction": "down",
+      "reason": "샘플 이유"
+     }
+    ],
+    "article_ids": [
+     "s60",
+     "s61",
+     "s62"
+    ]
+   }
+  ],
+  "regions": [
+   {
+    "name": "미국",
+    "mood": "중립"
+   },
+   {
+    "name": "중국",
+    "mood": "부정"
+   },
+   {
+    "name": "유럽",
+    "mood": "부정"
+   },
+   {
+    "name": "한국",
+    "mood": "긍정"
+   },
+   {
+    "name": "일본",
+    "mood": "중립"
+   },
+   {
+    "name": "중동",
+    "mood": "부정"
+   }
+  ],
+  "sectors": [
+   {
+    "name": "금리",
+    "positive_percent": 45
+   },
+   {
+    "name": "무역",
+    "positive_percent": 35
+   },
+   {
+    "name": "에너지",
+    "positive_percent": 25
+   },
+   {
+    "name": "기술",
+    "positive_percent": 70
+   },
+   {
+    "name": "환율",
+    "positive_percent": 50
+   }
+  ]
+ }
+}
