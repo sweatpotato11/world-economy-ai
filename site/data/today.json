@@ -1,447 +1,355 @@
 {
-  "generated_at": "2026-11-22T22:27+09:00",
+  "generated_at": "2026-11-22T22:48+09:00",
   "date": "2026-11-22",
-  "sample": true,
-  "model": "샘플 데이터",
-  "article_count": 18,
+  "sample": false,
+  "model": "gemini-3.6-flash",
+  "article_count": 50,
   "briefing": {
-    "summary": "샘플 데이터예요. 진짜로 실행하면 이 자리에 AI가 오늘 세계 경제 흐름을 2~3문장으로 정리해요.",
-    "top_issue": "[샘플] 미국 기준금리 결정",
+    "summary": "미국 증시의 기술주 급락과 부채 기반 AI 투자 우려로 글로벌 금융시장의 불안감이 커지고 있습니다. 유럽의 겨울철 천연가스 재고 부족과 일본의 GDP 감소 등 국가별 경제 성장 격차도 심화되는 양상입니다. 한국 금융당국은 미국발 증시 충격에 대비해 증권시장안정펀드 가동 준비에 나섰습니다.",
+    "top_issue": "미 기술주 급락과 증시 불안",
     "focus_region": "미국",
-    "mood": "중립"
+    "mood": "부정"
   },
   "indicators": [
     {
       "name": "원/달러 환율",
-      "value": "0,000.00",
-      "change": "+0.00%",
+      "value": "1,337.80",
+      "change": "+0.23%",
       "direction": "up",
-      "points": "2.0,22.0 16.0,15.3 30.0,18.7 44.0,8.7 58.0,12.0 72.0,2.0"
+      "points": "2.0,22.0 5.7,20.9 9.4,13.8 13.1,15.0 16.7,21.6 20.4,11.4 24.1,12.4 27.8,13.9 31.5,5.4 35.2,2.0 38.8,11.9 42.5,13.0 46.2,15.9 49.9,17.2 53.6,17.5 57.3,16.3 60.9,17.7 64.6,19.0 68.3,16.7 72.0,15.1"
     },
     {
       "name": "코스피",
-      "value": "0,000.00",
-      "change": "+0.00%",
+      "value": "4,869.96",
+      "change": "-5.21%",
       "direction": "down",
-      "points": "2.0,2.0 16.0,8.7 30.0,5.3 44.0,15.3 58.0,12.0 72.0,22.0"
+      "points": "2.0,11.5 5.7,8.5 9.4,2.0 13.1,3.3 16.7,6.9 20.4,4.7 24.1,8.4 27.8,7.8 31.5,13.0 35.2,18.7 38.8,19.4 42.5,15.5 46.2,13.2 49.9,13.7 53.6,14.6 57.3,18.0 60.9,20.3 64.6,18.5 68.3,17.3 72.0,22.0"
     },
     {
       "name": "S&P 500",
-      "value": "0,000.00",
-      "change": "+0.00%",
-      "direction": "up",
-      "points": "2.0,22.0 16.0,17.0 30.0,20.0 44.0,12.0 58.0,8.0 72.0,2.0"
+      "value": "6,910.39",
+      "change": "-3.70%",
+      "direction": "down",
+      "points": "2.0,3.6 5.7,2.5 9.4,2.0 13.1,2.6 16.7,5.9 20.4,6.9 24.1,6.2 27.8,3.3 31.5,11.4 35.2,10.8 38.8,6.7 42.5,7.4 46.2,5.0 49.9,5.6 53.6,6.4 57.3,9.9 60.9,11.7 64.6,12.1 68.3,15.6 72.0,22.0"
     },
     {
       "name": "미국 10년 금리",
-      "value": "0,000.00",
-      "change": "+0.00%",
-      "direction": "flat",
-      "points": "2.0,22.0 16.0,2.0 30.0,22.0 44.0,12.0 58.0,22.0 72.0,22.0"
+      "value": "4.91%",
+      "change": "-0.14%p",
+      "direction": "down",
+      "points": "2.0,12.6 5.7,12.2 9.4,8.9 13.1,12.4 16.7,16.2 20.4,18.4 24.1,14.7 27.8,18.4 31.5,22.0 35.2,20.6 38.8,20.3 42.5,12.8 46.2,11.8 49.9,5.2 53.6,2.0 57.3,4.1 60.9,5.2 64.6,7.6 68.3,8.4 72.0,17.3"
     },
     {
       "name": "WTI 유가",
-      "value": "0,000.00",
-      "change": "+0.00%",
-      "direction": "down",
-      "points": "2.0,2.0 16.0,8.7 30.0,5.3 44.0,15.3 58.0,22.0 72.0,18.7"
+      "value": "83.41",
+      "change": "+0.24%",
+      "direction": "up",
+      "points": "2.0,4.3 5.7,6.0 9.4,3.3 13.1,4.0 16.7,2.0 20.4,9.3 24.1,9.7 27.8,17.3 31.5,15.0 35.2,14.7 38.8,18.5 42.5,19.3 46.2,18.8 49.9,16.7 53.6,16.9 57.3,19.6 60.9,19.3 64.6,22.0 68.3,22.0 72.0,21.8"
     },
     {
       "name": "금 (온스)",
-      "value": "0,000.00",
-      "change": "+0.00%",
-      "direction": "up",
-      "points": "2.0,22.0 16.0,15.3 30.0,12.0 44.0,15.3 58.0,8.7 72.0,2.0"
+      "value": "3,515.40",
+      "change": "-4.62%",
+      "direction": "down",
+      "points": "2.0,4.5 5.7,3.3 9.4,4.1 13.1,4.8 16.7,9.2 20.4,6.8 24.1,7.8 27.8,3.4 31.5,2.0 35.2,3.3 38.8,2.0 42.5,4.8 46.2,5.8 49.9,9.7 53.6,9.6 57.3,10.7 60.9,10.4 64.6,14.4 68.3,16.3 72.0,22.0"
     }
   ],
   "issues": [
     {
-      "title": "[샘플] 미국 기준금리 결정",
+      "title": "미 기술주 급락과 한국 증안펀드 가동 준비",
       "region": "미국",
-      "sector": "금리",
-      "impact": "중립",
+      "sector": "증시",
+      "impact": "부정",
       "importance": 5,
-      "what": "샘플: 무슨 일이 있었는지 한 줄 요약이 들어가요",
-      "why": "샘플: 왜 중요한지 한 줄",
-      "effect": "샘플: 어떤 시장에 영향이 가는지 한 줄",
+      "what": "미국 증시의 기술주 폭락과 고금리 속 AI 투자 부채 우려로 한국 금융당국이 증권시장안정펀드 가동 준비에 나섰습니다.",
+      "why": "기술주 과열 우려와 막대한 채무 부담이 글로벌 금융시장의 변동성을 크게 확대시켰기 때문입니다.",
+      "effect": "글로벌 증시와 국내 금융시장의 투자 심리 및 자금 유출입에 직접적인 영향을 미칩니다.",
       "easy_summary": [
-        "샘플: 쉬운 설명 첫째 줄",
-        "샘플: 쉬운 설명 둘째 줄",
-        "샘플: 쉬운 설명 셋째 줄"
+        "미국 뉴욕 증시에서 주요 기술 기업들의 주가가 급격히 떨어졌어요.",
+        "빚을 내서 AI에 투자했던 기업들이 고금리 부담에 직면하게 되었어요.",
+        "한국 금융당국도 주가 폭락에 대비해 시장 안정 자금을 투입할 준비를 시작했어요."
       ],
       "pro_summary": [
-        "샘플: 자세한 설명 첫째 줄",
-        "샘플: 자세한 설명 둘째 줄",
-        "샘플: 자세한 설명 셋째 줄"
+        "엔비디아의 주가 하락세와 4,890억 달러 규모의 회사채 부채 부담으로 미국 기술주 중심의 시장 불안이 심화되었습니다.",
+        "앤스로픽의 상장에도 불구하고 벽두부터 악화된 기술주 투자 심리가 글로벌 증시 전반에 악영향을 주고 있습니다.",
+        "한국 경제·금융 수장(F4)은 미국발 블랙 먼데이 우려에 대응해 증권시장안정펀드 즉각 가동 태세를 점검했습니다."
       ],
-      "why_important": "샘플: 이 이슈가 왜 중요한지 3~4문장으로 설명하는 자리예요. 진짜 실행하면 AI가 기사를 읽고 채워요.",
+      "why_important": "미국 기술주의 주가 급락은 글로벌 자산 시장 전반의 위험 회피 심리를 자극하고 있습니다. 특히 고금리 환경에서 과도한 대출로 진행된 AI 투자가 기업들의 재무적 부담으로 돌아오고 있습니다. 이에 따라 한국 등 주요국 시장에서도 증시 충격을 완화하기 위한 정책적 개입이 논의되고 있습니다.",
       "market_effects": [
         {
-          "name": "달러 가치",
-          "direction": "up",
-          "reason": "샘플 이유"
-        },
-        {
-          "name": "원/달러 환율",
-          "direction": "up",
-          "reason": "샘플 이유"
-        },
-        {
           "name": "미국 주식",
-          "direction": "flat",
-          "reason": "샘플 이유"
+          "direction": "down",
+          "reason": "기술주 폭락과 AI 기업들의 부채 부담 가중"
         },
         {
-          "name": "금 가격",
+          "name": "코스피",
           "direction": "down",
-          "reason": "샘플 이유"
+          "reason": "미국 증시 급락 여파로 인한 투자 심리 위축"
+        },
+        {
+          "name": "미국 10년 금리",
+          "direction": "down",
+          "reason": "안전자산 선호 심리 강화로 인한 국채 금리 하락"
         }
       ],
       "id": "issue-1",
       "rank": 1,
       "articles": [
         {
-          "title": "[샘플] 미국 기준금리 결정 관련 샘플 기사 3",
-          "source": "샘플 언론사",
-          "link": "https://example.com/",
-          "published": "2026-11-22T02:00:00+00:00"
+          "title": "블랙먼데이 우려에 증안펀드 18년만에 가동되나…F4 \"준비 착수\"(종합)",
+          "source": "연합뉴스 경제",
+          "link": "https://www.yna.co.kr/view/AKR20261122044351002",
+          "published": "2026-11-22T12:51:42+00:00"
         },
         {
-          "title": "[샘플] 미국 기준금리 결정 관련 샘플 기사 1",
-          "source": "샘플 언론사",
-          "link": "https://example.com/",
-          "published": "2026-11-22T00:00:00+00:00"
+          "title": "F4 \"시장 상황 따라 증안펀드 바로 가동할 수 있게 준비 착수\"",
+          "source": "연합뉴스 경제",
+          "link": "https://www.yna.co.kr/view/AKR20261122044300002",
+          "published": "2026-11-22T09:42:20+00:00"
         },
         {
-          "title": "[샘플] 미국 기준금리 결정 관련 샘플 기사 2",
-          "source": "샘플 언론사",
-          "link": "https://example.com/",
-          "published": "2026-11-21T01:00:00+00:00"
+          "title": "[美 AI 투자 시험대] ③ 빚으로 쌓은 AI, 회사채만 4890억달러…고금리에 '부메랑' - 뉴스핌",
+          "source": "Google 뉴스 (세계 경제)",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9JTVVZTGJwVnM2aDZGTk4tWkptMS1Ddy1Sb3VfbEZOc2NmN0FMRFBOSEtaZVBoZVYxQVlhM1J5MlFNV0JuTnU5STJHNHpPQnFMUF9MdXcwRGVKZE52?oc=5",
+          "published": "2026-11-21T21:00:00+00:00"
+        },
+        {
+          "title": "Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020",
+          "source": "CNBC World",
+          "link": "https://www.cnbc.com/2026/11/21/anthropic-ipo-tech-selloff.html",
+          "published": "2026-11-21T16:40:05+00:00"
         }
       ]
     },
     {
-      "title": "[샘플] 중국 수출 지표 발표",
-      "region": "중국",
+      "title": "한국 반도체 착시 경고와 대중 자동차 적자",
+      "region": "한국",
       "sector": "무역",
       "impact": "부정",
       "importance": 4,
-      "what": "샘플: 무슨 일이 있었는지 한 줄 요약이 들어가요",
-      "why": "샘플: 왜 중요한지 한 줄",
-      "effect": "샘플: 어떤 시장에 영향이 가는지 한 줄",
+      "what": "한국 경제가 반도체 호황에 의존하고 있는 가운데, 이를 제외한 수출 경쟁력 약화와 대중 자동차 적자 확대가 지적되었습니다.",
+      "why": "특정 산업에 대한 과도한 의존이 한국 경제 전체의 구조적 취약성을 가릴 수 있기 때문입니다.",
+      "effect": "한국의 수출 구조 개편 및 산업 체질 개선 필요성을 부각시킵니다.",
       "easy_summary": [
-        "샘플: 쉬운 설명 첫째 줄",
-        "샘플: 쉬운 설명 둘째 줄",
-        "샘플: 쉬운 설명 셋째 줄"
+        "한국의 전체 수출은 늘었지만 반도체를 빼면 세계 순위가 8위로 떨어져요.",
+        "중국에서 생산된 테슬라 차 수입이 늘면서 대중국 자동차 적자가 역대 최대를 기록했어요.",
+        "한국은행 총재는 반도체 호황에 착시되지 말고 경제 구조를 개혁해야 한다고 강조했어요."
       ],
       "pro_summary": [
-        "샘플: 자세한 설명 첫째 줄",
-        "샘플: 자세한 설명 둘째 줄",
-        "샘플: 자세한 설명 셋째 줄"
+        "한국의 수출이 1조 달러를 기록했으나 반도체를 제외하면 멕시코와 일본 등에 밀려 세계 8위에 그쳤습니다.",
+        "상하이산 테슬라 전기차 수입 증가로 인해 올해 대중국 자동차 무역적자가 6조 원으로 역대 최대치를 기록했습니다.",
+        "이창용 한국은행 총재는 반도체 슈퍼사이클의 착시 현상을 경계하고 호황기 구조개혁 추진을 강력히 촉구했습니다."
       ],
-      "why_important": "샘플: 이 이슈가 왜 중요한지 3~4문장으로 설명하는 자리예요. 진짜 실행하면 AI가 기사를 읽고 채워요.",
+      "why_important": "반도체 착시 현상으로 인해 한국 경제의 체질 개선이 지연될 위험이 있습니다. 자동차 등 주요 제조업 분야에서 중국산 제품 수입이 크게 늘면서 대중 무역 불균형이 심화되고 있습니다. 호황기에 구조개혁을 추진하지 않으면 향후 반도체 경기가 꺾일 때 큰 충격을 받을 수 있습니다.",
       "market_effects": [
-        {
-          "name": "달러 가치",
-          "direction": "up",
-          "reason": "샘플 이유"
-        },
         {
           "name": "원/달러 환율",
           "direction": "up",
-          "reason": "샘플 이유"
-        },
-        {
-          "name": "미국 주식",
-          "direction": "flat",
-          "reason": "샘플 이유"
-        },
-        {
-          "name": "금 가격",
-          "direction": "down",
-          "reason": "샘플 이유"
+          "reason": "무역 불균형 우려 및 수출 구조 불안에 따른 원화 약세 압력"
         }
       ],
       "id": "issue-2",
       "rank": 2,
       "articles": [
         {
-          "title": "[샘플] 중국 수출 지표 발표 관련 샘플 기사 3",
-          "source": "샘플 언론사",
-          "link": "https://example.com/",
-          "published": "2026-11-22T02:00:00+00:00"
+          "title": "테슬라 돌풍에 對중국 자동차 무역적자 6조원 역대 최대(종합)",
+          "source": "연합뉴스 경제",
+          "link": "https://www.yna.co.kr/view/AKR20261122024500003",
+          "published": "2026-11-22T04:01:47+00:00"
         },
         {
-          "title": "[샘플] 중국 수출 지표 발표 관련 샘플 기사 1",
-          "source": "샘플 언론사",
-          "link": "https://example.com/",
-          "published": "2026-11-22T00:00:00+00:00"
+          "title": "이창용 \"반도체 슈퍼사이클은 '기회'이자 '착시'…호황 때 구조개혁해야\" - 조세일보",
+          "source": "Google 뉴스 (세계 경제)",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ab1hNOVNBTnhRT3RzMGwtU3hadzRtVmJDRGczNG1IU1dfX2lIa0FkQXg0ekRVZUJ6bDFYSmJTVFpyUks3TWxQazBNb0Vha0h4WjNnbHZyQWY2WnJLb21R?oc=5",
+          "published": "2026-11-22T03:41:31+00:00"
         },
         {
-          "title": "[샘플] 중국 수출 지표 발표 관련 샘플 기사 2",
-          "source": "샘플 언론사",
-          "link": "https://example.com/",
-          "published": "2026-11-21T01:00:00+00:00"
+          "title": "‘수출 1조달러’ 한국, 반도체 빼면 멕시코·일본 등에 밀려 세계 8위 - 헤럴드경제",
+          "source": "Google 뉴스 (세계 경제)",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBBYlphZHpjMHlIdm5xTFoxQnhwRXVyZzNXbzRMaUFMNlRuOU5LNGN0amhMZUpERmYxWjRxd29qdzJyZEpfVUp0WURZb2RJU1AwaWloMWZB?oc=5",
+          "published": "2026-11-22T00:03:22+00:00"
         }
       ]
     },
     {
-      "title": "[샘플] 한국 반도체 수출 흐름",
-      "region": "한국",
-      "sector": "기술",
-      "impact": "긍정",
+      "title": "글로벌 성장 격차와 일본 GDP 감소",
+      "region": "일본",
+      "sector": "기타",
+      "impact": "부정",
       "importance": 4,
-      "what": "샘플: 무슨 일이 있었는지 한 줄 요약이 들어가요",
-      "why": "샘플: 왜 중요한지 한 줄",
-      "effect": "샘플: 어떤 시장에 영향이 가는지 한 줄",
+      "what": "소비 둔화로 일본 GDP가 역성장하고 유럽은 물가 압박을 받는 등 세계 경제의 성장 격차가 심화되고 있습니다.",
+      "why": "주요국 간 경기 회복 속도가 엇갈리며 글로벌 경제의 불확실성이 커지고 있기 때문입니다.",
+      "effect": "각국 중앙은행의 통화정책 분기점 형성과 외환 시장 변동성에 영향을 미칩니다.",
       "easy_summary": [
-        "샘플: 쉬운 설명 첫째 줄",
-        "샘플: 쉬운 설명 둘째 줄",
-        "샘플: 쉬운 설명 셋째 줄"
+        "미국은 소비가 늘고 있지만 일본은 소비 부진으로 경제 성장이 후퇴했어요.",
+        "유럽은 물가 상승 압박 때문에 경제적 어려움을 겪고 있어요.",
+        "세계 주요 나라들의 경제 성장이 서로 다른 방향으로 갈라지고 있어요."
       ],
       "pro_summary": [
-        "샘플: 자세한 설명 첫째 줄",
-        "샘플: 자세한 설명 둘째 줄",
-        "샘플: 자세한 설명 셋째 줄"
+        "일본은 가계 소비 위축의 영향으로 GDP가 감소하며 역성장을 기록했습니다.",
+        "미국은 소비 회복세를 유지하고 있는 반면 유럽은 물가 상승 압박에 시달리고 있습니다.",
+        "AI 호황과 소비 양극화 속에 국가 간 경제 성장의 격차가 점차 확대되는 양상입니다."
       ],
-      "why_important": "샘플: 이 이슈가 왜 중요한지 3~4문장으로 설명하는 자리예요. 진짜 실행하면 AI가 기사를 읽고 채워요.",
+      "why_important": "글로벌 경제가 미국 중심의 성장세와 일본·유럽의 침체로 나뉘고 있습니다. 소비 부진에 빠진 일본의 역성장은 아시아 경기 전반에 부담을 줄 수 있습니다. 각국의 서로 다른 경제 상황은 글로벌 금리 정책의 분기점을 형성하고 있습니다.",
       "market_effects": [
         {
-          "name": "달러 가치",
-          "direction": "up",
-          "reason": "샘플 이유"
-        },
-        {
           "name": "원/달러 환율",
-          "direction": "up",
-          "reason": "샘플 이유"
-        },
-        {
-          "name": "미국 주식",
           "direction": "flat",
-          "reason": "샘플 이유"
-        },
-        {
-          "name": "금 가격",
-          "direction": "down",
-          "reason": "샘플 이유"
+          "reason": "글로벌 경기 둔화 우려와 안전자산 수요의 상쇄"
         }
       ],
       "id": "issue-3",
       "rank": 3,
       "articles": [
         {
-          "title": "[샘플] 한국 반도체 수출 흐름 관련 샘플 기사 3",
-          "source": "샘플 언론사",
-          "link": "https://example.com/",
-          "published": "2026-11-22T02:00:00+00:00"
+          "title": "세계경제, AI 호황·미국 소비 회복 속 성장 격차…한국 수출 급증, 일본 역성장·유럽 물가 압박 - 아시아투데이",
+          "source": "Google 뉴스 (세계 경제)",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ReTdvWVBzZ0k3S2wtdno1ejZVZnNiN0JwMkxrZlhhTk55SjN0dVlHZXZwVWk1TElwTm43WFp2bF9heE14TFpwbE1wUlZmbFFaUHVfWDFUZ3RfYnczdC1tRld4bmZGaWNYQjhPSkZR?oc=5",
+          "published": "2026-11-22T02:15:14+00:00"
         },
         {
-          "title": "[샘플] 한국 반도체 수출 흐름 관련 샘플 기사 1",
-          "source": "샘플 언론사",
-          "link": "https://example.com/",
-          "published": "2026-11-22T00:00:00+00:00"
-        },
-        {
-          "title": "[샘플] 한국 반도체 수출 흐름 관련 샘플 기사 2",
-          "source": "샘플 언론사",
-          "link": "https://example.com/",
-          "published": "2026-11-21T01:00:00+00:00"
+          "title": "Charting the Global Economy: GDP Slips in Japan on Weak Consumer - Bloomberg.com",
+          "source": "Google 뉴스 (world economy)",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZFpLRklubVpoUExoM0FURUhBQ0F0R0dsNGZCMXAtR25rZUxIN0M0UU1zcTZqbnd5bVJ0X2FUYjh2ZHlMU0Q3UGVVcUFRc1UzcDNhSWI5djdhdjZNZm05S3htdlpuSWNfTzN1a0dtZzFEYW9WTnNEd0hYcHZVaVZVaGRFYUcyN2xfNk5IVl9OQ19Vdnk3SHVIVElHdkJ6X3d2aUFvX1FNdzBHV2xFeWlEQ0VNUElqWm5zcVZB?oc=5",
+          "published": "2026-11-21T10:00:00+00:00"
         }
       ]
     },
     {
-      "title": "[샘플] 유럽 에너지 가격 변동",
+      "title": "쉘 실적 폭락 및 유럽 가스 재고 우려",
       "region": "유럽",
       "sector": "에너지",
       "impact": "부정",
-      "importance": 3,
-      "what": "샘플: 무슨 일이 있었는지 한 줄 요약이 들어가요",
-      "why": "샘플: 왜 중요한지 한 줄",
-      "effect": "샘플: 어떤 시장에 영향이 가는지 한 줄",
+      "importance": 4,
+      "what": "에너지 거대 기업 쉘이 이익 폭락으로 대규모 감원을 발표한 가운데 유럽의 겨울철 가스 재고 부족 우려가 커졌습니다.",
+      "why": "한파 및 이상 기후로 유럽의 난방비 부담과 에너지 안보 위험이 높아지고 있기 때문입니다.",
+      "effect": "국제 에너지 가격과 유럽 가계의 난방비 비용에 직결됩니다.",
       "easy_summary": [
-        "샘플: 쉬운 설명 첫째 줄",
-        "샘플: 쉬운 설명 둘째 줄",
-        "샘플: 쉬운 설명 셋째 줄"
+        "유럽의 대표 에너지 기업 쉘의 이익이 87%나 줄어 1만 명을 해고하기로 했어요.",
+        "올겨울 기온이 급격히 떨어지면서 유럽의 천연가스 재고가 크게 부족해지고 있어요.",
+        "추운 날씨 때문에 유럽 주민들의 난방 에너지 비용 부담이 높아질 것으로 예상돼요."
       ],
       "pro_summary": [
-        "샘플: 자세한 설명 첫째 줄",
-        "샘플: 자세한 설명 둘째 줄",
-        "샘플: 자세한 설명 셋째 줄"
+        "오일 메이저 쉘(Shell)은 순이익이 87% 폭락함에 따라 10,000명 규모의 인원 감축 계획을 확정했습니다.",
+        "극지渦(Polar Vortex)의 조기 붕괴로 한파가 예상되나 유럽의 천연가스 재고는 10년 만에 최저 수준입니다.",
+        "유럽 각국 정부와 지자체는 시민들에게 겨울철 에너지 비용 급증 대비를 당부하고 있습니다."
       ],
-      "why_important": "샘플: 이 이슈가 왜 중요한지 3~4문장으로 설명하는 자리예요. 진짜 실행하면 AI가 기사를 읽고 채워요.",
+      "why_important": "유럽의 천연가스 재고가 10년 만에 가장 낮은 수준에서 겨울을 맞아 에너지 대란 가능성이 제기됩니다. 주요 에너지 기업의 실적 악화는 정유·에너지 산업 전반의 투자 위축을 의미합니다. 추위와 가스 부족은 유럽 가계의 실질 소득을 감소시키고 물가를 자극할 수 있습니다.",
       "market_effects": [
         {
-          "name": "달러 가치",
+          "name": "WTI 유가",
           "direction": "up",
-          "reason": "샘플 이유"
-        },
-        {
-          "name": "원/달러 환율",
-          "direction": "up",
-          "reason": "샘플 이유"
-        },
-        {
-          "name": "미국 주식",
-          "direction": "flat",
-          "reason": "샘플 이유"
-        },
-        {
-          "name": "금 가격",
-          "direction": "down",
-          "reason": "샘플 이유"
+          "reason": "유럽 한파 전망 및 난방용 에너지 수요 증가"
         }
       ],
       "id": "issue-4",
       "rank": 4,
       "articles": [
         {
-          "title": "[샘플] 유럽 에너지 가격 변동 관련 샘플 기사 3",
-          "source": "샘플 언론사",
-          "link": "https://example.com/",
-          "published": "2026-11-22T02:00:00+00:00"
+          "title": "Shell confirms 87 percent profit plunge, 10,000 job cuts - Yeni Safak English",
+          "source": "Google 뉴스 (world economy)",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNV3U4WVBSSTgwdEFub25Tdkc5T0kyUG42Tjktb3Q2bHhsbFFpbTBIR05FZzR6S1dmYlowb3Z4RTZxV0pxaGtmMi1rNzRKWEhyODkwZEtxTWxHcE5nMXc3OGRPVE5uS1VNdDVwbXdfdzRmd1hGTXJXZGtmbHEyX0VSY3dZd3VBV1hYenlUSnpVZnVfM042YTY5d1BEbw?oc=5",
+          "published": "2026-11-22T11:58:40+00:00"
         },
         {
-          "title": "[샘플] 유럽 에너지 가격 변동 관련 샘플 기사 1",
-          "source": "샘플 언론사",
-          "link": "https://example.com/",
-          "published": "2026-11-22T00:00:00+00:00"
+          "title": "An early breakdown in the polar vortex is threatening already depleted gas stocks",
+          "source": "CNBC World",
+          "link": "https://www.cnbc.com/2026/11/21/polar-vortex-europe-gas-prices.html",
+          "published": "2026-11-21T12:47:25+00:00"
         },
         {
-          "title": "[샘플] 유럽 에너지 가격 변동 관련 샘플 기사 2",
-          "source": "샘플 언론사",
-          "link": "https://example.com/",
-          "published": "2026-11-21T01:00:00+00:00"
+          "title": "Sessions offer advice on rising energy costs",
+          "source": "BBC Business",
+          "link": "https://www.bbc.co.uk/news/articles/cmy49l3x893jo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-11-21T12:09:49+00:00"
         }
       ]
     },
     {
-      "title": "[샘플] 중동 정세와 국제 유가",
-      "region": "중동",
-      "sector": "에너지",
+      "title": "역대급 엘니뇨로 인한 수조 달러 경제 피해 우려",
+      "region": "기타",
+      "sector": "기타",
       "impact": "부정",
       "importance": 3,
-      "what": "샘플: 무슨 일이 있었는지 한 줄 요약이 들어가요",
-      "why": "샘플: 왜 중요한지 한 줄",
-      "effect": "샘플: 어떤 시장에 영향이 가는지 한 줄",
+      "what": "역사상 매우 강한 수준의 엘니뇨 현상 발생으로 글로벌 경제에 수조 달러 규모의 피해가 예상됩니다.",
+      "why": "이상 기후가 농업, 물류, 인프라 등 전 세계 산업 전반에 막대한 손실을 발생시키기 때문입니다.",
+      "effect": "원자재 가격, 식량 인플레이션, 보험 산업 등 전반에 영향을 미칩니다.",
       "easy_summary": [
-        "샘플: 쉬운 설명 첫째 줄",
-        "샘플: 쉬운 설명 둘째 줄",
-        "샘플: 쉬운 설명 셋째 줄"
+        "이번 겨울 매우 강력한 엘니뇨 기후 현상이 찾아올 것으로 전망돼요.",
+        "이상 기후 때문에 전 세계적으로 수조 달러에 달하는 경제적 손실이 생길 수 있어요.",
+        "자연재해 피해를 줄이기 위한 선제적 대비가 필요합니다."
       ],
       "pro_summary": [
-        "샘플: 자세한 설명 첫째 줄",
-        "샘플: 자세한 설명 둘째 줄",
-        "샘플: 자세한 설명 셋째 줄"
+        "세대급으로 강력한 엘니뇨 현상이 발생하여 세계 경제에 수조 달러 규모의 손실을 가져올 것이란 경고가 나왔습니다.",
+        "이상 기후로 인한 농작물 피해 및 공급망 차단 우려가 커지고 있습니다.",
+        "기후 변화에 따른 재난 비용 증가는 글로벌 물가 상승과 정부 재정 부담으로 이어집니다."
       ],
-      "why_important": "샘플: 이 이슈가 왜 중요한지 3~4문장으로 설명하는 자리예요. 진짜 실행하면 AI가 기사를 읽고 채워요.",
+      "why_important": "강력한 엘니뇨는 식량 인플레이션과 공급망 교란을 유발하는 주요 원인입니다. 재해 복구 비용 증가로 글로벌 재정 부담이 늘어날 수 있습니다. 장기적으로 기후 변화 리스크가 원자재 가격 안정성을 위협하고 있습니다.",
       "market_effects": [
         {
-          "name": "달러 가치",
+          "name": "원자재 가격",
           "direction": "up",
-          "reason": "샘플 이유"
-        },
-        {
-          "name": "원/달러 환율",
-          "direction": "up",
-          "reason": "샘플 이유"
-        },
-        {
-          "name": "미국 주식",
-          "direction": "flat",
-          "reason": "샘플 이유"
-        },
-        {
-          "name": "금 가격",
-          "direction": "down",
-          "reason": "샘플 이유"
+          "reason": "이상 기후로 인한 농산물 및 자원 공급 차단 우려"
         }
       ],
       "id": "issue-5",
       "rank": 5,
       "articles": [
         {
-          "title": "[샘플] 중동 정세와 국제 유가 관련 샘플 기사 3",
-          "source": "샘플 언론사",
-          "link": "https://example.com/",
-          "published": "2026-11-22T02:00:00+00:00"
-        },
-        {
-          "title": "[샘플] 중동 정세와 국제 유가 관련 샘플 기사 1",
-          "source": "샘플 언론사",
-          "link": "https://example.com/",
-          "published": "2026-11-22T00:00:00+00:00"
-        },
-        {
-          "title": "[샘플] 중동 정세와 국제 유가 관련 샘플 기사 2",
-          "source": "샘플 언론사",
-          "link": "https://example.com/",
-          "published": "2026-11-21T01:00:00+00:00"
+          "title": "'Generationally strong El Niño' set to cause trillions in damages - Yahoo",
+          "source": "Google 뉴스 (world economy)",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNazN5TldHTEZSazAxczdSeG9jeXU4YmJJVlRFU2YtNXlJTlNmSFBVeGZUa3VOZUJoRldzbElsSXhtODlaZXV5US1tZUxvMEVVa0RSS3NQR0x5anBzSUo4NGt0aEQ3S0hHVWNIRENEQXdqRXV2WkFOVngtNkZRUEU3S0MzbjFhMm9YSXhvNFFHUEswbG9OeEc5YQ?oc=5",
+          "published": "2026-11-22T11:03:14+00:00"
         }
       ]
     },
     {
-      "title": "[샘플] 엔화 환율 움직임",
-      "region": "일본",
-      "sector": "환율",
+      "title": "미·이란 평화 협정과 석유 주도권 경쟁",
+      "region": "중동",
+      "sector": "에너지",
       "impact": "중립",
-      "importance": 2,
-      "what": "샘플: 무슨 일이 있었는지 한 줄 요약이 들어가요",
-      "why": "샘플: 왜 중요한지 한 줄",
-      "effect": "샘플: 어떤 시장에 영향이 가는지 한 줄",
+      "importance": 3,
+      "what": "미국과 이란의 평화 협정이 세계 경제 안정을 위한 핵심 요소로 떠오른 가운데 러시아와 사우디가 석유 주도권을 다투고 있습니다.",
+      "why": "중동 지정학적 리스크 완화 여부와 산유국들의 원유 생산 경쟁이 국제 유가 향방을 결정하기 때문입니다.",
+      "effect": "국제 원유 시장, 지정학적 리스크 프리미엄, 글로벌 금융 시장에 영향을 줍니다.",
       "easy_summary": [
-        "샘플: 쉬운 설명 첫째 줄",
-        "샘플: 쉬운 설명 둘째 줄",
-        "샘플: 쉬운 설명 셋째 줄"
+        "미국과 이란이 평화 협정을 맺는 것이 세계 경제 안정을 위해 매우 중요하다고 지적되었어요.",
+        "러시아와 사우디아라비아는 세계 석유 시장에서 주도권을 잡기 위해 경쟁하고 있어요.",
+        "중동 정세와 산유국의 움직임에 따라 기름값이 크게 영향을 받을 수 있어요."
       ],
       "pro_summary": [
-        "샘플: 자세한 설명 첫째 줄",
-        "샘플: 자세한 설명 둘째 줄",
-        "샘플: 자세한 설명 셋째 줄"
+        "터키 외무장관은 미국-이란 협정이 글로벌 금융 위기 완화 및 세계 경제 안정에 필수적이라고 강조했습니다.",
+        "세계 최대 산유국인 러시아와 사우디아라비아가 글로벌 원유 시장 점유율을 두고 팽팽하게 대립하고 있습니다.",
+        "중동 평화 협상 타결 여부와 산유국의 증산·감산 정책이 원유 시장 공급 변수로 작용하고 있습니다."
       ],
-      "why_important": "샘플: 이 이슈가 왜 중요한지 3~4문장으로 설명하는 자리예요. 진짜 실행하면 AI가 기사를 읽고 채워요.",
+      "why_important": "미국-이란 평화 협정이 타결될 경우 중동의 지정학적 불안이 크게 줄어들 수 있습니다. 동시에 러시아와 사우디의 원유 시장 경쟁은 유가의 변동성을 확대시키는 요인입니다. 지정학적 안정과 에너지 수급 구조는 세계 경제의 인플레이션 방향을 좌우합니다.",
       "market_effects": [
         {
-          "name": "달러 가치",
-          "direction": "up",
-          "reason": "샘플 이유"
-        },
-        {
-          "name": "원/달러 환율",
-          "direction": "up",
-          "reason": "샘플 이유"
-        },
-        {
-          "name": "미국 주식",
+          "name": "WTI 유가",
           "direction": "flat",
-          "reason": "샘플 이유"
-        },
-        {
-          "name": "금 가격",
-          "direction": "down",
-          "reason": "샘플 이유"
+          "reason": "평화 협정 기대감과 산유국 간 주도권 경쟁의 상쇄 효과"
         }
       ],
       "id": "issue-6",
       "rank": 6,
       "articles": [
         {
-          "title": "[샘플] 엔화 환율 움직임 관련 샘플 기사 3",
-          "source": "샘플 언론사",
-          "link": "https://example.com/",
-          "published": "2026-11-22T02:00:00+00:00"
+          "title": "US-Iran deal key to easing global financial crises, Turkish FM says - Yeni Safak English",
+          "source": "Google 뉴스 (world economy)",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbzFsZGtENlgtZDdYU3p5X1E5OXdXbHp6dFlOd1pOT3JINjJCVmE3M05RY29pUi04R1U4eG1YZ242S2R5LTA5OVk5dU00bDRnNV85QkMxQmNlc2NrQ0RNQXcyQ0M1cUFmN2tIeENiTlNRRnoyMWdRRDM5bTZMZTZHWjJlNUxXZ1lLSTZ4aU5ZUE9nZ2NHVTVaWEpURDZ5LXRRQXpqWkNiNTg?oc=5",
+          "published": "2026-11-22T08:04:39+00:00"
         },
         {
-          "title": "[샘플] 엔화 환율 움직임 관련 샘플 기사 1",
-          "source": "샘플 언론사",
-          "link": "https://example.com/",
-          "published": "2026-11-22T00:00:00+00:00"
+          "title": "Iran peace deal vital to global economy: Fidan - Mehr News Agency",
+          "source": "Google 뉴스 (world economy)",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYkQzZ2ZKbWpqRVhDSjBPcUtzaWJNbk5Jd1RFeVRTdTRUbVJLTFRDbnQwcU9TbS1BUXIxblFnUXVLbUJYVFNCUmlFRGhxNGd2Y0RESkZQU24tMGZ2V3FzTWtibmZMc1AwS292OXh0dEhHN1J0RkxDZmo1YWlkVGxOSDRwbnN1b2Ez?oc=5",
+          "published": "2026-11-22T04:31:00+00:00"
         },
         {
-          "title": "[샘플] 엔화 환율 움직임 관련 샘플 기사 2",
-          "source": "샘플 언론사",
-          "link": "https://example.com/",
-          "published": "2026-11-21T01:00:00+00:00"
+          "title": "Russia & Saudi Arabia Sparring for Global Oil Primacy - Yeni Safak English",
+          "source": "Google 뉴스 (world economy)",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVmx0RFNJbHNYdlk5SEQwSFVEU2o2aFROelVmZjltVGgtNlBtQVd4eW53SlBXRTh0Q3M1R2dtc1pEQXRySndjb1l4SmZ5UllKM0JLN3o3a3FQWkFPN1Z5YVBtNkV0bjdOWnFtaG9DNkdXQjFvbUxqaUE4YktqVl8wQUxyaUdKdkJhZ2NPNWNYS2FwM29SUUI4?oc=5",
+          "published": "2026-11-21T18:51:19+00:00"
         }
       ]
     }
@@ -449,10 +357,14 @@
   "regions": [
     {
       "name": "미국",
-      "mood": "중립"
+      "mood": "부정"
     },
     {
-      "name": "중국",
+      "name": "한국",
+      "mood": "부정"
+    },
+    {
+      "name": "일본",
       "mood": "부정"
     },
     {
@@ -460,38 +372,34 @@
       "mood": "부정"
     },
     {
-      "name": "한국",
-      "mood": "긍정"
-    },
-    {
-      "name": "일본",
+      "name": "중동",
       "mood": "중립"
     },
     {
-      "name": "중동",
-      "mood": "부정"
+      "name": "기타",
+      "mood": "중립"
     }
   ],
   "sectors": [
     {
-      "name": "금리",
-      "positive_percent": 45
+      "name": "증시",
+      "positive_percent": 10
     },
     {
       "name": "무역",
-      "positive_percent": 35
+      "positive_percent": 30
     },
     {
       "name": "에너지",
-      "positive_percent": 25
+      "positive_percent": 30
     },
     {
-      "name": "기술",
-      "positive_percent": 70
+      "name": "금리",
+      "positive_percent": 20
     },
     {
-      "name": "환율",
-      "positive_percent": 50
+      "name": "기타",
+      "positive_percent": 40
     }
   ]
 }
