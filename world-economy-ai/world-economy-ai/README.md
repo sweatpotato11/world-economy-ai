@@ -1,0 +1,123 @@
+# 세계경제 AI 🌏
+
+AI가 매일 아침 세계 경제 뉴스를 읽고, 이슈별로 묶고, 쉽게 정리해서 대시보드 사이트에 올려 주는 프로그램이에요.
+
+```
+[뉴스 RSS] ─┐
+            ├─▶ collect.py ─▶ Claude AI 분석 ─▶ site/data/today.json ─▶ 사이트 (GitHub Pages)
+[경제 지표] ─┘        ▲
+                     └── GitHub Actions가 매일 오전 6시에 자동 실행
+```
+
+## 폴더 구성
+
+| 파일 | 하는 일 |
+|---|---|
+| `scripts/collect.py` | 뉴스·지표 수집 → AI 분석 → 데이터 저장 (프로그램의 핵심) |
+| `config/feeds.json` | 뉴스를 가져올 언론사 RSS 주소 목록 |
+| `config/indicators.json` | 맨 위에 보여줄 경제 지표 목록 |
+| `site/` | 사이트 화면 (`index.html` 홈, `issue.html` 이슈 상세) |
+| `site/data/today.json` | 오늘의 분석 결과 (자동으로 만들어져요) |
+| `site/data/archive/` | 날짜별 기록 (매일 하나씩 쌓여요) |
+| `.github/workflows/update.yml` | 매일 자동 실행 설정 |
+
+---
+
+## 설치하기 (처음 한 번만)
+
+> 💳 **3단계는 결제가 필요해서 부모님과 같이 해야 해요.**
+
+### 1단계. GitHub 계정 만들기
+[github.com](https://github.com) 에서 가입해요. 이미 있으면 넘어가요.
+
+### 2단계. 저장소 만들고 파일 올리기
+1. 오른쪽 위 **+** → **New repository**
+2. 이름: `world-economy-ai` / **Public** 선택 → **Create repository**
+   - 무료 계정은 Public 저장소만 사이트(GitHub Pages)를 열 수 있어요. API 키는 따로 숨겨서 넣으니까 Public이어도 안전해요.
+3. **uploading an existing file** 을 눌러서, 이 폴더 안의 파일과 폴더를 전부 끌어다 놓고 **Commit changes**
+4. ⚠️ `.github` 폴더는 이름이 점(.)으로 시작해서 **끌어다 놓기로 안 올라가는 경우가 많아요.** 그럴 땐:
+   - **Add file → Create new file**
+   - 파일 이름 칸에 `.github/workflows/update.yml` 이라고 입력 (슬래시를 치면 폴더가 생겨요)
+   - 내 컴퓨터의 `update.yml` 내용을 복사해서 붙여넣고 **Commit changes**
+
+### 3단계. Claude API 키 만들고 넣기 (부모님과 함께)
+1. [console.anthropic.com](https://console.anthropic.com) 가입 → 결제 수단 등록 → 크레딧 충전
+2. **월 사용 한도(Spend limit)를 꼭 정해 두세요.** 예: 월 $5
+3. **API Keys → Create Key** → 나온 키(`sk-ant-...`)를 복사 (한 번만 보여줘요!)
+4. GitHub 저장소 → **Settings → Secrets and variables → Actions → New repository secret**
+   - Name: `ANTHROPIC_API_KEY`
+   - Secret: 복사한 키 붙여넣기 → **Add secret**
+
+> 🔒 API 키는 비밀번호예요. 코드 파일, 채팅, 사진에 절대 올리지 마세요. Secret에만 넣어요.
+
+**비용은?** 기본 모델(Claude Sonnet 5.5) 기준으로 하루 한 번 기사 60개 정도를 분석하면 하루 약 $0.1 이하, 한 달에 몇 달러 정도예요. 더 아끼고 싶으면 아래 '모델 바꾸기'를 보세요.
+
+### 4단계. 사이트 켜기
+저장소 → **Settings → Pages** → Source를 **GitHub Actions** 로 선택
+
+### 5단계. 첫 실행
+1. 저장소 → **Actions** 탭 (처음이면 초록 버튼으로 활성화)
+2. 왼쪽 **세계경제 AI 업데이트** → **Run workflow** → **Run workflow**
+3. 2~3분 기다리면 초록 체크 ✅
+4. 사이트 주소: `https://내아이디.github.io/world-economy-ai/`
+
+이제 매일 오전 6시에 알아서 업데이트돼요! 🎉
+(GitHub 사정에 따라 몇십 분 늦게 실행될 때도 있어요.)
+
+---
+
+## 내 컴퓨터에서 미리 보기
+
+Python이 설치되어 있으면:
+
+```bash
+# 샘플 데이터로 테스트 (인터넷·API 키 없이)
+python scripts/collect.py --sample
+
+# 사이트 열기 → 브라우저에서 http://localhost:8000
+python -m http.server 8000 -d site
+```
+
+`index.html` 을 더블클릭해서 열면 데이터가 안 보여요. 꼭 위 방법으로 열어요.
+
+진짜 데이터로 내 컴퓨터에서 돌려보려면:
+```bash
+pip install -r requirements.txt
+# Mac/Linux
+export ANTHROPIC_API_KEY=sk-ant-...
+# Windows (PowerShell)
+$env:ANTHROPIC_API_KEY="sk-ant-..."
+python scripts/collect.py
+```
+
+---
+
+## 바꿔 보기
+
+- **언론사 추가/삭제:** `config/feeds.json` 에 `{"name": "이름", "url": "RSS 주소"}` 추가
+- **지표 추가:** `config/indicators.json` 에 야후 파이낸스 기호 추가 (예: 닛케이 `^N225`, 비트코인 `BTC-USD`)
+- **업데이트 시간:** `update.yml` 의 `cron: "0 21 * * *"` (UTC 기준이라 한국 시간에서 9시간 빼기. 오전 7시 → `0 22 * * *`)
+- **모델 바꾸기:** Settings → Secrets and variables → Actions → **Variables** 탭 → `CLAUDE_MODEL` = `claude-haiku-5-5` (더 싸고 빠름, 분석은 조금 단순해짐)
+- **AI 분석 방식:** `scripts/collect.py` 의 `SYSTEM_PROMPT` 를 고치면 AI가 쓰는 글의 스타일이 바뀌어요
+
+## 안 될 때
+
+| 증상 | 해결 |
+|---|---|
+| Actions에서 빨간 X ❌ | 실패한 실행을 눌러서 빨간 단계의 로그를 확인해요. 그대로 Claude에게 보여주면 같이 고칠 수 있어요 |
+| `ANTHROPIC_API_KEY 가 없어요` | 3단계 Secret 이름 철자 확인 |
+| `credit balance is too low` | Anthropic 콘솔에서 크레딧 충전 |
+| `기사가 너무 적어요` | `feeds.json` 의 주소가 바뀌었을 수 있어요. 다른 RSS로 교체 |
+| 사이트가 404 | 4단계 Pages 설정 확인, 첫 실행이 성공했는지 확인 |
+| 지표가 `—` 로 나옴 | 야후 파이낸스 접속이 잠깐 막힌 거예요. 다음 날 보통 돌아와요 |
+
+---
+
+## 나중에 모든 사람에게 공개할 때 체크리스트
+
+- [ ] **저작권:** 지금처럼 기사 원문은 올리지 않고 *AI 요약 + 원문 링크*만 유지하기
+- [ ] **AI 안내:** "AI가 만든 분석이라 틀릴 수 있음", "투자 조언 아님" 문구 유지하기
+- [ ] **데이터 출처:** 야후 파이낸스(yfinance)는 개인용 비공식 도구예요. 공개 서비스라면 공식 데이터(한국은행 ECOS, 미국 FRED 등)로 바꾸는 걸 검토하기
+- [ ] **RSS 이용 조건:** 각 언론사 RSS 이용 약관 확인하기
+- [ ] **비용:** 방문자가 늘어도 AI는 하루 한 번만 돌아서 비용은 그대로예요. 업데이트 횟수를 늘릴 때만 비용이 늘어요
+- [ ] **도메인:** 원하면 나만의 주소(예: `worldecon.ai`)를 사서 GitHub Pages에 연결할 수 있어요
