@@ -143,6 +143,390 @@
    "source": "샘플 언론사",
    "link": "https://example.com/",
    "published": "2026-11-22T02:00:00+00:00"
+  },
+  {
+   "id": "x70",
+   "title": "[샘플] 추가 기사 7-1",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T00:00:00+00:00"
+  },
+  {
+   "id": "x71",
+   "title": "[샘플] 추가 기사 7-2",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T01:00:00+00:00"
+  },
+  {
+   "id": "x72",
+   "title": "[샘플] 추가 기사 7-3",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T02:00:00+00:00"
+  },
+  {
+   "id": "x73",
+   "title": "[샘플] 추가 기사 7-4",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T03:00:00+00:00"
+  },
+  {
+   "id": "x74",
+   "title": "[샘플] 추가 기사 7-5",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T04:00:00+00:00"
+  },
+  {
+   "id": "x75",
+   "title": "[샘플] 추가 기사 7-6",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T05:00:00+00:00"
+  },
+  {
+   "id": "x76",
+   "title": "[샘플] 추가 기사 7-7",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T06:00:00+00:00"
+  },
+  {
+   "id": "x77",
+   "title": "[샘플] 추가 기사 7-8",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T07:00:00+00:00"
+  },
+  {
+   "id": "x80",
+   "title": "[샘플] 추가 기사 8-1",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T00:00:00+00:00"
+  },
+  {
+   "id": "x81",
+   "title": "[샘플] 추가 기사 8-2",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T01:00:00+00:00"
+  },
+  {
+   "id": "x82",
+   "title": "[샘플] 추가 기사 8-3",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T02:00:00+00:00"
+  },
+  {
+   "id": "x83",
+   "title": "[샘플] 추가 기사 8-4",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T03:00:00+00:00"
+  },
+  {
+   "id": "x84",
+   "title": "[샘플] 추가 기사 8-5",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T04:00:00+00:00"
+  },
+  {
+   "id": "x85",
+   "title": "[샘플] 추가 기사 8-6",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T05:00:00+00:00"
+  },
+  {
+   "id": "x86",
+   "title": "[샘플] 추가 기사 8-7",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T06:00:00+00:00"
+  },
+  {
+   "id": "x87",
+   "title": "[샘플] 추가 기사 8-8",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T07:00:00+00:00"
+  },
+  {
+   "id": "x90",
+   "title": "[샘플] 추가 기사 9-1",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T00:00:00+00:00"
+  },
+  {
+   "id": "x91",
+   "title": "[샘플] 추가 기사 9-2",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T01:00:00+00:00"
+  },
+  {
+   "id": "x92",
+   "title": "[샘플] 추가 기사 9-3",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T02:00:00+00:00"
+  },
+  {
+   "id": "x93",
+   "title": "[샘플] 추가 기사 9-4",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T03:00:00+00:00"
+  },
+  {
+   "id": "x94",
+   "title": "[샘플] 추가 기사 9-5",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T04:00:00+00:00"
+  },
+  {
+   "id": "x95",
+   "title": "[샘플] 추가 기사 9-6",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T05:00:00+00:00"
+  },
+  {
+   "id": "x96",
+   "title": "[샘플] 추가 기사 9-7",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T06:00:00+00:00"
+  },
+  {
+   "id": "x97",
+   "title": "[샘플] 추가 기사 9-8",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T07:00:00+00:00"
+  },
+  {
+   "id": "x100",
+   "title": "[샘플] 추가 기사 10-1",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T00:00:00+00:00"
+  },
+  {
+   "id": "x101",
+   "title": "[샘플] 추가 기사 10-2",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T01:00:00+00:00"
+  },
+  {
+   "id": "x102",
+   "title": "[샘플] 추가 기사 10-3",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T02:00:00+00:00"
+  },
+  {
+   "id": "x103",
+   "title": "[샘플] 추가 기사 10-4",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T03:00:00+00:00"
+  },
+  {
+   "id": "x104",
+   "title": "[샘플] 추가 기사 10-5",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T04:00:00+00:00"
+  },
+  {
+   "id": "x105",
+   "title": "[샘플] 추가 기사 10-6",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T05:00:00+00:00"
+  },
+  {
+   "id": "x106",
+   "title": "[샘플] 추가 기사 10-7",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T06:00:00+00:00"
+  },
+  {
+   "id": "x107",
+   "title": "[샘플] 추가 기사 10-8",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T07:00:00+00:00"
+  },
+  {
+   "id": "x110",
+   "title": "[샘플] 추가 기사 11-1",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T00:00:00+00:00"
+  },
+  {
+   "id": "x111",
+   "title": "[샘플] 추가 기사 11-2",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T01:00:00+00:00"
+  },
+  {
+   "id": "x112",
+   "title": "[샘플] 추가 기사 11-3",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T02:00:00+00:00"
+  },
+  {
+   "id": "x113",
+   "title": "[샘플] 추가 기사 11-4",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T03:00:00+00:00"
+  },
+  {
+   "id": "x114",
+   "title": "[샘플] 추가 기사 11-5",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T04:00:00+00:00"
+  },
+  {
+   "id": "x115",
+   "title": "[샘플] 추가 기사 11-6",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T05:00:00+00:00"
+  },
+  {
+   "id": "x116",
+   "title": "[샘플] 추가 기사 11-7",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T06:00:00+00:00"
+  },
+  {
+   "id": "x117",
+   "title": "[샘플] 추가 기사 11-8",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T07:00:00+00:00"
+  },
+  {
+   "id": "x120",
+   "title": "[샘플] 추가 기사 12-1",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T00:00:00+00:00"
+  },
+  {
+   "id": "x121",
+   "title": "[샘플] 추가 기사 12-2",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T01:00:00+00:00"
+  },
+  {
+   "id": "x122",
+   "title": "[샘플] 추가 기사 12-3",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T02:00:00+00:00"
+  },
+  {
+   "id": "x123",
+   "title": "[샘플] 추가 기사 12-4",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T03:00:00+00:00"
+  },
+  {
+   "id": "x124",
+   "title": "[샘플] 추가 기사 12-5",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T04:00:00+00:00"
+  },
+  {
+   "id": "x125",
+   "title": "[샘플] 추가 기사 12-6",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T05:00:00+00:00"
+  },
+  {
+   "id": "x126",
+   "title": "[샘플] 추가 기사 12-7",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T06:00:00+00:00"
+  },
+  {
+   "id": "x127",
+   "title": "[샘플] 추가 기사 12-8",
+   "snippet": "",
+   "source": "샘플 언론사",
+   "link": "https://example.com/",
+   "published": "2026-11-22T07:00:00+00:00"
   }
  ],
  "indicators": [
@@ -483,6 +867,324 @@
      "s60",
      "s61",
      "s62"
+    ]
+   },
+   {
+    "title": "[샘플] 추가 이슈 7",
+    "region": "미국",
+    "sector": "고용",
+    "impact": "긍정",
+    "importance": 2,
+    "what": "샘플: 무슨 일이 있었는지 한 줄 요약이 들어가요",
+    "why": "샘플: 왜 중요한지 한 줄",
+    "effect": "샘플: 어떤 시장에 영향이 가는지 한 줄",
+    "easy_summary": [
+     "샘플: 쉬운 설명 첫째 줄",
+     "샘플: 쉬운 설명 둘째 줄",
+     "샘플: 쉬운 설명 셋째 줄"
+    ],
+    "pro_summary": [
+     "샘플: 자세한 설명 첫째 줄",
+     "샘플: 자세한 설명 둘째 줄",
+     "샘플: 자세한 설명 셋째 줄"
+    ],
+    "why_important": "샘플: 이 이슈가 왜 중요한지 3~4문장으로 설명하는 자리예요. 진짜 실행하면 AI가 기사를 읽고 채워요.",
+    "market_effects": [
+     {
+      "name": "달러 가치",
+      "direction": "up",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "원/달러 환율",
+      "direction": "up",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "미국 주식",
+      "direction": "flat",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "금 가격",
+      "direction": "down",
+      "reason": "샘플 이유"
+     }
+    ],
+    "article_ids": [
+     "x70",
+     "x71",
+     "x72",
+     "x73",
+     "x74",
+     "x75",
+     "x76",
+     "x77"
+    ]
+   },
+   {
+    "title": "[샘플] 추가 이슈 8",
+    "region": "한국",
+    "sector": "환율",
+    "impact": "중립",
+    "importance": 2,
+    "what": "샘플: 무슨 일이 있었는지 한 줄 요약이 들어가요",
+    "why": "샘플: 왜 중요한지 한 줄",
+    "effect": "샘플: 어떤 시장에 영향이 가는지 한 줄",
+    "easy_summary": [
+     "샘플: 쉬운 설명 첫째 줄",
+     "샘플: 쉬운 설명 둘째 줄",
+     "샘플: 쉬운 설명 셋째 줄"
+    ],
+    "pro_summary": [
+     "샘플: 자세한 설명 첫째 줄",
+     "샘플: 자세한 설명 둘째 줄",
+     "샘플: 자세한 설명 셋째 줄"
+    ],
+    "why_important": "샘플: 이 이슈가 왜 중요한지 3~4문장으로 설명하는 자리예요. 진짜 실행하면 AI가 기사를 읽고 채워요.",
+    "market_effects": [
+     {
+      "name": "달러 가치",
+      "direction": "up",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "원/달러 환율",
+      "direction": "up",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "미국 주식",
+      "direction": "flat",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "금 가격",
+      "direction": "down",
+      "reason": "샘플 이유"
+     }
+    ],
+    "article_ids": [
+     "x80",
+     "x81",
+     "x82",
+     "x83",
+     "x84",
+     "x85",
+     "x86",
+     "x87"
+    ]
+   },
+   {
+    "title": "[샘플] 추가 이슈 9",
+    "region": "유럽",
+    "sector": "물가",
+    "impact": "부정",
+    "importance": 2,
+    "what": "샘플: 무슨 일이 있었는지 한 줄 요약이 들어가요",
+    "why": "샘플: 왜 중요한지 한 줄",
+    "effect": "샘플: 어떤 시장에 영향이 가는지 한 줄",
+    "easy_summary": [
+     "샘플: 쉬운 설명 첫째 줄",
+     "샘플: 쉬운 설명 둘째 줄",
+     "샘플: 쉬운 설명 셋째 줄"
+    ],
+    "pro_summary": [
+     "샘플: 자세한 설명 첫째 줄",
+     "샘플: 자세한 설명 둘째 줄",
+     "샘플: 자세한 설명 셋째 줄"
+    ],
+    "why_important": "샘플: 이 이슈가 왜 중요한지 3~4문장으로 설명하는 자리예요. 진짜 실행하면 AI가 기사를 읽고 채워요.",
+    "market_effects": [
+     {
+      "name": "달러 가치",
+      "direction": "up",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "원/달러 환율",
+      "direction": "up",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "미국 주식",
+      "direction": "flat",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "금 가격",
+      "direction": "down",
+      "reason": "샘플 이유"
+     }
+    ],
+    "article_ids": [
+     "x90",
+     "x91",
+     "x92",
+     "x93",
+     "x94",
+     "x95",
+     "x96",
+     "x97"
+    ]
+   },
+   {
+    "title": "[샘플] 추가 이슈 10",
+    "region": "중국",
+    "sector": "부동산",
+    "impact": "부정",
+    "importance": 2,
+    "what": "샘플: 무슨 일이 있었는지 한 줄 요약이 들어가요",
+    "why": "샘플: 왜 중요한지 한 줄",
+    "effect": "샘플: 어떤 시장에 영향이 가는지 한 줄",
+    "easy_summary": [
+     "샘플: 쉬운 설명 첫째 줄",
+     "샘플: 쉬운 설명 둘째 줄",
+     "샘플: 쉬운 설명 셋째 줄"
+    ],
+    "pro_summary": [
+     "샘플: 자세한 설명 첫째 줄",
+     "샘플: 자세한 설명 둘째 줄",
+     "샘플: 자세한 설명 셋째 줄"
+    ],
+    "why_important": "샘플: 이 이슈가 왜 중요한지 3~4문장으로 설명하는 자리예요. 진짜 실행하면 AI가 기사를 읽고 채워요.",
+    "market_effects": [
+     {
+      "name": "달러 가치",
+      "direction": "up",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "원/달러 환율",
+      "direction": "up",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "미국 주식",
+      "direction": "flat",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "금 가격",
+      "direction": "down",
+      "reason": "샘플 이유"
+     }
+    ],
+    "article_ids": [
+     "x100",
+     "x101",
+     "x102",
+     "x103",
+     "x104",
+     "x105",
+     "x106",
+     "x107"
+    ]
+   },
+   {
+    "title": "[샘플] 추가 이슈 11",
+    "region": "일본",
+    "sector": "증시",
+    "impact": "긍정",
+    "importance": 2,
+    "what": "샘플: 무슨 일이 있었는지 한 줄 요약이 들어가요",
+    "why": "샘플: 왜 중요한지 한 줄",
+    "effect": "샘플: 어떤 시장에 영향이 가는지 한 줄",
+    "easy_summary": [
+     "샘플: 쉬운 설명 첫째 줄",
+     "샘플: 쉬운 설명 둘째 줄",
+     "샘플: 쉬운 설명 셋째 줄"
+    ],
+    "pro_summary": [
+     "샘플: 자세한 설명 첫째 줄",
+     "샘플: 자세한 설명 둘째 줄",
+     "샘플: 자세한 설명 셋째 줄"
+    ],
+    "why_important": "샘플: 이 이슈가 왜 중요한지 3~4문장으로 설명하는 자리예요. 진짜 실행하면 AI가 기사를 읽고 채워요.",
+    "market_effects": [
+     {
+      "name": "달러 가치",
+      "direction": "up",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "원/달러 환율",
+      "direction": "up",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "미국 주식",
+      "direction": "flat",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "금 가격",
+      "direction": "down",
+      "reason": "샘플 이유"
+     }
+    ],
+    "article_ids": [
+     "x110",
+     "x111",
+     "x112",
+     "x113",
+     "x114",
+     "x115",
+     "x116",
+     "x117"
+    ]
+   },
+   {
+    "title": "[샘플] 추가 이슈 12",
+    "region": "미국",
+    "sector": "기술",
+    "impact": "긍정",
+    "importance": 2,
+    "what": "샘플: 무슨 일이 있었는지 한 줄 요약이 들어가요",
+    "why": "샘플: 왜 중요한지 한 줄",
+    "effect": "샘플: 어떤 시장에 영향이 가는지 한 줄",
+    "easy_summary": [
+     "샘플: 쉬운 설명 첫째 줄",
+     "샘플: 쉬운 설명 둘째 줄",
+     "샘플: 쉬운 설명 셋째 줄"
+    ],
+    "pro_summary": [
+     "샘플: 자세한 설명 첫째 줄",
+     "샘플: 자세한 설명 둘째 줄",
+     "샘플: 자세한 설명 셋째 줄"
+    ],
+    "why_important": "샘플: 이 이슈가 왜 중요한지 3~4문장으로 설명하는 자리예요. 진짜 실행하면 AI가 기사를 읽고 채워요.",
+    "market_effects": [
+     {
+      "name": "달러 가치",
+      "direction": "up",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "원/달러 환율",
+      "direction": "up",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "미국 주식",
+      "direction": "flat",
+      "reason": "샘플 이유"
+     },
+     {
+      "name": "금 가격",
+      "direction": "down",
+      "reason": "샘플 이유"
+     }
+    ],
+    "article_ids": [
+     "x120",
+     "x121",
+     "x122",
+     "x123",
+     "x124",
+     "x125",
+     "x126",
+     "x127"
     ]
    }
   ],

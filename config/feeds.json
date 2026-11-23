@@ -3,10 +3,29 @@
   "feeds": [
     {"name": "BBC Business", "url": "https://feeds.bbci.co.uk/news/business/rss.xml"},
     {"name": "CNBC World", "url": "https://www.cnbc.com/id/100727362/device/rss/rss.html"},
-    {"name": "Google 뉴스 (world economy)", "url": "https://news.google.com/rss/search?q=world+economy&hl=en-US&gl=US&ceid=US:en"},
-    {"name": "Google 뉴스 (세계 경제)", "url": "https://news.google.com/rss/search?q=%EC%84%B8%EA%B3%84%EA%B2%BD%EC%A0%9C&hl=ko&gl=KR&ceid=KR:ko"},
-    {"name": "연합뉴스 경제", "url": "https://www.yna.co.kr/rss/economy.xml"}
+    {"name": "CNBC Economy", "url": "https://www.cnbc.com/id/20910258/device/rss/rss.html"},
+    {"name": "NYT Business", "url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml"},
+    {"name": "Guardian Business", "url": "https://www.theguardian.com/business/rss"},
+    {"name": "MarketWatch", "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories"},
+    {"name": "Yahoo Finance", "url": "https://finance.yahoo.com/news/rssindex"},
+    {"name": "Google 뉴스 비즈니스 (영문)", "url": "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=en-US&gl=US&ceid=US:en"},
+    {"name": "Google 뉴스 (world economy)", "url": "https://news.google.com/rss/search?q=world+economy+when:1d&hl=en-US&gl=US&ceid=US:en"},
+    {"name": "Google 뉴스 (central bank rates)", "url": "https://news.google.com/rss/search?q=central+bank+interest+rates+when:1d&hl=en-US&gl=US&ceid=US:en"},
+    {"name": "Google 뉴스 (trade tariffs)", "url": "https://news.google.com/rss/search?q=trade+tariffs+when:1d&hl=en-US&gl=US&ceid=US:en"},
+    {"name": "Google 뉴스 (oil prices)", "url": "https://news.google.com/rss/search?q=oil+prices+when:1d&hl=en-US&gl=US&ceid=US:en"},
+    {"name": "Google 뉴스 (China economy)", "url": "https://news.google.com/rss/search?q=China+economy+when:1d&hl=en-US&gl=US&ceid=US:en"},
+    {"name": "Google 뉴스 (Europe economy)", "url": "https://news.google.com/rss/search?q=Europe+economy+ECB+when:1d&hl=en-US&gl=US&ceid=US:en"},
+    {"name": "Google 뉴스 (Japan economy)", "url": "https://news.google.com/rss/search?q=Japan+economy+yen+when:1d&hl=en-US&gl=US&ceid=US:en"},
+    {"name": "Google 뉴스 경제 (한국어)", "url": "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=ko&gl=KR&ceid=KR:ko"},
+    {"name": "Google 뉴스 (세계 경제)", "url": "https://news.google.com/rss/search?q=%EC%84%B8%EA%B3%84%EA%B2%BD%EC%A0%9C+when:1d&hl=ko&gl=KR&ceid=KR:ko"},
+    {"name": "Google 뉴스 (환율·금리)", "url": "https://news.google.com/rss/search?q=%ED%99%98%EC%9C%A8+%EA%B8%88%EB%A6%AC+when:1d&hl=ko&gl=KR&ceid=KR:ko"},
+    {"name": "Google 뉴스 (수출·반도체)", "url": "https://news.google.com/rss/search?q=%EC%88%98%EC%B6%9C+%EB%B0%98%EB%8F%84%EC%B2%B4+when:1d&hl=ko&gl=KR&ceid=KR:ko"},
+    {"name": "연합뉴스 경제", "url": "https://www.yna.co.kr/rss/economy.xml"},
+    {"name": "연합뉴스 국제", "url": "https://www.yna.co.kr/rss/international.xml"},
+    {"name": "한국경제", "url": "https://www.hankyung.com/feed/economy"},
+    {"name": "매일경제", "url": "https://www.mk.co.kr/rss/30100041/"}
   ],
   "max_articles_per_feed": 15,
+  "max_total_articles": 250,
   "max_age_hours": 36
 }

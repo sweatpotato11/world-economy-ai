@@ -106,7 +106,8 @@ def fetch_articles(cfg):
             })
         print(f"  - {feed['name']}: {count}개")
 
-    return articles
+    articles.sort(key=lambda a: a["published"], reverse=True)  # 최신 기사부터
+    return articles[: cfg.get("max_total_articles", 250)]
 
 
 # ─────────────────────────────── 2. 지표 수집 ───────────────────────────────
@@ -177,7 +178,7 @@ REPORT_TOOL = {
             "issues": {
                 "type": "array",
                 "minItems": 1,
-                "maxItems": 8,
+                "maxItems": 15,
                 "description": "중요한 순서대로 정렬한 이슈 목록. 비슷한 기사는 한 이슈로 묶어요.",
                 "items": {
                     "type": "object",
@@ -235,7 +236,7 @@ SYSTEM_PROMPT = """당신은 세계 경제 뉴스를 분석하는 애널리스�
 
 규칙
 - 모든 글은 한국어로, 쉽고 정확하게 써요.
-- 비슷한 기사는 하나의 이슈로 묶고, 중요한 순서대로 5~8개를 골라요.
+- 비슷한 기사는 하나의 이슈로 묶고, 중요한 순서대로 10~15개를 골라요. 미국·중국·유럽·한국·일본·중동 등 여러 지역과 분야가 골고루 들어가게 해요.
 - 기사에 없는 사실이나 숫자를 지어내지 마세요. 모르면 "기사에 나오지 않았어요"라고 써요.
 - 기사 문장을 그대로 베끼지 말고 자기 말로 요약해요.
 - market_effects 는 '예상'이에요. 확실하지 않으면 direction 을 flat 으로 해요.
@@ -331,7 +332,7 @@ def normalize_report(report):
         "mood": pick(b.get("mood"), IMPACTS, "중립"),
     }
     issues = []
-    for i in (report.get("issues") or [])[:8]:
+    for i in (report.get("issues") or [])[:15]:
         if not isinstance(i, dict) or not i.get("title"):
             continue
         try:
@@ -428,9 +429,18 @@ def build_output(articles, indicators, report, sample=False):
         "briefing": report.get("briefing", {}),
         "indicators": indicators,
         "issues": issues,
+        "all_articles": [{k: a[k] for k in ("title", "source", "link", "published")} for a in articles],
         "regions": report.get("regions", []),
         "sectors": report.get("sectors", []),
     }
+
+
+def write_archive_index():
+    """지난 날짜 목록(archive/index.json)을 만들어요. 사이트의 날짜 고르기에서 써요."""
+    archive = DATA / "archive"
+    dates = sorted((p.stem for p in archive.glob("*.json") if re.fullmatch(r"\d{4}-\d{2}-\d{2}", p.stem)),
+                   reverse=True)
+    (archive / "index.json").write_text(json.dumps({"dates": dates}, ensure_ascii=False), encoding="utf-8")
 
 
 def save(output):
@@ -440,6 +450,7 @@ def save(output):
     (DATA / "today.json").write_text(text, encoding="utf-8")
     if not output["sample"]:
         (DATA / "archive" / f"{output['date']}.json").write_text(text, encoding="utf-8")
+    write_archive_index()
     print(f"저장 완료: site/data/today.json (이슈 {len(output['issues'])}개)")
 
 
@@ -461,7 +472,7 @@ def main():
     if args.sample:
         print("샘플 모드로 실행해요")
         articles, indicators, report = sample_data()
-        save(build_output(articles, indicators, report, sample=True))
+        save(build_output(articles, indicators, normalize_report(report), sample=True))
         return
 
     if not provider():

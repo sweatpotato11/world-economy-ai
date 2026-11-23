@@ -22,12 +22,14 @@
       <a href="index.html#tickers">경제 지표</a>
     </nav>
     <div class="spacer"></div>
+    <div class="datenav" data-datenav hidden></div>
     <span class="updated" data-updated></span>
   </div>
 </header>
 
 <main class="wrap" id="app">
-  <a href="index.html" class="back">← 오늘의 이슈로</a>
+  <a href="index.html" class="back" data-keep-date>← 오늘의 이슈로</a>
+  <div class="notice past" data-past hidden><b>지난 기록</b><span></span><a href="index.html">최신으로 가기 →</a></div>
   <div class="notice" data-sample hidden><b>샘플</b><span>지금은 테스트용 샘플 데이터예요.</span></div>
 
   <div style="display:flex;flex-direction:column;gap:12px">

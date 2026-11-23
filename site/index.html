@@ -23,6 +23,7 @@
       <a href="#tickers">경제 지표</a>
     </nav>
     <div class="spacer"></div>
+    <div class="datenav" data-datenav hidden></div>
     <label for="q" class="sr">이슈 검색</label>
     <input id="q" type="search" placeholder="이슈, 나라, 키워드 검색">
     <span class="updated" data-updated></span>
@@ -30,6 +31,7 @@
 </header>
 
 <main class="wrap" id="app">
+  <div class="notice past" data-past hidden><b>지난 기록</b><span></span><a href="index.html">최신으로 가기 →</a></div>
   <div class="notice" data-sample hidden><b>샘플</b><span>지금은 테스트용 샘플 데이터예요. 진짜로 실행하면 AI가 수집한 내용으로 바뀌어요.</span></div>
 
   <section id="tickers" class="tickers" aria-label="주요 경제 지표"></section>
@@ -48,9 +50,23 @@
 
   <div class="columns">
     <section class="main-col" aria-labelledby="top-h">
-      <div class="section-head"><h2 id="top-h">오늘의 핵심 이슈 TOP 5</h2><span class="small">AI 중요도 순</span></div>
+      <div class="section-head"><h2 id="top-h">오늘의 핵심 이슈</h2><span class="small">AI 중요도 순</span></div>
       <div class="chips" id="chips" role="group" aria-label="지역 필터"></div>
       <div id="issues" style="display:flex;flex-direction:column;gap:16px"></div>
+
+      <div id="more-wrap" class="box" hidden>
+        <div class="section-head" style="margin-bottom:8px"><h2 style="font-size:18px">더 많은 이슈</h2><span class="small" id="more-count"></span></div>
+        <ul class="more-list" id="more"></ul>
+      </div>
+
+      <section class="box" aria-labelledby="all-h">
+        <div class="section-head" style="margin-bottom:8px">
+          <h2 id="all-h" style="font-size:18px">AI가 읽은 오늘의 모든 기사</h2>
+          <span class="small" id="all-count"></span>
+        </div>
+        <ul class="src-list" id="all"></ul>
+        <button type="button" class="chip-btn" id="all-more" style="margin-top:14px" hidden>기사 더 보기</button>
+      </section>
     </section>
 
     <aside class="side-col">
