@@ -1,0 +1,2497 @@
+{
+  "generated_at": "2026-11-25T12:56+09:00",
+  "date": "2026-11-25",
+  "sample": false,
+  "model": "gemini-3.6-flash",
+  "article_count": 250,
+  "briefing": {
+    "summary": "엔비디아 최고경영자 복귀 불확실성과 미국의 신규 관세 부과 추진 소식으로 글로벌 증시 및 기술주가 급락세를 보였습니다. 한국 코스피 지수가 5.6% 넘게 폭락하며 매도 사이드카가 발동되었고, 가계대출 금리 상승과 중동 지정학적 리스크가 시장의 불안감을 가중시켰습니다. 전 세계 시장은 통화 정책 변화와 보호무역주의 강화 움직임 속에 변동성을 크게 확대하고 있습니다.",
+    "top_issue": "엔비디아 악재와 관세 우려에 기술주·증시 폭락",
+    "focus_region": "미국",
+    "mood": "부정"
+  },
+  "indicators": [
+    {
+      "name": "원/달러 환율",
+      "value": "1,343.21",
+      "change": "+0.16%",
+      "direction": "up",
+      "points": "2.0,14.0 5.7,15.3 9.4,22.0 13.1,11.6 16.7,12.7 20.4,14.2 24.1,5.4 27.8,2.0 31.5,12.1 35.2,13.2 38.8,16.2 42.5,17.6 46.2,17.8 49.9,16.5 53.6,18.0 57.3,19.4 60.9,17.0 64.6,11.9 68.3,13.7 72.0,12.5"
+    },
+    {
+      "name": "코스피",
+      "value": "4,724.87",
+      "change": "-5.62%",
+      "direction": "down",
+      "points": "2.0,2.0 5.7,5.4 9.4,3.3 13.1,6.7 16.7,6.1 20.4,11.0 24.1,16.3 27.8,17.0 31.5,13.4 35.2,11.1 38.8,11.7 42.5,12.5 46.2,15.6 49.9,17.8 53.6,16.2 57.3,15.0 60.9,19.4 64.6,22.0 68.3,17.2 72.0,21.7"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,201.09",
+      "change": "-0.50%",
+      "direction": "down",
+      "points": "2.0,2.0 5.7,2.6 9.4,5.9 13.1,6.9 16.7,6.2 20.4,3.3 24.1,11.4 27.8,10.8 31.5,6.7 35.2,7.4 38.8,5.0 42.5,5.6 46.2,6.4 49.9,9.9 53.6,11.7 57.3,12.1 60.9,15.6 64.6,22.0 68.3,14.2 72.0,15.0"
+    },
+    {
+      "name": "미국 10년 금리",
+      "value": "4.90%",
+      "change": "-0.01%p",
+      "direction": "down",
+      "points": "2.0,8.9 5.7,12.4 9.4,16.2 13.1,18.4 16.7,14.7 20.4,18.4 24.1,22.0 27.8,20.6 31.5,20.3 35.2,12.8 38.8,11.8 42.5,5.2 46.2,2.0 49.9,4.1 53.6,5.2 57.3,7.6 60.9,8.4 64.6,17.3 68.3,16.9 72.0,17.8"
+    },
+    {
+      "name": "WTI 유가",
+      "value": "80.78",
+      "change": "+0.76%",
+      "direction": "up",
+      "points": "2.0,3.1 5.7,3.8 9.4,2.0 13.1,8.4 16.7,8.7 20.4,15.4 24.1,13.4 27.8,13.1 31.5,16.4 35.2,17.1 38.8,16.7 42.5,14.8 46.2,15.0 49.9,17.4 53.6,17.1 57.3,19.4 60.9,19.5 64.6,18.8 68.3,22.0 72.0,21.5"
+    },
+    {
+      "name": "금 (온스)",
+      "value": "3,550.50",
+      "change": "-2.76%",
+      "direction": "down",
+      "points": "2.0,4.1 5.7,4.8 9.4,9.2 13.1,6.8 16.7,7.8 20.4,3.4 24.1,2.0 27.8,3.3 31.5,2.0 35.2,4.8 38.8,5.8 42.5,9.7 46.2,9.6 49.9,10.7 53.6,10.4 57.3,14.4 60.9,16.3 64.6,22.0 68.3,17.5 72.0,20.8"
+    }
+  ],
+  "issues": [
+    {
+      "title": "엔비디아 악재에 AI 기술주 급락",
+      "region": "미국",
+      "sector": "기술",
+      "impact": "부정",
+      "importance": 5,
+      "what": "젠슨 황 CEO의 복귀에도 불구하고 엔비디아 주가가 7% 급락하며 AI 관련주 전반으로 투매가 확산되었습니다.",
+      "why": "AI 거품론과 미 정치권의 법무부 조사 요구 등 불확실성이 투자 심리를 짓누르고 있기 때문입니다.",
+      "effect": "미국과 아시아 반도체 기업 주가 및 AI 채권 시장에 하락 압력을 가하고 있습니다.",
+      "easy_summary": [
+        "엔비디아 CEO 젠슨 황이 회사로 돌아왔지만 주가는 7% 급락했습니다.",
+        "미국 의회가 CEO 복귀 과정에 트럼프 대통령이 개입했는지 조사를 요구하고 있습니다.",
+        "AI 열풍에 대한 불안감이 커지며 일본과 한국 등 아시아 기술주도 함께 떨어졌습니다."
+      ],
+      "pro_summary": [
+        "젠슨 황 CEO 복귀 랠리가 하루 만에 소멸하며 엔비디아 주가가 7% 하락하고 소프트뱅크가 15% 급락했습니다.",
+        "미 의회 의원들은 젠슨 황 복귀 과정에서의 정치적 개입 및 기술 유출 의혹과 관련해 조사와 답변을 요구했습니다.",
+        "AI 수익성 의구심 속에 코어위브 채권 금리가 17%를 돌파하는 등 AI 신용 시장 불안이 확대되었습니다."
+      ],
+      "why_important": "글로벌 증시 상승세를 이끌던 엔비디아의 법적·정치적 불확실성이 기술주 전체로 확산되고 있습니다. 트럼프 행정부의 개입 및 중국과의 기술 유출 의혹 조사는 엔비디아의 경영 안정성에 직접적인 위협이 됩니다. 이는 단순한 주가 조정을 넘어 전 세계 AI 산업 투자 동력 위축으로 이어질 수 있습니다.",
+      "market_effects": [
+        {
+          "name": "미국 주식",
+          "direction": "down",
+          "reason": "엔비디아 주가 하락 및 AI 수익성 우려로 기술주 중심 투매 발생"
+        },
+        {
+          "name": "소프트뱅크 주가",
+          "direction": "down",
+          "reason": "아시아 반도체 및 AI 주가 동반 급락 여파로 15% 하락"
+        }
+      ],
+      "id": "issue-1",
+      "rank": 1,
+      "articles": [
+        {
+          "title": "SoftBank drops 15% as Wall Street AI sell-off ripples across Asian tech names",
+          "source": "CNBC World",
+          "link": "https://www.cnbc.com/2026/11/25/tech-stocks-softbank-group-advantest-sk-hynix-samsung.html",
+          "published": "2026-11-25T03:52:03+00:00"
+        },
+        {
+          "title": "日증시도 젠슨황 랠리 증발…닛케이지수 3.3% 급락",
+          "source": "연합뉴스 국제",
+          "link": "https://www.yna.co.kr/view/AKR20261125096000009",
+          "published": "2026-11-25T03:48:49+00:00"
+        },
+        {
+          "title": "US attorney general dodges questions about Nvidia investigation",
+          "source": "BBC Business",
+          "link": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-11-25T03:44:07+00:00"
+        },
+        {
+          "title": "젠슨 황 약발 떨어졌나…'부채 우려'에 AI 관련주 동반 하락 - 지디넷코리아",
+          "source": "Google 뉴스 경제 (한국어)",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9BOW1KUllIazlNWEtkZ3N6SFN5bmlVbGlGSjdPZFdLMV9JMjhfeTMybnlMT0UybWRtSzR3ZXpaOGgxWFZLSWxlR0NMbHg0TlB6bWJLYjN3?oc=5",
+          "published": "2026-11-25T02:20:56+00:00"
+        },
+        {
+          "title": "Trump open to pardoning Jensen Huang if needed: NY Post",
+          "source": "CNBC World",
+          "link": "https://www.cnbc.com/2026/11/25/trump-huang-pardon-politics.html",
+          "published": "2026-11-25T02:09:45+00:00"
+        },
+        {
+          "title": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips",
+          "source": "CNBC World",
+          "link": "https://www.cnbc.com/2026/11/25/jensen-huang-nvidia-ai-talent-race.html",
+          "published": "2026-11-25T01:13:56+00:00"
+        },
+        {
+          "title": "With Huang rescue, Trump riskily ties his political fortunes to Nvidia",
+          "source": "BBC Business",
+          "link": "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-11-25T01:03:05+00:00"
+        },
+        {
+          "title": "젠슨 황 복귀에 AI 신용시장 다시 '흔들'…코어위브 채권금리 17% 돌파 - 연합인포맥스",
+          "source": "Google 뉴스 경제 (한국어)",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5PNEUtRTdPN0ktUG5Gemdsa00ydWliWjFZYUgwd1cwaWN0TTUtWWllOEF3d3E2Q1B5SHlRem9XX2taWE1DYTRnZFB1OHRnUnBlZjFoSXVOYUptaTV4bUZVckR2ZUhDVkdJeXpUT0lQR2E?oc=5",
+          "published": "2026-11-25T01:00:00+00:00"
+        },
+        {
+          "title": "Nvidia board joins Jensen Huang under scrutiny after reinstating embattled CEO - AP News",
+          "source": "Google 뉴스 비즈니스 (영문)",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdDBtR1FfWU5YMzBKWUlXWmc3YVotaWZ2eHBQTEdLd1ZJN0duSzA3RFNkQnFFM29rSXVrdnlzMk1ZYzJLbUd5dnJhYUQxb1pVYU9DT0wzMmlfSk84NW03TUZqTEtQNDNDRzQ0OWIyOWJ4OHNEdUV6c0hIWDNtRlk3WGFkbl9LbkpwNExRSS13SjFnQ0o2b0JrbjZKNHZJQmpmZ0VYMw?oc=5",
+          "published": "2026-11-25T00:21:00+00:00"
+        },
+        {
+          "title": "Incoming Democratic chairs demand answers from Trump on Huang’s reinstatement - Politico",
+          "source": "Google 뉴스 비즈니스 (영문)",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVUJ2aHI0bkkxQlVkRlhYaTNMOWFORlVDMWNfOHhsSHowTWl2b1dFMjRKQm9sQVRkOFFZT2pyUnlkM1UxU2dZMWRRYS1WRjkzV3h1am9OYWZJdGNxdzd4MnFlYUZLclpfLXJTeXhMR3FqTnRtV251VERzSGFLS0c5bllzVndtVVE4Uzh2SHBhYmhtaFJ5NnBEQ3E2NUtPbm9yWWZFRw?oc=5",
+          "published": "2026-11-25T00:16:27+00:00"
+        },
+        {
+          "title": "Blanche Downplays Questions Over Nvidia as Investigators Examine Company’s Customers",
+          "source": "NYT Business",
+          "link": "https://www.nytimes.com/2026/11/24/us/politics/nvidia-justice-department-todd-blanche.html",
+          "published": "2026-11-24T23:27:37+00:00"
+        },
+        {
+          "title": "Jensen Huang tells staff that Nvidia doesn't need a succession plan",
+          "source": "CNBC World",
+          "link": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-employee-meeting.html",
+          "published": "2026-11-24T23:13:49+00:00"
+        },
+        {
+          "title": "[밤사이 세계는] \"젠슨 황 복귀가 AI 산업 우려 해소는 아냐\" 外 - 파이낸셜포스트",
+          "source": "Google 뉴스 (세계 경제)",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBHcGMtMGc5Qm0zU1FZejVxcGZfY1ZGSF9JSXpRYWVTVnVOUDg2dk9Lb1NMNGZNcElnME50cHlVY1JzeXdMbDFZXzVxTVFaajdSeWlvcTlsQm1UY1NmZE05MzBXMzROclRUT0JoLTB4VXB2b3A5?oc=5",
+          "published": "2026-11-24T22:22:10+00:00"
+        },
+        {
+          "title": "Tech sell-off resumes as euphoria from Jensen Huang’s Nvidia return subsides",
+          "source": "Guardian Business",
+          "link": "https://www.theguardian.com/business/2026/nov/24/nvidia-stock-falls-jensen-huang",
+          "published": "2026-11-24T22:05:21+00:00"
+        },
+        {
+          "title": "젠슨황 약발 하루만에...나스닥 다시 급락 [월가월부]",
+          "source": "매일경제",
+          "link": "https://www.mk.co.kr/news/economy/12217655",
+          "published": "2026-11-24T21:34:36+00:00"
+        },
+        {
+          "title": "Trump wanted Jensen Huang back. Now, the president is all alone in Washington",
+          "source": "CNBC World",
+          "link": "https://www.cnbc.com/2026/11/24/trump-jensen-huang-nvidia.html",
+          "published": "2026-11-24T21:13:39+00:00"
+        },
+        {
+          "title": "Nvidia CEO Jensen Huang apologizes to staff: ‘I made some terrible mistakes’",
+          "source": "Guardian Business",
+          "link": "https://www.theguardian.com/technology/2026/nov/24/jensen-huang-nvidia-apologizes-staff",
+          "published": "2026-11-24T20:32:02+00:00"
+        },
+        {
+          "title": "Trump’s Nvidia Push Shows Companies’ Importance in Global Economic War",
+          "source": "NYT Business",
+          "link": "https://www.nytimes.com/2026/11/24/business/economy/trump-nvidia-national-security-us-economics.html",
+          "published": "2026-11-24T19:54:59+00:00"
+        },
+        {
+          "title": "Trump’s Nvidia Push Shows Companies’ Importance in Global Economic War - The New York Times",
+          "source": "Google 뉴스 (world economy)",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQakQ0a2JfUmZTVkdhSmRUR3lpNF96cTVzdDVyaEtyYmhlbkdiWHJYNFRhdEpjUzhHeUc0UnJ4M0FoMFJHWExrYnMwQU12c29tVzJJXzYxLXBTTy1GbldPSWQ3bTEwSndFWmhNbWstLVNxNlJkQWVTdnFGOHVyN1F1cXlCSUxZbTM3ajdiRGNBaUF2ZG9uelFrYkhnVnlEbmtFcFE?oc=5",
+          "published": "2026-11-24T19:54:59+00:00"
+        },
+        {
+          "title": "Faisal Islam: Fears over the AI boom haven't gone away",
+          "source": "BBC Business",
+          "link": "https://www.bbc.co.uk/news/articles/c6894evgpel5o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-11-24T18:21:43+00:00"
+        },
+        {
+          "title": "Jensen Huang to face DC grilling the same day Nvidia releases new products at GTC",
+          "source": "CNBC World",
+          "link": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-congress-gtc.html",
+          "published": "2026-11-24T17:51:45+00:00"
+        },
+        {
+          "title": "What Jensen Huang's return to Nvidia says about the company's role in the global economy - WBUR",
+          "source": "Google 뉴스 (world economy)",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE15d04yeE1BVk1yZ09Ed3NIV19TTzY0N3BtZ0twZU9pekN6ZkpObXA2T0hFODlMNV9PM0JGZ1BNclNaNHBuYU84WlFvdzkwQTZ1TkVnNGJfekFsWXViUm5KOEdWYy1Bak14OTM3NW9qaUw?oc=5",
+          "published": "2026-11-24T17:01:14+00:00"
+        }
+      ]
+    },
+    {
+      "title": "미국, 중국·EU 대상 신규 관세 검토",
+      "region": "미국",
+      "sector": "무역",
+      "impact": "부정",
+      "importance": 5,
+      "what": "트럼프 미 행정부가 보조금을 받은 과잉 생산 품목을 이유로 중국, EU 등 수십 개국에 신규 관세 부과를 준비 중입니다.",
+      "why": "미국의 보호무역주의 강화로 글로벌 교역량이 위축되고 교역 상대국과의 갈등이 심화할 수 있습니다.",
+      "effect": "글로벌 공급망 재편 압박과 함께 원화 등 아시아 통화 환율 불안 요인으로 작용합니다.",
+      "easy_summary": [
+        "미국 정부가 중국, 유럽연합, 인도 등에 새로 관세를 부과할 준비를 하고 있습니다.",
+        "정부 보조금을 받아 과잉 생산된 제품들이 주요 대상이 될 전망입니다.",
+        "새로운 무역 전쟁이 일어날 수 있어 글로벌 기업들의 불안감이 커지고 있습니다."
+      ],
+      "pro_summary": [
+        "미 트럼프 행정부는 과잉 생산 조사를 근거로 중국과 EU 등을 타깃으로 한 추가 관세안을 조만간 공개할 예정입니다.",
+        "이번 관세안은 특정 품목을 조준하며 기존 무역 합의 수준 내에서 실행될 것으로 알려졌습니다.",
+        "한국을 비롯한 주요 수출국 반도체·제조업체들의 미국 현지 생산 압박이 더욱 강해질 것으로 보입니다."
+      ],
+      "why_important": "세계 최대 소비 시장인 미국의 타깃 관세 정책은 글로벌 공급망의 근본적인 재편을 강제합니다. 특히 중국과 EU, 인도 등 주요 거상국이 대거 포함되면서 국제 무역 마찰이 재발할 가능성이 높아졌습니다. 수출 의존도가 높은 국가들의 경제 성장세에 직접적인 타격이 우려됩니다.",
+      "market_effects": [
+        {
+          "name": "원/달러 환율",
+          "direction": "up",
+          "reason": "글로벌 무역 갈등 재발 우려에 따른 안전자산 선호 및 달러 강세 압력"
+        }
+      ],
+      "id": "issue-2",
+      "rank": 2,
+      "articles": [
+        {
+          "title": "Trump Weighs Fresh Tariffs on India and China: What is Behind the US Trade Investigation? - Open Magazine",
+          "source": "Google 뉴스 (trade tariffs)",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOemRIajFYdHZXQzRRNHpyZXBJcy11T2Z2QjhYMmcxekxxaEFibXRpNXRFSHY2cmgxZW5xaXNwZTJ6cUNBb2drb29nME1Lc1k5d3U3YkZ6aWdMekkyM3h0OXNjNVA1alpFTE94THZrNFdaMWlfTl9QdGtEeVRLSEMzZjVNbjk2REFZWGlDVl95UDNUejhRaUkzVkRSRHlJcE4tRnJJUXJWX2wybmwxSVl1VEhZNHJYOVRiMVhLWndB?oc=5",
+          "published": "2026-11-25T02:54:02+00:00"
+        },
+        {
+          "title": "Team Trump Plans New Wave Of US Tariffs, India, China On Hit List: Report - NDTV",
+          "source": "Google 뉴스 (trade tariffs)",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTUNxWWcycGx3dFF6NWR3SlJCRE9XSGVtMkxCNVAxTjJ1bVZVeGc1eHEtR2d4UTVjaTkyWTdfMHNTNW1XbWUtRGdvYVlONU5sWmE5THpRLTZvZEUwRGRDdkgwS0Z4QnJlMkFrSklTN2F3dUVIY0E2SmVlek9XM3ZMemNrS3dHWU5nVTY4Y09ReXhaNmNsVFo4Z0ZDWUtGU2lCYkVlaE13Y1JpVFc1VUpqWNIBuAFBVV95cUxPdDBKZEhEMEdkZjkydWxTTWVFak1ERUU2ekVlY1NuMjRrTjI0a09WdklCZXR4bHFUUzAxV3Y4SXVackJtQlJYR1JyWU5Bd3V2UG1sOWZmcDE4cEhDX211N0t2QU4wVk1uOVBTZmxpTGRSbjBwNTR5TDFYRGh1TjVxWnZmemtrMFNjaU5aekxXRUtMeUg5dGdnbWZyMERLYlhzN0UtUWR0SUtHVjVXQTNCUjA0dkd6TmZq?oc=5",
+          "published": "2026-11-25T01:41:58+00:00"
+        },
+        {
+          "title": "트럼프 과잉 생산 관세 임박 … K반도체, 美 현지 생산 압박 커지나 - 뉴데일리 경제",
+          "source": "Google 뉴스 (수출·반도체)",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBrRlFFcHdRWXQydTN6M1NicHVFbUYwYVNIdFc4NzRKZWZVeUY5aTNCZ2N3cV9mcDBVR0dERlVBX1YzNkQzcXM4ak5meEdkejM5dUdabjEzaXo3dDZJdVN6TmtBRDRBQWMxWmtMV2IyUjlCZEJEajBDdGFTc9IBgAFBVV95cUxNaEpyUU1icEhuM2IwLXNjLU5VR3RhV3pWUjZ2TW1EeFVUQU15OHlTRWVGbHFBbVRfbmZsZGY4cDVMWW1YdW1oTUZJeFRORnVTN2NVZVJvRUV3dlJ4aXVWT3lTX05fZ1RWTnV0aUlQTE5yaXhyaGVxN09RV0NjY25UZQ?oc=5",
+          "published": "2026-11-25T01:28:00+00:00"
+        },
+        {
+          "title": "US ready to slap tariffs on China, EU and others over subsidized production, AP sources say - WTOP News",
+          "source": "Google 뉴스 (trade tariffs)",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQMGFNR0RQbFNlUE5acHozc3cxZGNwMU9VNHNtdFMzRWFQUnplR3hPWENFOWJ0X0dJNVE5WGNqaUpWVmFRS2xLWU5meGpkUnRWX21mMWQyRFo5eEFzSHF0bFBfb1M1bGJvcWNyYzlXOF9ob1NXZTVBR3BEVFIxMTI1TVNHamQ0YkFfeFdPT2h1S01MS3ZZLUxHZms4dzF6dTFLY1NDUXp1R19UNjVNTS1oci1raDF5RXV1dXF5d0llWGY4ZkMwWnlsZmxVdXdJSTRUOXE0dlBCaXo1VmZoQXlzWkVsUm96QQ?oc=5",
+          "published": "2026-11-25T01:17:02+00:00"
+        },
+        {
+          "title": "US preparing to unveil plan for new tariffs on global trading partners",
+          "source": "BBC Business",
+          "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+          "published": "2026-11-25T00:38:01+00:00"
+        },
+        {
+          "title": "US preparing to unveil new tariffs on global trading partners - BBC",
+          "source": "Google 뉴스 (world economy)",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nc0ZZdU1LSC1JM2lWbV80OFdPYXU1OFg5S2pXVHFZVGIxeUljazk5Z3Z2TWlQM1FoTUVVQXFOLTVJZjVOVTYxaXNNMWc3blMxUEEyODdCd1l6bXptRnc?oc=5",
+          "published": "2026-11-25T00:38:01+00:00"
+        },
+        {
+          "title": "Trump Readies New Tariff Hikes for Dozens of Countries - The Fiscal Times",
+          "source": "Google 뉴스 (trade tariffs)",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZzF4Q09yRlBMOXlLY1RILTIwTVFFOVJwelFYY1pnT1VMc1VFVDU2ZTM1MGdCNmNWTjc1enNwbzFYR1BNMG9pMks4UkxSRG8xQzlWSWNaSVpaUHpmb1hlcnBncGRfVTY2ejVZRlRhUW5SWXhZcndZV0dKZXRRU19hMndwVlFtVVNsZkZBNnZJVDhkSFk?oc=5",
+          "published": "2026-11-24T23:22:30+00:00"
+        },
+        {
+          "title": "Trump prepares a new round of targeted tariffs - Axios",
+          "source": "Google 뉴스 (trade tariffs)",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9IOXZTRnJTd1pRNzd0dUhFN0pGM3p5Vmcyc2kzT1BmZDMyNmxNWUV5RWFYUmNMdE5OblIxRFZyODdiaFdmWnFBWTdjYzMwX2c0d0NSSXNsSlhlTDl4S2xXTXJON1hkbDczcEw2RXFTZjROdGxO?oc=5",
+          "published": "2026-11-24T20:56:46+00:00"
+        },
+        {
+          "title": "The Next Tariff Fight Is Taking Shape. What It Means for the U.S.-China Truce. - Barron's",
+          "source": "Google 뉴스 (trade tariffs)",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTnlURUVGYlVHRTBQYmgtZWRwNFR4UzYzRVFSYkpkc3dPeTI2RVgtd1dNMkhwbWxyMGRYMFJtV0hneS1SMS1IZms4S0dXSW45MzFRVTkxRl91VjY5LUV0SElNMGFsaDNiSmd4RXZYWElwUWpmN1Qza0RaTjVIY3hRc0ZsRUpTOEp1MTNidU9aVQ?oc=5",
+          "published": "2026-11-24T20:51:00+00:00"
+        },
+        {
+          "title": "Trump's New Tariffs Put American Farmers on Alert - AgroLatam",
+          "source": "Google 뉴스 (trade tariffs)",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZGhoRTRPMzVuNjZzdENkRl9JSGRDMDcxTmFvTXVINjBLdFlJSHZzc3pJd2RhWmtCLXFUM3ZyRHoxU1BEbjFsWHo3MUkwaXV4OHNiRlFWSElTOE42UE83NGpVMEhJWHpnSzJKVXZRZkgtQU5uRzAwX3hwUmM4cDBVcnRuLUlnTXVfRGlweQ?oc=5",
+          "published": "2026-11-24T20:47:41+00:00"
+        },
+        {
+          "title": "Trump administration set to unveil new tariffs after probe on excess factory capacity, sources say - Reuters",
+          "source": "Google 뉴스 (trade tariffs)",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNklFaE54bEV6OGdKT29ScUxHUlZwRDNyREJ0MzBSZzZGdnptTkVxaXNHeWx2WjFWYVMzMzdMeU92dC1PVmYyZ1BTT3lCTWVRVnJ5ODFEb0NXYWpDd1ZQUlg4bkZ5QVAyck9KQUhMbldjY2FqMmtsZGs3MTFUY0xLZm9wMWRRTFAyS3VvZUZ6Wnk0VzlxTjR3VS1GSkJ1S3VCU2xmZ09FX1E5dUVjTUhfR21wMG1pcktxdGc?oc=5",
+          "published": "2026-11-24T18:48:05+00:00"
+        },
+        {
+          "title": "US preparing to raise tariffs on China, EU and a dozen other countries - EL PAÍS English",
+          "source": "Google 뉴스 (trade tariffs)",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPb1hGZllMX3hJd0QyV3k3aVJ1eVhYMnY4M3JLQzN4blkwdDM0YzJGRjRfNENEdlc3akt5dDdFSk1ZTVczNjlxdGtyNkJ5QmZidFFLbDM2OWs3QzdrbDZJVmthNkZQRS03di0tYlJ1dVVsYmNkeW1jVEp2d0doN0IzTTJVYVVjakVQYXBoNzUwQUhKeEROWlVvOEtFVm53MV9STUZkSHVuUFdNeE5aWlZpODBRRHg3UnNheVVqbjhTVVowNDBNUzhodjlKRVJDd9IB4gFBVV95cUxQX1VXTW5NVHdydjFTb3BEVzNtVWlNNW9HUGJYTHhSVjhsQzFnRmVNS0JqUTJuTUxBVk5mQkZhV2NMOG5BX3Fiek82X0VHQlFDbUVjOFR3OEVhWXRMZEN0YVIzWEJ3QU9ySmNZSTZkV3I2TTF1Z2J1eV9iSWFMbENUWkhfLW4xcHpaeU9sbjVsYnBGOFRka29iZjRfa21EWEZVdFpnUVJfclAyWWsxNi1LWG50dmJqVFR4S2ZRdmdUdmVWNk9PM3czZ3VzcTJlOU9OWTZHekZFZGRJSF9VTENHbjhn?oc=5",
+          "published": "2026-11-24T18:33:06+00:00"
+        },
+        {
+          "title": "Renewed US tariff concerns drive safe-haven demand for Japanese Yen - www.tmgm.com",
+          "source": "Google 뉴스 (Japan economy)",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQaTg4YUJocjluZHBlaTg2VmI0dWlIVFYzX2ZQUkZHOW02c3FSekJDWXJtNXctR0E0QmxLLVNUY2hNX04yZzk0QlFQY1liSUlxMTZTN3FfMlBpQ0xNeE9rLWhVY0JYTnhkWTlocnFseENWMnBGSHJoV2hENDZqT1A3cklway1lejdKbi1WTlppelNnMi1XMC02ZFpRYUMxWjFjamNwWnVjQ25nU2ZXM3ZOYmNkaW4yTzc3c3Bmamctczk2dXViamRuQVd5cWpTTTVuZGhz?oc=5",
+          "published": "2026-11-24T16:54:14+00:00"
+        },
+        {
+          "title": "Trump administration tees up tariff hikes on EU, China, others - Politico",
+          "source": "Google 뉴스 (trade tariffs)",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNHdmanQya1ZpbmtJaGc1SHh1NFItcHdxWXlLX2VGZG9NLUlDeV9RYWRVek5GWVlxdXpfNFRmRmlLMnpBZl9fWDVmTkx4ZFd0TnlGanhsbFA1XzJ3SjM3di1wMFl0MzREQ1RYWGJ5SDAtbmVYNm01YllCS29qN0ZfenB2N05OVXoxNVJFX1oxRkV1TFIwZ2U1RA?oc=5",
+          "published": "2026-11-24T16:18:00+00:00"
+        },
+        {
+          "title": "Japanese Yen attracts safe-haven flows as US tariff concerns resurface - FXStreet",
+          "source": "Google 뉴스 (Japan economy)",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcDh5TEJxM3hablo3M0xIeS1PZloxcGlNQ3pMXzBSdVcwTDJvaWRxMjlnNXlxc24zMHh1Slh0VlFmdWp5MlNpUTZRR29sTExrcEJBbXp1MGlBa3FZaDBGek9qYVFFMXc0R2RqOXVYZGZycEhmblBVd19nMDFNeTBudUVJTHRwQzhGN0tBd0hGUE9IN1dOeVJQMlhPVV9vcDhUQTdWLU54SmVRZzBVaDAtLUVhaw?oc=5",
+          "published": "2026-11-24T16:15:21+00:00"
+        },
+        {
+          "title": "New Trump Tariffs Won’t Top Trade Deal Levels, Will Be Targeted - Bloomberg.com",
+          "source": "Google 뉴스 (trade tariffs)",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRk9ydWRwa1d2aXFHT0FvQW16SWMyemgzS1VCc1g3MVRlb2hhM21HTl9RdWMzTUVQcnNJbVpRMzFQellZZVBCbG44RXhpekczWkg0TnRwaVJVT3didFhjc2oySHpxUFFheC05NVB4a0Y1dnVXM2tmSjE0YVhwYjNHVnI4WmhTS2dna2dmeDA1ZVRwV0oyS1pmZG9BeXI0SEVIMjh5QVE0YkRRTW1xR2R5Z3ZfRQ?oc=5",
+          "published": "2026-11-24T15:45:27+00:00"
+        }
+      ]
+    },
+    {
+      "title": "코스피 5.6% 급락…매도 사이드카 발동",
+      "region": "한국",
+      "sector": "증시",
+      "impact": "부정",
+      "importance": 5,
+      "what": "코스피 지수가 5.62% 급락하며 하루 만에 5,000선이 무너졌고 매도 사이드카가 발동됐습니다.",
+      "why": "미국 AI 주가 급락과 외국인의 대규모 매도세가 국내 증시에 직격탄을 날렸습니다.",
+      "effect": "원/달러 환율 상승과 함께 정부가 자본시장 안정화 대책 마련에 나서는 계기가 되었습니다.",
+      "easy_summary": [
+        "한국 코스피 지수가 하루 만에 5.6% 넘게 폭락하며 거래를 일시 정지하는 사이드카가 발동됐습니다.",
+        "미국 AI 관련 주가 급락과 외국인 투자자들의 매도가 주요 원인입니다.",
+        "정부와 대통령실은 관망에서 벗어나 시장 안정에 적극 대응하겠다고 밝혔습니다."
+      ],
+      "pro_summary": [
+        "코스피 지수가 전일 대비 5.62% 하락한 4,724.87로 마감하며 매도 사이드카가 발동되었습니다.",
+        "반도체 과잉 우려와 미 관세 부담 속에 외국인 자금이 썰물처럼 빠져나갔습니다.",
+        "대통령은 증시 급등락에 따른 자본시장 개혁 가속화와 주주 중심 시장 재편을 금융위에 주문했습니다."
+      ],
+      "why_important": "글로벌 반도체·기술주 투매 영향이 한국 증시에 집중되며 심각한 시장 변동성을 초래했습니다. 주가 급락과 외국인 자금 이탈은 원화 약세를 유발하여 한국 금융시장의 안정을 위협합니다. 정부의 자본시장 제도 개혁과 시장 대응 능력 시험대가 될 것입니다.",
+      "market_effects": [
+        {
+          "name": "코스피",
+          "direction": "down",
+          "reason": "외국인 순매도 및 글로벌 반도체 악재 여파로 5.62% 폭락"
+        },
+        {
+          "name": "원/달러 환율",
+          "direction": "up",
+          "reason": "증시 폭락에 따른 외국인 자금 이탈로 환율 상승 압력 증가"
+        }
+      ],
+      "id": "issue-3",
+      "rank": 3,
+      "articles": [
+        {
+          "title": "1년치 외국인 배당금이 한 달 만에…“환율 1380원까지 봐야” - 이데일리",
+          "source": "Google 뉴스 (환율·금리)",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbTRwT0tLcjhlU0VUdDJzd19YRGZXb0t2UXlkVXJ0eVlhcWlZWFdkcVRPM3lkM24wQW1TOEZsTHR5NUNJRC1PUXUyNE9IT0VkVGY1Z3lWZ0VkNEMxUnpJdGVQbWwzV1l4a0Z4N0RIQTgzYktHcHVxRGIwUHJLbkYxSg?oc=5",
+          "published": "2026-11-25T02:08:07+00:00"
+        },
+        {
+          "title": "국금센터 \"연말까지 외국인 배당 23.4조…환율 일시적 상승압력\" - 연합인포맥스",
+          "source": "Google 뉴스 경제 (한국어)",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FenVlOXNxamxvV0pJaW1SSHVtR2hMOGY4cjhFQ3JwdV9XZVl1TkFxbWZLdkZJUE9zZl9qcXI1VVQzbGl2TXpjSElKbDNjVXZYZ1JRQzJoY0xzRnVmYkJqWlV2SUt6M0NfVnJoUTFkM2I?oc=5",
+          "published": "2026-11-25T01:58:06+00:00"
+        },
+        {
+          "title": "코스피 오를수록 外人은 주식 팔았다…\"주가·환율 같은 방향으로\" - 연합인포맥스",
+          "source": "Google 뉴스 경제 (한국어)",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE05dFl6bDJqRXJKMVpZd1ZMQmJzSDdELXlGQTJzZmQzTXkwT20wZTBYT1ljU2x3VWpYOEpzSWlvUkoxSjZ5OE93SXdPOS1Jd21nVHF6d3FYRzQ5XzhpbmZqMlhXSWpiaTFwb0JKN3FaQ1A?oc=5",
+          "published": "2026-11-25T01:32:00+00:00"
+        },
+        {
+          "title": "코스피 5% 급락하며 '매도 사이드카'‥5천 선 반납 - MBC 뉴스",
+          "source": "Google 뉴스 경제 (한국어)",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9FM1ZuTU9DM0xPMEkwX1k5Y1k4Mmg5SHJMSm9iWnJxcDJxSmhWVWJBSllKcGcxVEQtVHVGOVd5N3pUVngzRnJGeWIwWXNDdUFBQXR6aXdtd2FmZ0tqRGZyM3NwbjlsYktYQWtXZEw2dGVPelpT0gF0QVVfeXFMTkpYZURlc2g5RHNka3NiWUhqSFlQZDBKUjI5N2owYmFQTTdEOFcxQ2QzVS1JX1RoSDRiUm5sSDBVUUc5cEdGOGV0TURHQ3ZWR1lFWlR1ZEhxR0c1cUtmNjNhUjEyVmVEVnNuVVhZdlVpZHh2M2E?oc=5",
+          "published": "2026-11-25T00:16:51+00:00"
+        },
+        {
+          "title": "롤러코스터 장세에 靑·정부 움직인다…관망서 '적극 대응' 기조 전환 - 뉴스1",
+          "source": "Google 뉴스 경제 (한국어)",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FcUNPUHZmVGUtQUc5Tko0NnZ4elVTWGRNU2pWQ05lNnVrQ2FyVzBXY0FTaURPVGFwU09sbFA3X3FHOG5PekxkdHl1N19FNDE2RWlFcmtyOEc5cTQ?oc=5",
+          "published": "2026-11-24T20:05:00+00:00"
+        }
+      ]
+    },
+    {
+      "title": "미 법원, 화웨이 영업비밀 침해 유죄",
+      "region": "미국",
+      "sector": "기술",
+      "impact": "부정",
+      "importance": 4,
+      "what": "미국 뉴욕 연방 배심원단이 중국 화웨이의 은행 사기 및 기술 영업비밀 침해 혐의에 대해 유죄를 선고했습니다.",
+      "why": "미·중 첨단 기술 갈등 속에서 중국 기술 기업에 대한 미국의 사법·행정 제재가 정점에 달했음을 보여줍니다.",
+      "effect": "글로벌 통신·반도체 공급망의 미중 분절화 현상이 심화할 전망입니다.",
+      "easy_summary": [
+        "미국 뉴욕 법원에서 중국 화웨이가 영업비밀을 훔치고 사기를 쳤다는 유죄 판결이 나왔습니다.",
+        "미국은 사기 및 자금 세탁 공모 혐의를 인정했습니다.",
+        "화웨이는 미국의 제재에 맞서 자체 운영체제(OS)를 계속 확대하고 있습니다."
+      ],
+      "pro_summary": [
+        "뉴욕 배심원단은 화웨이에 대해 은행 사기, 자금 세탁 및 영업비밀 침해 공모 혐의에 대해 유죄 판결을 내렸습니다.",
+        "다만 공갈(racketeering) 혐의에 대해서는 무죄 판결이 내렸습니다.",
+        "화웨이는 미 제재 대응을 위해 독자 OS인 '하모니' 탑재 기기를 1억 대 이상으로 늘리며 기술 자립을 가속하고 있습니다."
+      ],
+      "why_important": "이번 판결은 미·중 안보 및 기술 경쟁이 법적 제재 수단을 통해 더욱 강하게 전개되고 있음을 보여줍니다. 화웨이를 비롯한 중국 기업들의 미국 시장 진입이 가로막히는 한편, 중국은 자체 생태계를 구축하여 전 세계 기술 표준이 이원화될 위험이 커지고 있습니다.",
+      "market_effects": [
+        {
+          "name": "미국 주식",
+          "direction": "flat",
+          "reason": "미중 기술 갈등 악재가 이미 시장에 장기간 반영되어 있음"
+        }
+      ],
+      "id": "issue-4",
+      "rank": 4,
+      "articles": [
+        {
+          "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+          "source": "BBC Business",
+          "link": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
+          "published": "2026-11-25T02:59:27+00:00"
+        },
+        {
+          "title": "U.S. jury convicts Huawei in a criminal trial over fraud and trade secrets",
+          "source": "CNBC World",
+          "link": "https://www.cnbc.com/2026/11/25/huawei-fraud-trade-trial.html",
+          "published": "2026-11-25T02:43:33+00:00"
+        },
+        {
+          "title": "中화웨이 독자OS 탑재기기 1억대 웃돌아…\"美제재 속 기술 자립\"",
+          "source": "연합뉴스 국제",
+          "link": "https://www.yna.co.kr/view/AKR20261125085400083",
+          "published": "2026-11-25T02:33:32+00:00"
+        }
+      ]
+    },
+    {
+      "title": "10월 가계대출 금리 5% 돌파…주담대 급등",
+      "region": "한국",
+      "sector": "금리",
+      "impact": "부정",
+      "importance": 4,
+      "what": "10월 은행권 가계대출 금리가 연 5%를 넘어서고 주택담보대출 금리는 14년 7개월 만에 최고치를 기록했습니다.",
+      "why": "고금리 부담이 가중되면서 가계의 이자 상환 부담이 늘고 내수 소비가 위축될 수 있습니다.",
+      "effect": "부동산 거래량 감소와 가계부채 부실화 위험을 높이는 요인이 됩니다.",
+      "easy_summary": [
+        "지난달 은행의 가계대출 평균 금리가 2년 11개월 만에 5%를 넘어섰습니다.",
+        "주택담보대출 금리도 6개월 연속 오르며 14년 7개월 만에 가장 높아졌습니다.",
+        "대출을 받은 가계의 이자 부담이 눈덩이처럼 커지고 있습니다."
+      ],
+      "pro_summary": [
+        "10월 은행권 가계대출 금리가 연 5.0%를 넘어서며 고금리 상태가 가속화되고 있습니다.",
+        "주택담보대출 금리는 6개월 연속 상승세를 이어가며 14년 7개월 만에 최고 수치를 갱신했습니다.",
+        "집값과 환율 불안이 다소 누그러졌으나 물가와 가계빚 상환 부담에 한국은행의 기준금리 결정 부담이 가중되고 있습니다."
+      ],
+      "why_important": "가계대출 금리 5% 돌파는 민간 소비 위축과 가계 재무 건전성 악화로 직결됩니다. 부동산 시장 불안과 높은 가계부채 수준은 한국은행의 통화정책 수립 시 금리 인상이나 인하 모두를 어렵게 만드는 실타래 역할을 하고 있습니다.",
+      "market_effects": [
+        {
+          "name": "원/달러 환율",
+          "direction": "flat",
+          "reason": "고금리 지속에 따른 원화 방어 효과와 가계부채 불안 심리가 팽팽히 맞섬"
+        }
+      ],
+      "id": "issue-5",
+      "rank": 5,
+      "articles": [
+        {
+          "title": "Banks' household mortgage lending rates up for 6th month in Oct. - Yonhap News Agency",
+          "source": "Google 뉴스 (central bank rates)",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE95bDY4UVZmaDhoM2c4MnRxd2dfVW9SVU1vN1pQVjVwS0hMWDZ5LWNNc2hSX0x1Y0Vfc0ZuY2FQVFdlNjNGLU9uOHA1dmlqQXZUSC1Pel9BWWUwdw?oc=5",
+          "published": "2026-11-25T03:00:11+00:00"
+        },
+        {
+          "title": "10월 가계대출 금리 5% 돌파…주담대 14년 7개월만에 최고",
+          "source": "연합뉴스 경제",
+          "link": "https://www.yna.co.kr/view/AKR20261125080800002",
+          "published": "2026-11-25T03:00:09+00:00"
+        },
+        {
+          "title": "집값·환율 진정됐지만 물가·가계빚은 ‘버티기’…한은, 26일 추가 인상 가닥 - 투데이신문",
+          "source": "Google 뉴스 (환율·금리)",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE02U3Q5SWo5eTVyX0tzNkpaNi0wN0M5RVY2NU42ZXRwYWxudVJ2NUlITmo0QkswMjZEblRURnBUZTlFZlZzSE42SGw5RGt0c0JPZzJadmpGSkcwdGZ5NHgwWXptdGFDSFFVWk51dWlQRdIBb0FVX3lxTE02U3Q5SWo5eTVyX0tzNkpaNi0wN0M5RVY2NU42ZXRwYWxudVJ2NUlITmo0QkswMjZEblRURnBUZTlFZlZzSE42SGw5RGt0c0JPZzJadmpGSkcwdGZ5NHgwWXptdGFDSFFVWk51dWlQRQ?oc=5",
+          "published": "2026-11-25T00:17:16+00:00"
+        }
+      ]
+    },
+    {
+      "title": "일본 경제, 세계 GDP 비중 3%로 축소",
+      "region": "일본",
+      "sector": "기타",
+      "impact": "부정",
+      "importance": 4,
+      "what": "1990년대 전 세계 GDP의 18%를 차지했던 일본 경제의 비중이 올해 3% 수준까지 쪼그라들 전망입니다.",
+      "why": "저출생·고령화와 오랜 성장 정체로 일본 경제의 위상이 급격히 하락했음을 보여줍니다.",
+      "effect": "엔화 약세 압력과 일본 정부의 구조개혁 정책 부담을 높이고 있습니다.",
+      "easy_summary": [
+        "1990년대 세계 경제의 18%를 차지하던 일본의 경제 비중이 올해 3%로 대폭 줄어듭니다.",
+        "오랜 경기 침체와 엔화 약세, 인구 감소가 주요 원인입니다.",
+        "세계 경제에서 일본이 차지하는 영향력이 크게 약해졌습니다."
+      ],
+      "pro_summary": [
+        "한때 세계 GDP의 18%를 점유했던 일본 경제 비중이 올해 3%로 축소될 것으로 전망됩니다.",
+        "엔화 가치 하락과 장기 성장률 저하가 결합되어 달러 기준 경제 규모가 급격히 위축되었습니다.",
+        "이러한 성장 정체 속에서도 서비스 물가는 36년 만에 최고치를 나타내는 등 복합 경제 과제에 직면해 있습니다."
+      ],
+      "why_important": "과거 세계 2위 경제 대국이었던 일본의 GDP 비중 축소는 글로벌 경제 주도권이 미국과 중국 등으로 완전히 넘어갔음을 의미합니다. 위축된 경제 규모는 일본 정부의 통화 정책 정상화 노력을 더욱 어렵게 만들 수 있습니다.",
+      "market_effects": [
+        {
+          "name": "일본 엔화 가치",
+          "direction": "flat",
+          "reason": "위상 약화라는 장기 악재와 물가 상승에 따른 BOJ 금리 인상 기대감이 공존"
+        }
+      ],
+      "id": "issue-6",
+      "rank": 6,
+      "articles": [
+        {
+          "title": "Japan's Share of Global GDP Projected to Shrink to 3% This Year, Down from 18% in the 1990s - news.sbs.co.kr",
+          "source": "Google 뉴스 (Japan economy)",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0zenZWdW5zdEJWQmJPYXBSV05lZC1uNlJWbzZTeTUwMnBxcTJ6NkVxTVNPVjhMTEk4dTNTVDhzaG9UaTVwZ1pLVXB2R0h5NjQxVGoxdlljbGZGYUY3MHQwUzdPZTUyRFJpR2V1S3p3?oc=5",
+          "published": "2026-11-25T02:43:00+00:00"
+        },
+        {
+          "title": "90년대 세계 GDP 18% 차지했는데…일본 경제, 올해 비중 3%로 축소 - SBS 뉴스",
+          "source": "Google 뉴스 (세계 경제)",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE40TllNY2kyYnpNcHRJRGdzLTgzZjRkc3JpUGdpcUZjTHcyREdsZE9Ya3dBYnhsVVJOYVZIMy1XbVJNRnBMV3pvclczcnZpck1sMVc4U3NtVjBGYUxWaFlVMk8yektMOFJCaUE?oc=5",
+          "published": "2026-11-25T02:41:32+00:00"
+        },
+        {
+          "title": "90년대 세계 GDP 18% 차지한 日경제…올해 비중 3%로 축소 - 연합뉴스",
+          "source": "Google 뉴스 (세계 경제)",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1NdUlUWkpUT1B6UWtPc2VMbGZWZUtZUGtfSU9WSGtDbFctdGhyYnIxamJSRVB3QjZ2WDAySTdoRlBTdzdtU0xpNGdxN1IxX2t3OUw2azR4clRXQkpvNjVlONIBYEFVX3lxTE1NdUlUWkpUT1B6UWtPc2VMbGZWZUtZUGtfSU9WSGtDbFctdGhyYnIxamJSRVB3QjZ2WDAySTdoRlBTdzdtU0xpNGdxN1IxX2t3OUw2azR4clRXQkpvNjVlOA?oc=5",
+          "published": "2026-11-25T02:29:00+00:00"
+        },
+        {
+          "title": "90년대 세계 GDP 18% 차지한 日경제…올해 비중 3%로 축소",
+          "source": "연합뉴스 국제",
+          "link": "https://www.yna.co.kr/view/AKR20261125071700073",
+          "published": "2026-11-25T02:29:00+00:00"
+        }
+      ]
+    },
+    {
+      "title": "예멘 후티, 사우디 PIF 타워 재공격",
+      "region": "중동",
+      "sector": "에너지",
+      "impact": "부정",
+      "importance": 4,
+      "what": "예멘 후티 반군이 사우디아라비아 국부펀드(PIF) 타워를 6일 만에 다시 미사일로 공격해 11명이 다쳤습니다.",
+      "why": "중동 지역의 지정학적 리스크가 해소되지 않으면서 해상 물류와 에너지 공급 불안이 지속되고 있습니다.",
+      "effect": "국제 유가(WTI +0.76%) 상승과 해상 운임 불안에 영향을 주었습니다.",
+      "easy_summary": [
+        "예멘 후티 반군이 사우디 국부펀드 타워를 닷새 만에 다시 공격해 11명이 다쳤습니다.",
+        "중동의 전쟁 위협이 계속되면서 석유 수송로가 위협받고 있습니다.",
+        "지정학적 위험 때문에 국제 유가가 소폭 올랐습니다."
+      ],
+      "pro_summary": [
+        "친이란 예멘 후티 반군이 사우디 국부펀드(PIF) 타워를 재공격하여 11명의 부상자를 발생시켰습니다.",
+        "홍해 및 호르무즈 해협 인근 선박 공격 등 물리적 충돌로 국제 유가(WTI 80.78달러, +0.76%)가 상승했습니다.",
+        "원유 공급 과잉 전망과 중동 군사적 긴장이 맞물리며 유가 변동성이 확대되는 추세입니다."
+      ],
+      "why_important": "사우디의 주요 핵심 시설에 대한 직접 공격은 중동 정세의 극심한 불안정성을 입증합니다. 유로·아시아를 잇는 해상 수송로 위협은 글로벌 물류 비용 상승과 원유 수급 불안으로 이어질 위험이 큽니다.",
+      "market_effects": [
+        {
+          "name": "WTI 유가",
+          "direction": "up",
+          "reason": "중동 주요 시설 공격 및 해상 지정학 리스크로 유가 상승"
+        }
+      ],
+      "id": "issue-7",
+      "rank": 7,
+      "articles": [
+        {
+          "title": "Houthi attack on Saudi Arabian sovereign wealth fund PIF's tower injures 11",
+          "source": "CNBC World",
+          "link": "https://www.cnbc.com/2026/11/25/us-iran-war-trump-hormuz-houthi-saudi-pif-tower.html",
+          "published": "2026-11-25T02:36:43+00:00"
+        },
+        {
+          "title": "[영상] 닷새 만에 또 뚫린 사우디 심장부…후티, 아덴 60㎞ 앞까지 진격",
+          "source": "연합뉴스 국제",
+          "link": "https://www.yna.co.kr/view/AKR20261125085700704",
+          "published": "2026-11-25T02:31:23+00:00"
+        },
+        {
+          "title": "Oil prices fall as supply glut concerns offset Middle East disruption fears - Idaho Statesman",
+          "source": "Google 뉴스 (oil prices)",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUGJRRXVHQm0tVktDMVpKaTJKdl9feXNtZF9pSVRRRV9mVUdrbEREazE3SGdpN2IwZ2xLWTZfV1hoa0YtMTZOeDRBc3FTR2wyWndSSl9aQ1VtYmdiRHpxZGZFV1Rnd29kN285QkhJWmNRSmp5MEEzZTNJTF9wT3AtS0NrejFoZw?oc=5",
+          "published": "2026-11-25T02:07:09+00:00"
+        },
+        {
+          "title": "\"이젠 기름값 좀 떨어지려나\"…중동 긴장 속 공급증가 조짐",
+          "source": "한국경제",
+          "link": "https://www.hankyung.com/article/2026112587617",
+          "published": "2026-11-25T00:59:39+00:00"
+        },
+        {
+          "title": "Oil Prices Rebound as Shipping Risks Persist - WSJ",
+          "source": "Google 뉴스 (oil prices)",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMkpRNmtac0F4dkZ2QTRqVEhSc2piS0Vpd1JNaHVScnZZYmRfdzBEbWZXOUFjb0dhR29XZURYZnRUcTVkQW41Y3pOT1plS0ZDOU5NTm1Qel9OUWRMNU53Y2ZoUjBWU045YUczZFRfZGswa0UtY2hVMVJMS2g0b29qUmw3YjN4VHF0aGVTYjVZdl94WjcwdXkxZ3diaVNXSWZwcE9tM2V3b3JLcTRTU0o0aw?oc=5",
+          "published": "2026-11-24T21:28:00+00:00"
+        },
+        {
+          "title": "Russia & Saudi Arabia Sparring for Global Oil Primacy - Yeni Safak English",
+          "source": "Google 뉴스 (world economy)",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVmx0RFNJbHNYdlk5SEQwSFVEU2o2aFROelVmZjltVGgtNlBtQVd4eW53SlBXRTh0Q3M1R2dtc1pEQXRySndjb1l4SmZ5UllKM0JLN3o3a3FQWkFPN1Z5YVBtNkV0bjdOWnFtaG9DNkdXQjFvbUxqaUE4YktqVl8wQUxyaUdKdkJhZ2NPNWNYS2FwM29SUUI4?oc=5",
+          "published": "2026-11-24T19:37:34+00:00"
+        },
+        {
+          "title": "Oil Prices Rise On Hormuz Vessel Attacks - Marine News Magazine",
+          "source": "Google 뉴스 (oil prices)",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNOGMySUxZTnMtcm9wbzhtcUdnUjBZLXFkNGoxclJKd0xxcWtHUmVYRTl2RG40QWdTeENLdzhoT190WmdlaHVxNnkxY2NCY1czc1ZSYTBVMDRJN1AwdElmbENhSS1fblFqSW92Ykp3UmF2RWNtMUdNUFFyVTdVVm5GQ1ln?oc=5",
+          "published": "2026-11-24T18:56:16+00:00"
+        }
+      ]
+    },
+    {
+      "title": "한국 3분기 중견기업 수출 역대 최대",
+      "region": "한국",
+      "sector": "무역",
+      "impact": "긍정",
+      "importance": 4,
+      "what": "한국 3분기 중견기업 수출이 반도체와 바이오 호조에 힘입어 367억 달러로 역대 최고를 달성했습니다.",
+      "why": "한국 경제성장의 절반 이상을 수출이 이끌고 있어 호실적의 주춧돌이 되고 있습니다.",
+      "effect": "관련 제조업체 실적 향상에 기여하나 반도체 편중 심화라는 과제를 남겼습니다.",
+      "easy_summary": [
+        "올해 3분기 한국 중견기업들의 수출액이 367억 달러로 사상 최대를 기록했습니다.",
+        "반도체와 바이오헬스 분야의 제품 판매가 큰 폭으로 늘었습니다.",
+        "수출이 경제 성장을 끌어주고 있지만 반도체 쏠림 현상은 해결해야 할 숙제입니다."
+      ],
+      "pro_summary": [
+        "3분기 중견기업 수출액이 전년 대비 급증하며 역대 최대치인 367.7억 달러를 올렸습니다.",
+        "대한상의 분석 결과 최근 한국 경제 성장률의 50% 이상을 수출 부문이 견인한 것으로 나타났습니다.",
+        "반도체 훈풍이 실적을 주도했으나, 특정 산업 쏠림에 따른 외풍 취약성은 극복 과제로 지목되었습니다."
+      ],
+      "why_important": "반도체 중심의 수출 호실적은 국내 기업 성장의 핵심 기반입니다. 그러나 수출 쏠림이 심할 경우 미중 관세 전쟁이나 글로벌 반도체 경기 변동에 경제 전체가 흔들릴 위험이 큽니다.",
+      "market_effects": [
+        {
+          "name": "한국 주식",
+          "direction": "up",
+          "reason": "반도체 및 바이오 중견기업 수출실적 개선 호재"
+        }
+      ],
+      "id": "issue-8",
+      "rank": 8,
+      "articles": [
+        {
+          "title": "반도체·선박 '부진' 속 석유·車 '날개'… 전남광주 수출 34% 급증 - 뉴시스",
+          "source": "Google 뉴스 (수출·반도체)",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1qQldZbUcwM1N6ZVJVaVNKVUpqNElTakNuNmpIZjdMZzhqNHFkYWpMTXZmZ3VFZUJiWEczS3A5bEVOSi1DeEtrVzRHclRobHJwQmtLTkNpNWRVam8yLTJxadIBeEFVX3lxTE9MQzdyT3ljcnRiemVYNEI1Mmo2Vkg3X3AzQnd0Ri1mcGVBYlhNMWVIRmwtbWpzdFZWUUFsNnotQ3FuVUZsR3FBWjRFWFV3M3FrTHUtaE1YVDhWa0hkM0pNOUtXRFM4djlhLTA4VE5ZOVB2cGFXYVJ0Tg?oc=5",
+          "published": "2026-11-25T02:19:03+00:00"
+        },
+        {
+          "title": "수출 1조달러 시대…韓 경제성장 절반 이상 수출이 이끌었다 - 머니투데이 - 머니투데이",
+          "source": "Google 뉴스 (세계 경제)",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5HRXB4Z0JXRHY0VHhKeW9pazhSS3ZyTFAtX2Y2SkpKQ3ktRWpueXVIZDJQLW5sUWpva3lfWloxd2x1dDlLQ29PbkhsR3NSV1JRWTlWa2EwQ1V2MVpjVUk3NFpJR3E1UEJRMk5TS2t6aWdNUdIBckFVX3lxTE5HRXB4Z0JXRHY0VHhKeW9pazhSS3ZyTFAtX2Y2SkpKQ3ktRWpueXVIZDJQLW5sUWpva3lfWloxd2x1dDlLQ29PbkhsR3NSV1JRWTlWa2EwQ1V2MVpjVUk3NFpJR3E1UEJRMk5TS2t6aWdNUQ?oc=5",
+          "published": "2026-11-25T02:04:23+00:00"
+        },
+        {
+          "title": "중견기업 수출 367억달러 '역대 최대'…반도체·바이오헬스가 견인 - 머니투데이 - 머니투데이",
+          "source": "Google 뉴스 (수출·반도체)",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE04cmxPWlBYbmw1ZmNHLThqNkhuUElkV3dTUmk5YXZwWXlxQmMySDVsVVpCX2dnbjF6QWxNam9XYlZILVhsM3F0Q1BaZ2VsX2hKamMtRHI3ZlVpbFF2dzhMZnh0dFMwT2dTZ0HSAW9BVV95cUxQQWpHT1NQNVZ1VHU4eF9zei1IYW42Uk5oSW9TQUNfUVl1RERyelNZN0Rrb0ZieHNCRGl3YjY1UW5XNDUzbVZSZ1ZkN2NqdlgxcnlUZE83N0taa1p3TEVJRVVWMExXbXoxRk1UTmI3eTA?oc=5",
+          "published": "2026-11-25T02:00:00+00:00"
+        },
+        {
+          "title": "반도체·바이오헬스 날았다…3분기 중견기업 수출 367.7억 달러 '사상 최대' - 월요신문",
+          "source": "Google 뉴스 (수출·반도체)",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE81bkJ4MHRlUERPb18zQU82blVUTXFPS012bzRSZ1paU0tmV2kydUx3R3dxbURUeVR2Uzhab3hla2tER2RoR00ycE01R255WGE5b19ic2o2VldBWGxSdmxpSHZ1MTJKYkNLZ1E?oc=5",
+          "published": "2026-11-25T02:00:00+00:00"
+        },
+        {
+          "title": "\"반도체 끌고 바이오 밀었다\"…중견기업 수출 역대 최대 - 뉴스1",
+          "source": "Google 뉴스 (수출·반도체)",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE10a3Awc0lBVkI2V3ptb0ZPWlRGRV9hUjZMeGthcTFRMjNPenRfWHR4dUVmXzNjc050cnZpYUZLTnp3eWVUZ0lMUHJPdTA5WGR2UkN4Q2htVUZiaXZI?oc=5",
+          "published": "2026-11-25T02:00:00+00:00"
+        },
+        {
+          "title": "‘반도체 훈풍’ 덕 중견기업 수출 ‘역대 최대’…3분기 367억달러 돌파 - 헤럴드경제",
+          "source": "Google 뉴스 (수출·반도체)",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8yTVhvZ1V6X1I4MzNQeHRhSHVtWGxydGNhaHNTSTBoU0dWSEE0eEplNklQbFMteUk3MWo1NHM5eEhzR2g3NkFpSlV1ZElVZTFEVlVVU2RB?oc=5",
+          "published": "2026-11-25T02:00:00+00:00"
+        },
+        {
+          "title": "중견기업 3분기 수출 367억달러···반도체·바이오헬스 날았다 - 이뉴스투데이",
+          "source": "Google 뉴스 (수출·반도체)",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1HNHhGSEgxOHEwVURiaFl1dTB4RjhCU0F5YnBTQzBrZmFpNGh2VFlUdEdtZnpwYTkwTXB0T09xSWVFUzQ0bE15Rk9icVNuMUJiQVhRdC1LV195M2otY0o5bmFzVVhtYmtrVnhEMlBCRHPSAXRBVV95cUxQeWpJVTVNWnJjZGhRRnc1MVZ5Z1htTV95cFVhdnBXaDFCZ05wXzBRMllSN3FSTDVwM1VPaEtFNUUxaGlKdnRHNm5qQjNJTzlMLUcxY3Brbk1xdTZWOVJXenl5ZU1QZUtJaUkxLW5fbzUxX3dGbA?oc=5",
+          "published": "2026-11-25T01:24:26+00:00"
+        },
+        {
+          "title": "韓 경제성장 절반 이끈 수출…반도체 쏠림은 과제 - 한스경제",
+          "source": "Google 뉴스 (수출·반도체)",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mazZEZUJsTEtwc21IRk1QVXpvUDQzZlNwOTMtNDN1RGtfYW1YS2ZRMzFfNkc5cDVHeklMNWctTU0tdGRQNFlacXpoVUxyem1KS3J3aDkxNE8zeEtud0x3ejdvRjBBUGc5MEhr0gFvQVVfeXFMTzB2djREVWVJZDFLLVVWX2hpSFphRDdEbUZGYklrcXNEbFZrN0Z5X3RpUnNnaWlZdVliamNvcHRodUVOYzd2dzhfdm5SaU5lRkRvY01Ob1VCTjh0RVlYazBIcXJtOFZxQjJpRTJNLUVR?oc=5",
+          "published": "2026-11-25T00:59:15+00:00"
+        },
+        {
+          "title": "\"올해 3분기 중견기업 수출 또 역대 최대...반도체 덕\" - 뉴스핌",
+          "source": "Google 뉴스 (수출·반도체)",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5HZXRiZTNtQ2VhZkdha2J5LWd5UDVXcGtfcU9zOHB2M1BzWVBUXzhJa3pGLXlRRUdpc0RtUE1sUzJELVRRSU1VTXpscTcyOWFaZEZjZEs3ZWkwdkdm?oc=5",
+          "published": "2026-11-25T00:24:00+00:00"
+        },
+        {
+          "title": "대한상의 \"최근 경제성장 절반 이상 수출이 견인\"…반도체 편중은 과제 - www.ebn.co.kr",
+          "source": "Google 뉴스 (수출·반도체)",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Pc2o2bGkxcWduZnpZWW4wRWxFQ0lUdjVGRGRWcWtBRUZXd1pTaWFkU2hSbnFhMUlCVmd4NFNHRVV4bWVNM0V2MUJJcGxVLW5ybkxqUkN5N29DVDNvNWU2X0lHSUd0eXBj?oc=5",
+          "published": "2026-11-25T00:19:42+00:00"
+        },
+        {
+          "title": "1961년 오징어·돈모 수출하던 대한민국, 2025년 반도체-車-석유제품 - 에너지플랫폼뉴스",
+          "source": "Google 뉴스 (수출·반도체)",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9OMkdvcE5CZ1RXSTNfb3hZYVRIeTBxdEdYT0VNZzh1QWZwYU9Ja3ZsaFU2OWJaVVROR1gyRG5PdmpzMERvWTBHVG9DZHA0T1pmM3lqeXZ3UWE1WW0zRUp4YjZHX3o0U3NvSVlFVtIBcEFVX3lxTE54LXozZ2REM195cl9TcEtyNnpMSHFGbmZvNXg5WFNUaURFQkt1Y1Q2djJvaHhxeE5XYmJZVFhKUTJuaW1uSEcyQXVuNm1rTTZQUFk4Ujg5S0twd2RoLTM5U1hFb0VVdjMya0hUUExHdmQ?oc=5",
+          "published": "2026-11-25T00:03:25+00:00"
+        },
+        {
+          "title": "성장률 3.5%인데 소비는 2.3%…2027 한국경제 ‘반도체 호황’의 두 얼굴 - www.thepowernews.co.kr",
+          "source": "Google 뉴스 (수출·반도체)",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBOWjNFNGcxVjhzUF9WVTI4T3d6UTd2aWxVZWVPZWxQbngtUUU1cDlhckpqZzVSX2dGUUFOcndPQU1Cczk2bW9ORS1ERTI2dUxCeWhWOUJhc0trSHp4TkNrU3hGSEJJZTJkVVgxSHkxTmtFWmo0dS16M2d0SnhOQQ?oc=5",
+          "published": "2026-11-24T23:50:00+00:00"
+        },
+        {
+          "title": "韓 경제성장 절반 이끈 수출…'제2의 반도체' 발굴해야 - 이데일리",
+          "source": "Google 뉴스 (세계 경제)",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZ2ZQeElEMjNjTUphTm5aYzRKdnhpVGlCZzNWVzQ3YUNPOWh5XzNCQW11a1lrWGliU2RSLTE4TVdQV2lmODltZk1Od0dYZHREaG1QQWc3R3NLZFZHTk8xQjZYN05lNFJnNzg5RzdSRkw1ZnhQcDcyUUlKRW5ZNVlxYw?oc=5",
+          "published": "2026-11-24T22:51:26+00:00"
+        },
+        {
+          "title": "한국 수출, 세계 평균 두 배 연평균 16.6% ↑…경제성장 기여 비중 52% - 뉴스1",
+          "source": "Google 뉴스 (세계 경제)",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBZQkxJbnJNYTBFYTdwSEh6NWJUbGJwa0VvNlluakE4RXdvMGsySUNlaDVsZ0UtcDQ5Q2F3NmE1ejJMbnhpTjhEZFJObHBQb0VXRTJjTlJCdFBWMGF1SjlDR2d0bzQ?oc=5",
+          "published": "2026-11-24T22:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "title": "일본 서비스 물가 36년 만에 최고치",
+      "region": "일본",
+      "sector": "금리",
+      "impact": "중립",
+      "importance": 4,
+      "what": "일본의 서비스 물가 인플레이션이 36년 만에 가장 높은 수준을 기록하며 금리 인상 압박이 커졌습니다.",
+      "why": "일본은행(BOJ)이 장기 저금리 정책을 끝내고 추가 금리 인상에 나설 가능성이 한층 높아졌습니다.",
+      "effect": "엔화 환율 상승 및 글로벌 엔 캐리 트레이드 자금 향방에 영향을 미칠 전망입니다.",
+      "easy_summary": [
+        "일본의 서비스 물가가 36년 만에 가장 빠르게 올라 물가 상승세가 심해졌습니다.",
+        "일본 중앙은행이 기준금리를 더 올릴 것이라는 예상이 힘을 받고 있습니다.",
+        "엔화 환율 변화에 전 세계 금융시장의 관심이 쏠리고 있습니다."
+      ],
+      "pro_summary": [
+        "일본의 서비스 물가 상승률이 36년 만에 최고치를 경신하면서 일본은행의 통화 정책 정상화 압력이 급증했습니다.",
+        "도쿄 CPI 발표를 앞두고 시장에서는 BOJ의 12월 또는 내년 초 추가 금리 인상 가능성을 높게 반영하고 있습니다.",
+        "엔/달러 환율이 160엔 미만에서 등락하는 가운데 금리 차 축소 전망이 강해지고 있습니다."
+      ],
+      "why_important": "일본의 지속적인 물가 상승과 금리 인상은 전 세계에 퍼져 있던 엔 캐리 자금의 회수를 자극할 수 있는 거시경제적 전환점입니다. 일본의 금융 환경 변화는 글로벌 국채 금리 및 자산 시장 전반에 파장을 일으킬 수 있습니다.",
+      "market_effects": [
+        {
+          "name": "일본 국채 금리",
+          "direction": "up",
+          "reason": "BOJ의 추가 금리 인상 가능성 고조로 국채 금리 상승 압력"
+        }
+      ],
+      "id": "issue-9",
+      "rank": 9,
+      "articles": [
+        {
+          "title": "Japan’s services inflation hits 36-year high as pressure mounts for another interest rate hike - Nation Thailand",
+          "source": "Google 뉴스 (central bank rates)",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5XT21mRVl3aWktTm9BNy1uNFFBcXRhTEhuM0tLU09HN3RYVmR0b0ExUWZ1ZWkxTGhYVEc3R3NGQnpxQjBwUVhOVTBHRHZXNEo0aWNHalZLeUZTN292T0tj?oc=5",
+          "published": "2026-11-25T01:48:00+00:00"
+        },
+        {
+          "title": "Yen trades below 160.00 ahead of Tokyo CPI on a US holiday - www.tmgm.com",
+          "source": "Google 뉴스 (Japan economy)",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVGdSM3FXRFhaelJQQV9uVW5TYXNfaHBUYkM3UklmZE1RMFFQdHlVamItMGNaV190b1NFZm1wUkdvUlRUdFlwdWNUc1dtdmxwcW5pYW9OcV9LNTEtYjdZVEJCOVA2VkhmRFg5S1BXWjVYRkEtMEwyeVN0R0dJdF80dncxX0hlZTMwdmJoQm5UZEVtNDRYM1ZZZXk4R2dmbk1UY2J4TkwtX2piQlRVb1N5Tl81dlRjeDRRN2hGQ2NTR2szeG8?oc=5",
+          "published": "2026-11-24T23:55:44+00:00"
+        },
+        {
+          "title": "Why Bank Of Japan Rate Normalisation In 2027 Will Shake Global Markets - ИФЗ РАН",
+          "source": "Google 뉴스 (Japan economy)",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNjR0UkE0WU1lbUxlaFBpbTl6ZnBzaF9PbHV2MHgyMkxsLUlFR3NjaS0xTWhPSnlTM1BKUEpWZkxLNFlBSE1sdS1PSkgzeVhBWnFFWExTMTFQUGxUTDB2dVVLY0RrU0dHQmZZWnBtdTduSWJzVWsxVFBOZjJyZUxDclRDOW1PSGM?oc=5",
+          "published": "2026-11-24T23:22:59+00:00"
+        },
+        {
+          "title": "Yen holds under 160.00 with Tokyo CPI due on a US holiday - FXStreet",
+          "source": "Google 뉴스 (Japan economy)",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONjhKYUlNUFlycm5UcVl5RzFRRGNxWG95dklMSWkwb1hhQ0ktVnIxUjA1TEV3SWNjNmxpQUJKRlU5NXZHemd1UHNQYjVTWXRtekdwWHQzaGlKWXFWeTVrbUVjQVBON1JFbDZKb2lPZkhRTm1Fdkw2WWVlcnJBUnZPLVlMaGM4UFNhbzdpcE9BMk0xTmFlZ1ZUVVFZendSYVNG?oc=5",
+          "published": "2026-11-24T23:13:10+00:00"
+        },
+        {
+          "title": "Japan Government Keeps Gradual Economic Recovery Outlook;Notes Sluggish Consumer Spending amid Rising Costs, Warns of Inflationary Impact of Iran War - TradingView",
+          "source": "Google 뉴스 (Japan economy)",
+          "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNQjNkU0JGdXByYThaZ1lpakNuX2Z2d3JMT1pheTJxVWxPU0M4OWg4aEtQV0g0SXh5Z2t6ZWUyOHR2LU5naVMyY3oyUW9HSWxsczFaaUxia1ZZWjQwOW5aMGg5bzE2WVdsZmFZRF9lZmthRzBQZXpmSmV6WFZkcnJrZ3ZldWUtWkkya3FLYi1Eb0VMRk5WUzluMFVJVVBGRWJXa2tibUdmRUEyakc1Y3ZlN1FVUE5hSTdDUW5WRUxFdkNyYmNpTmVKZEQ1M19JQWlOWDdic2JuWlp4Rlh0Y051azNtVHItN1R5NWJQcVlIbUZaRTZySF9FTlVCdU5jQ0VFTnY1anBtVndKRlgzaUlzQ1Z0WldPUzJUSXp2Z2kyTE8yWnZybm4xdjM0eHpEbXJp?oc=5",
+          "published": "2026-11-24T14:07:00+00:00"
+        }
+      ]
+    },
+    {
+      "title": "델, AI 서버 호조에 250억달러 자사주 매입",
+      "region": "미국",
+      "sector": "기술",
+      "impact": "긍정",
+      "importance": 3,
+      "what": "델 테크놀로지스가 AI 서버 수요 폭발에 힘입어 3분기 매출이 2배 넘게 급증하고 250억 달러 규모 자사주 매입을 발표했습니다.",
+      "why": "AI 거품론과 주가 변동성 속에서도 실제 AI 하드웨어 장비 실적이 견조함을 보여주었습니다.",
+      "effect": "델 주가 상승 및 AI 인프라 관련 수주 기업들에 호재로 작용합니다.",
+      "easy_summary": [
+        "컴퓨터 제조사 델이 AI 서버 판매 호조에 힘입어 3분기 매출을 2배 이상 올렸습니다.",
+        "실적 호조와 함께 250억 달러(약 30조 원) 규모의 자사주 매입 계획을 밝혔습니다.",
+        "AI 기술에 대한 실제 서버 장비 주문이 활발하다는 점을 증명했습니다."
+      ],
+      "pro_summary": [
+        "델 테크놀로지스는 3분기 AI 서버 수요 강세로 전체 매출이 전년 대비 2배 이상 증가했다고 발표했습니다.",
+        "시장 컨센서스를 상회하는 실적에 힘입어 250억 달러 규모의 신규 자사주 매입 프로그램을 승인했습니다.",
+        "델 측은 AI 서버 수주 잔고의 고객 신용도와 전력·토지 확보 상태를 엄격히 검증하고 있다고 덧붙였습니다."
+      ],
+      "why_important": "AI 수혜주 전반에 불안감이 맴도는 상황에서 델의 실적 발표는 실제 기업들의 AI 인프라 투자가 지연 없이 진행되고 있음을 보여주는 긍정적 지표입니다.",
+      "market_effects": [
+        {
+          "name": "델 주가",
+          "direction": "up",
+          "reason": "실적 호조 및 250억 달러 대규모 자사주 매입 방침 공개"
+        }
+      ],
+      "id": "issue-10",
+      "rank": 10,
+      "articles": [
+        {
+          "title": "Dell’s stock rises as the AI boom helps sales more than double",
+          "source": "MarketWatch",
+          "link": "https://www.marketwatch.com/story/dells-stock-rises-as-the-ai-boom-helps-sales-more-than-double-cfb8cf65?mod=mw_rss_topstories",
+          "published": "2026-11-25T01:11:00+00:00"
+        },
+        {
+          "title": "Dell earnings beat on AI strength, company authorizes $25 billion buyback",
+          "source": "CNBC World",
+          "link": "https://www.cnbc.com/2026/11/24/dell-earnings-report-q3-2027.html",
+          "published": "2026-11-24T22:07:45+00:00"
+        },
+        {
+          "title": "Dell Technologies Smashes Q3 Estimates, Guides Above Views - Investor's Business Daily",
+          "source": "Google 뉴스 비즈니스 (영문)",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNXdYbXBXQm8tYUZuY2hDWnZNRTVEc3kySW0wZFVTR2VUMW0wd0dkOWlrNF93Q2l4bDdpZEl5MzVCUzFlSm5QM0lmTjV2QnE0YXprTGxIeVFYa1lEVUxQSVo5TlNPUzhsejBTVGhmRm5CYnE3QmFxMjZoMEpDczluaUM1VQ?oc=5",
+          "published": "2026-11-24T22:02:00+00:00"
+        }
+      ]
+    },
+    {
+      "title": "올해 1~9월 출생아 수 14% 급증",
+      "region": "한국",
+      "sector": "고용",
+      "impact": "긍정",
+      "importance": 3,
+      "what": "올해 1~9월 누적 출생아 수가 21만 9천 명으로 전년 대비 14% 넘게 늘며 역대 최고 증가율을 보였습니다.",
+      "why": "심각한 저출생 고령화 문제를 겪던 한국 경제에 장기적 반등 신호를 제시합니다.",
+      "effect": "장기적인 내수 소비 기반 및 생산연령인구 불안 완화에 기여할 수 있습니다.",
+      "easy_summary": [
+        "올해 9월까지 새로 태어난 아기가 21만 9천 명으로 집계되었습니다.",
+        "지난해 같은 기간보다 14% 이상 늘어 역대 가장 빠른 증가율을 기록했습니다.",
+        "저출생 문제로 걱정하던 한국 경제에 긍정적인 신호가 켜졌습니다."
+      ],
+      "pro_summary": [
+        "통계청 발표 결과 1~3분기 누적 출생아 수가 21만 9,000명으로 작년 대비 14% 이상 증가했습니다.",
+        "이는 관련 통계 작성 이래 가장 높은 전년 대비 증가율입니다.",
+        "3분기 연속 출생아 수 증가세가 이어지며 인구 절벽 해소 기대감이 일부 형성되었습니다."
+      ],
+      "why_important": "저출생은 한국 경제의 잠재성장률을 위협하는 구조적 악재였습니다. 출생아 수의 깜짝 반등은 장기 노동력 감소 방지 및 소비 기반 유지 측면에서 긍정적입니다.",
+      "market_effects": [
+        {
+          "name": "한국 주식",
+          "direction": "flat",
+          "reason": "장기 인구 지표 개선 신호이나 당장의 기업 실적 영향은 미미함"
+        }
+      ],
+      "id": "issue-11",
+      "rank": 11,
+      "articles": [
+        {
+          "title": "올해 1∼9월 태어난 아기 21만9천명…증가율 역대 최고",
+          "source": "연합뉴스 경제",
+          "link": "https://www.yna.co.kr/view/AKR20261125087700002",
+          "published": "2026-11-25T03:00:02+00:00"
+        }
+      ]
+    }
+  ],
+  "all_articles": [
+    {
+      "title": "Martha Firestone Ford, Owner of Detroit Lions, Dies at 101",
+      "source": "NYT Business",
+      "link": "https://www.nytimes.com/2026/11/24/business/martha-firestone-ford-dead.html",
+      "published": "2026-11-25T03:52:08+00:00"
+    },
+    {
+      "title": "SoftBank drops 15% as Wall Street AI sell-off ripples across Asian tech names",
+      "source": "CNBC World",
+      "link": "https://www.cnbc.com/2026/11/25/tech-stocks-softbank-group-advantest-sk-hynix-samsung.html",
+      "published": "2026-11-25T03:52:03+00:00"
+    },
+    {
+      "title": "日증시도 젠슨황 랠리 증발…닛케이지수 3.3% 급락",
+      "source": "연합뉴스 국제",
+      "link": "https://www.yna.co.kr/view/AKR20261125096000009",
+      "published": "2026-11-25T03:48:49+00:00"
+    },
+    {
+      "title": "US attorney general dodges questions about Nvidia investigation",
+      "source": "BBC Business",
+      "link": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-25T03:44:07+00:00"
+    },
+    {
+      "title": "日, 해상보안청 역량 강화 속도…\"中 위협 대응\"",
+      "source": "연합뉴스 국제",
+      "link": "https://www.yna.co.kr/view/AKR20261125095000073",
+      "published": "2026-11-25T03:31:49+00:00"
+    },
+    {
+      "title": "北, 김여정 담화 하루만에 평양주재 스위스 외교사무소 전격폐쇄",
+      "source": "연합뉴스 국제",
+      "link": "https://www.yna.co.kr/view/AKR20261125095300504",
+      "published": "2026-11-25T03:30:39+00:00"
+    },
+    {
+      "title": "[영상] \"쾅! 100m까지 흔들려\"…베트남 식당서 가스 폭발로 7명 사망",
+      "source": "연합뉴스 국제",
+      "link": "https://www.yna.co.kr/view/AKR20261125094600704",
+      "published": "2026-11-25T03:13:46+00:00"
+    },
+    {
+      "title": "10월 국내 이동자 45만3천명…'반도체 밀집' 충청권 순유입",
+      "source": "연합뉴스 경제",
+      "link": "https://www.yna.co.kr/view/AKR20261125054600002",
+      "published": "2026-11-25T03:00:13+00:00"
+    },
+    {
+      "title": "식자재 납품하려고 복지시설에 기부금…CJ프레시웨이, 제재 착수",
+      "source": "연합뉴스 경제",
+      "link": "https://www.yna.co.kr/view/AKR20261125060000002",
+      "published": "2026-11-25T03:00:12+00:00"
+    },
+    {
+      "title": "Banks' household mortgage lending rates up for 6th month in Oct. - Yonhap News Agency",
+      "source": "Google 뉴스 (central bank rates)",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE95bDY4UVZmaDhoM2c4MnRxd2dfVW9SVU1vN1pQVjVwS0hMWDZ5LWNNc2hSX0x1Y0Vfc0ZuY2FQVFdlNjNGLU9uOHA1dmlqQXZUSC1Pel9BWWUwdw?oc=5",
+      "published": "2026-11-25T03:00:11+00:00"
+    },
+    {
+      "title": "10월 가계대출 금리 5% 돌파…주담대 14년 7개월만에 최고",
+      "source": "연합뉴스 경제",
+      "link": "https://www.yna.co.kr/view/AKR20261125080800002",
+      "published": "2026-11-25T03:00:09+00:00"
+    },
+    {
+      "title": "러시아 펀드에 묶인 퇴직연금 7천835억원…이전 길 열린다",
+      "source": "연합뉴스 경제",
+      "link": "https://www.yna.co.kr/view/AKR20261125087200002",
+      "published": "2026-11-25T03:00:04+00:00"
+    },
+    {
+      "title": "올해 1∼9월 태어난 아기 21만9천명…증가율 역대 최고",
+      "source": "연합뉴스 경제",
+      "link": "https://www.yna.co.kr/view/AKR20261125087700002",
+      "published": "2026-11-25T03:00:02+00:00"
+    },
+    {
+      "title": "종투사 모험자본 공급 11.6조…KB증권 투자플랫폼 첫 출자",
+      "source": "연합뉴스 경제",
+      "link": "https://www.yna.co.kr/view/AKR20261125093500002",
+      "published": "2026-11-25T03:00:01+00:00"
+    },
+    {
+      "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+      "source": "BBC Business",
+      "link": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-25T02:59:27+00:00"
+    },
+    {
+      "title": "재일교포 오승호 작가, 日 최고 권위 나오키상 후보 올라",
+      "source": "연합뉴스 국제",
+      "link": "https://www.yna.co.kr/view/AKR20261125093700009",
+      "published": "2026-11-25T02:57:25+00:00"
+    },
+    {
+      "title": "홍콩, 168명 숨진 아파트 화재 1주기 앞두고 불법행위 경고",
+      "source": "연합뉴스 국제",
+      "link": "https://www.yna.co.kr/view/AKR20261125092900083",
+      "published": "2026-11-25T02:54:34+00:00"
+    },
+    {
+      "title": "Trump Weighs Fresh Tariffs on India and China: What is Behind the US Trade Investigation? - Open Magazine",
+      "source": "Google 뉴스 (trade tariffs)",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOemRIajFYdHZXQzRRNHpyZXBJcy11T2Z2QjhYMmcxekxxaEFibXRpNXRFSHY2cmgxZW5xaXNwZTJ6cUNBb2drb29nME1Lc1k5d3U3YkZ6aWdMekkyM3h0OXNjNVA1alpFTE94THZrNFdaMWlfTl9QdGtEeVRLSEMzZjVNbjk2REFZWGlDVl95UDNUejhRaUkzVkRSRHlJcE4tRnJJUXJWX2wybmwxSVl1VEhZNHJYOVRiMVhLWndB?oc=5",
+      "published": "2026-11-25T02:54:02+00:00"
+    },
+    {
+      "title": "중소 비정규직 월급, 대기업 정규직의 29%…\"초기업 교섭 필요\"",
+      "source": "연합뉴스 경제",
+      "link": "https://www.yna.co.kr/view/AKR20261125090000530",
+      "published": "2026-11-25T02:52:00+00:00"
+    },
+    {
+      "title": "[쇼츠] \"우리가 세계 최초\"…튀르키예 무인전투기 전력화",
+      "source": "연합뉴스 국제",
+      "link": "https://www.yna.co.kr/view/AKR20261125092300704",
+      "published": "2026-11-25T02:49:25+00:00"
+    },
+    {
+      "title": "씨티은행, 삼성물산 해외 자금관리에 블록체인 기술 지원",
+      "source": "연합뉴스 경제",
+      "link": "https://www.yna.co.kr/view/AKR20261125090400002",
+      "published": "2026-11-25T02:49:03+00:00"
+    },
+    {
+      "title": "갈길 바쁜 원전 공론화…첫 행사부터 찬반 토론 무산",
+      "source": "매일경제",
+      "link": "https://www.mk.co.kr/news/economy/12217960",
+      "published": "2026-11-25T02:47:35+00:00"
+    },
+    {
+      "title": "민형배 전남광주시장 \"반도체 팹 건설인력 1만호 공공임대 필요\"",
+      "source": "연합뉴스 경제",
+      "link": "https://www.yna.co.kr/view/AKR20261125083400054",
+      "published": "2026-11-25T02:46:52+00:00"
+    },
+    {
+      "title": "한전, 개인정보 유출 고객에 최대 1000만원 피해보상 보험 제공",
+      "source": "매일경제",
+      "link": "https://www.mk.co.kr/news/economy/12217959",
+      "published": "2026-11-25T02:46:43+00:00"
+    },
+    {
+      "title": "U.S. jury convicts Huawei in a criminal trial over fraud and trade secrets",
+      "source": "CNBC World",
+      "link": "https://www.cnbc.com/2026/11/25/huawei-fraud-trade-trial.html",
+      "published": "2026-11-25T02:43:33+00:00"
+    },
+    {
+      "title": "Japan's Share of Global GDP Projected to Shrink to 3% This Year, Down from 18% in the 1990s - news.sbs.co.kr",
+      "source": "Google 뉴스 (Japan economy)",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0zenZWdW5zdEJWQmJPYXBSV05lZC1uNlJWbzZTeTUwMnBxcTJ6NkVxTVNPVjhMTEk4dTNTVDhzaG9UaTVwZ1pLVXB2R0h5NjQxVGoxdlljbGZGYUY3MHQwUzdPZTUyRFJpR2V1S3p3?oc=5",
+      "published": "2026-11-25T02:43:00+00:00"
+    },
+    {
+      "title": "90년대 세계 GDP 18% 차지했는데…일본 경제, 올해 비중 3%로 축소 - SBS 뉴스",
+      "source": "Google 뉴스 (세계 경제)",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE40TllNY2kyYnpNcHRJRGdzLTgzZjRkc3JpUGdpcUZjTHcyREdsZE9Ya3dBYnhsVVJOYVZIMy1XbVJNRnBMV3pvclczcnZpck1sMVc4U3NtVjBGYUxWaFlVMk8yektMOFJCaUE?oc=5",
+      "published": "2026-11-25T02:41:32+00:00"
+    },
+    {
+      "title": "국고채 금리 대체로 하락…3년물 장중 연 3.633%",
+      "source": "연합뉴스 경제",
+      "link": "https://www.yna.co.kr/view/AKR20261125090600008",
+      "published": "2026-11-25T02:40:57+00:00"
+    },
+    {
+      "title": "손바닥으로 결제하고 AI 금융코치도…핀테크 3사 신기술 총출동",
+      "source": "연합뉴스 경제",
+      "link": "https://www.yna.co.kr/view/AKR20261125073000017",
+      "published": "2026-11-25T02:40:12+00:00"
+    },
+    {
+      "title": "이스라엘 야권 첫 연정 합의했지만…'고차방정식'은 여전",
+      "source": "연합뉴스 국제",
+      "link": "https://www.yna.co.kr/view/AKR20261125088400009",
+      "published": "2026-11-25T02:39:53+00:00"
+    },
+    {
+      "title": "Houthi attack on Saudi Arabian sovereign wealth fund PIF's tower injures 11",
+      "source": "CNBC World",
+      "link": "https://www.cnbc.com/2026/11/25/us-iran-war-trump-hormuz-houthi-saudi-pif-tower.html",
+      "published": "2026-11-25T02:36:43+00:00"
+    },
+    {
+      "title": "삼성웰스토리 구선모 부사장 등 5명 승진…조직개편 예고",
+      "source": "한국경제",
+      "link": "https://www.hankyung.com/article/202611259161g",
+      "published": "2026-11-25T02:36:39+00:00"
+    },
+    {
+      "title": "러시아서 북한인 절도범 잡고보니 드론 공장 노동자",
+      "source": "연합뉴스 국제",
+      "link": "https://www.yna.co.kr/view/AKR20261125086100009",
+      "published": "2026-11-25T02:34:53+00:00"
+    },
+    {
+      "title": "예금금리 4% 시대…‘조건 없이 받을 수 있는 금리’ 따로 있다는데",
+      "source": "매일경제",
+      "link": "https://www.mk.co.kr/news/economy/12217939",
+      "published": "2026-11-25T02:34:12+00:00"
+    },
+    {
+      "title": "KB국민은행, 수출상담회서 맞춤형 금융지원 … 환율 컨설팅·금리 우대 제공 - 워크투데이",
+      "source": "Google 뉴스 (환율·금리)",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5STVNfWDMtemxRdXR3UlFWVk10Rk1DdFZNc3VNWHpYZE45NEpIYnJTUm1LMmFtNm1LcjhtWFBHVUdRNFBFOFlraWFuNm54REMxejdVZXpkcVRGNG1BLVlIS09mRmVOUmZNRVVQVA?oc=5",
+      "published": "2026-11-25T02:33:40+00:00"
+    },
+    {
+      "title": "中화웨이 독자OS 탑재기기 1억대 웃돌아…\"美제재 속 기술 자립\"",
+      "source": "연합뉴스 국제",
+      "link": "https://www.yna.co.kr/view/AKR20261125085400083",
+      "published": "2026-11-25T02:33:32+00:00"
+    },
+    {
+      "title": "동성애자 딸 둔 아버지의 이변…美 공화당 거물 의원 꺾어",
+      "source": "연합뉴스 국제",
+      "link": "https://www.yna.co.kr/view/AKR20261125087800009",
+      "published": "2026-11-25T02:32:57+00:00"
+    },
+    {
+      "title": "[인사] 삼성웰스토리",
+      "source": "연합뉴스 경제",
+      "link": "https://www.yna.co.kr/view/AKR20261125086300030",
+      "published": "2026-11-25T02:32:03+00:00"
+    },
+    {
+      "title": "한신공영, 3분기 누적 영업이익 649억원…작년 대비 15%↑",
+      "source": "연합뉴스 경제",
+      "link": "https://www.yna.co.kr/view/AKR20261125088200003",
+      "published": "2026-11-25T02:31:35+00:00"
+    },
+    {
+      "title": "[영상] 닷새 만에 또 뚫린 사우디 심장부…후티, 아덴 60㎞ 앞까지 진격",
+      "source": "연합뉴스 국제",
+      "link": "https://www.yna.co.kr/view/AKR20261125085700704",
+      "published": "2026-11-25T02:31:23+00:00"
+    },
+    {
+      "title": "중기부, '모두의 창업' 로컬트랙 결선 진출자 100명 선정",
+      "source": "연합뉴스 경제",
+      "link": "https://www.yna.co.kr/view/AKR20261125086400030",
+      "published": "2026-11-25T02:30:28+00:00"
+    },
+    {
+      "title": "90년대 세계 GDP 18% 차지한 日경제…올해 비중 3%로 축소 - 연합뉴스",
+      "source": "Google 뉴스 (세계 경제)",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1NdUlUWkpUT1B6UWtPc2VMbGZWZUtZUGtfSU9WSGtDbFctdGhyYnIxamJSRVB3QjZ2WDAySTdoRlBTdzdtU0xpNGdxN1IxX2t3OUw2azR4clRXQkpvNjVlONIBYEFVX3lxTE1NdUlUWkpUT1B6UWtPc2VMbGZWZUtZUGtfSU9WSGtDbFctdGhyYnIxamJSRVB3QjZ2WDAySTdoRlBTdzdtU0xpNGdxN1IxX2t3OUw2azR4clRXQkpvNjVlOA?oc=5",
+      "published": "2026-11-25T02:29:00+00:00"
+    },
+    {
+      "title": "90년대 세계 GDP 18% 차지한 日경제…올해 비중 3%로 축소",
+      "source": "연합뉴스 국제",
+      "link": "https://www.yna.co.kr/view/AKR20261125071700073",
+      "published": "2026-11-25T02:29:00+00:00"
+    },
+    {
+      "title": "\"꽂으면 바로 결제\"…현대차그룹 통합 완속충전기 출격",
+      "source": "한국경제",
+      "link": "https://www.hankyung.com/article/202611258795g",
+      "published": "2026-11-25T02:24:36+00:00"
+    },
+    {
+      "title": "'벌 대신 일자리를'…공소청, 발달장애인 생계 범죄에 기소유예",
+      "source": "연합뉴스 경제",
+      "link": "https://www.yna.co.kr/view/AKR20261125085600055",
+      "published": "2026-11-25T02:24:26+00:00"
+    },
+    {
+      "title": "마가진영 핵심표적 하버드대 '마가란 무엇인가'로 수업",
+      "source": "연합뉴스 국제",
+      "link": "https://www.yna.co.kr/view/AKR20261125068500009",
+      "published": "2026-11-25T02:24:22+00:00"
+    },
+    {
+      "title": "회원 레슨에 자선대회…골프 마케팅 강화하는 롯데호텔[오형주의 스마트트래블러]",
+      "source": "한국경제",
+      "link": "https://www.hankyung.com/article/202611259107i",
+      "published": "2026-11-25T02:22:11+00:00"
+    },
+    {
+      "title": "MSCI \"인도네시아 증시 등급 2단계 하향 여전히 검토 중\"",
+      "source": "연합뉴스 국제",
+      "link": "https://www.yna.co.kr/view/AKR20261125083300104",
+      "published": "2026-11-25T02:20:58+00:00"
+    },
+    {
+      "title": "젠슨 황 약발 떨어졌나…'부채 우려'에 AI 관련주 동반 하락 - 지디넷코리아",
+      "source": "Google 뉴스 경제 (한국어)",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9BOW1KUllIazlNWEtkZ3N6SFN5bmlVbGlGSjdPZFdLMV9JMjhfeTMybnlMT0UybWRtSzR3ZXpaOGgxWFZLSWxlR0NMbHg0TlB6bWJLYjN3?oc=5",
+      "published": "2026-11-25T02:20:56+00:00"
+    },
+    {
+      "title": "반도체·선박 '부진' 속 석유·車 '날개'… 전남광주 수출 34% 급증 - 뉴시스",
+      "source": "Google 뉴스 (수출·반도체)",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1qQldZbUcwM1N6ZVJVaVNKVUpqNElTakNuNmpIZjdMZzhqNHFkYWpMTXZmZ3VFZUJiWEczS3A5bEVOSi1DeEtrVzRHclRobHJwQmtLTkNpNWRVam8yLTJxadIBeEFVX3lxTE9MQzdyT3ljcnRiemVYNEI1Mmo2Vkg3X3AzQnd0Ri1mcGVBYlhNMWVIRmwtbWpzdFZWUUFsNnotQ3FuVUZsR3FBWjRFWFV3M3FrTHUtaE1YVDhWa0hkM0pNOUtXRFM4djlhLTA4VE5ZOVB2cGFXYVJ0Tg?oc=5",
+      "published": "2026-11-25T02:19:03+00:00"
+    },
+    {
+      "title": "“뭘 시키고 싶은거야”…횡설수설 상사 의중 파악도 능력이라는 이 조직",
+      "source": "매일경제",
+      "link": "https://www.mk.co.kr/news/economy/12217911",
+      "published": "2026-11-25T02:18:59+00:00"
+    },
+    {
+      "title": "Indian shares may open higher as foreign inflows, lower oil prices aid sentiment - Reuters",
+      "source": "Google 뉴스 (oil prices)",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSUlQam9xSF9JMnNpU2k0QVJHYTkwNEIyQ3ZMbGFyajBJYmczT2RXaGNWMnlHckJ6TlBSLVNQdEFpRWE4MXdUVVIyWmF0YnhoN2FlTXIzMEY2QzVmeVdnRTVQXy0tQ0JzazhDTkpabWszMFlOTE5jdUxfVXF2TWlkSUZCd3hvbkI1UFVueG83MUEtdUp2OElDT2pJNkVYLWRMWFlieHl0ei1mSmxiNHI3RERaUTJtWWpNWVZTMEFYaURFQQ?oc=5",
+      "published": "2026-11-25T02:17:00+00:00"
+    },
+    {
+      "title": "애크먼 \"연준, 물가 2% 고집하다 세계경제 망친다…3%로 올려라\" - 뉴스1",
+      "source": "Google 뉴스 (세계 경제)",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5kTmZrYV9DUEZoUFpQTV9DZ1dxU1ZXcC1SeUxSVk1Ha0NkcmVPODJoZG56NnVBczRkSXh6blNUQlFnN21uLUxqRF9nU3NlT2RWQ2MyZnNHRmo?oc=5",
+      "published": "2026-11-25T02:15:48+00:00"
+    },
+    {
+      "title": "반도체가 바꾼 성장률 계산법…한은, 내년 전망치 대폭 상향하나 [심성미의 중앙은행 워치]",
+      "source": "한국경제",
+      "link": "https://www.hankyung.com/article/202611258895i",
+      "published": "2026-11-25T02:13:24+00:00"
+    },
+    {
+      "title": "담보대출 밀어내고 신용대출 1위…P2P금융 판이 바뀐다",
+      "source": "매일경제",
+      "link": "https://www.mk.co.kr/news/economy/12217903",
+      "published": "2026-11-25T02:13:01+00:00"
+    },
+    {
+      "title": "KB국민은행, 수출상담회 참가기업 외환 수수료 감면 - PRESS9",
+      "source": "Google 뉴스 (환율·금리)",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBJUVgzbE9waXBLWU1vM1FZSUt1R1A1WlFHYndTWGdyZ2NvdlJWeXJXbGNDazBGVkstTTBRTk1OQTR5X1YtUHpJa09JRlNfd3Q3cEhyV2Z4RXVmRUFCanFpcXpsSy0?oc=5",
+      "published": "2026-11-25T02:12:47+00:00"
+    },
+    {
+      "title": "[2027 대전망] \"내년 주식에 얼마 투자할까요\"…베스트뱅커 PB의 조언",
+      "source": "한국경제",
+      "link": "https://www.hankyung.com/article/202611232895i",
+      "published": "2026-11-25T02:12:18+00:00"
+    },
+    {
+      "title": "\"월급 주면 다 쓸까봐 보관했다\"…임금체불 등 염전사업장 무더기 적발",
+      "source": "한국경제",
+      "link": "https://www.hankyung.com/article/2026112590817",
+      "published": "2026-11-25T02:11:09+00:00"
+    },
+    {
+      "title": "Trump open to pardoning Jensen Huang if needed: NY Post",
+      "source": "CNBC World",
+      "link": "https://www.cnbc.com/2026/11/25/trump-huang-pardon-politics.html",
+      "published": "2026-11-25T02:09:45+00:00"
+    },
+    {
+      "title": "이억원 “금융권 AX 서두를 것”…AI 해킹 대응체계 강화",
+      "source": "매일경제",
+      "link": "https://www.mk.co.kr/news/economy/12217901",
+      "published": "2026-11-25T02:09:29+00:00"
+    },
+    {
+      "title": "경주 떠나 춘천으로…핀다가 저축은행 본점을 옮긴 까닭",
+      "source": "매일경제",
+      "link": "https://www.mk.co.kr/news/economy/12217899",
+      "published": "2026-11-25T02:08:16+00:00"
+    },
+    {
+      "title": "1년치 외국인 배당금이 한 달 만에…“환율 1380원까지 봐야” - 이데일리",
+      "source": "Google 뉴스 (환율·금리)",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbTRwT0tLcjhlU0VUdDJzd19YRGZXb0t2UXlkVXJ0eVlhcWlZWFdkcVRPM3lkM24wQW1TOEZsTHR5NUNJRC1PUXUyNE9IT0VkVGY1Z3lWZ0VkNEMxUnpJdGVQbWwzV1l4a0Z4N0RIQTgzYktHcHVxRGIwUHJLbkYxSg?oc=5",
+      "published": "2026-11-25T02:08:07+00:00"
+    },
+    {
+      "title": "Oil prices fall as supply glut concerns offset Middle East disruption fears - Idaho Statesman",
+      "source": "Google 뉴스 (oil prices)",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUGJRRXVHQm0tVktDMVpKaTJKdl9feXNtZF9pSVRRRV9mVUdrbEREazE3SGdpN2IwZ2xLWTZfV1hoa0YtMTZOeDRBc3FTR2wyWndSSl9aQ1VtYmdiRHpxZGZFV1Rnd29kN285QkhJWmNRSmp5MEEzZTNJTF9wT3AtS0NrejFoZw?oc=5",
+      "published": "2026-11-25T02:07:09+00:00"
+    },
+    {
+      "title": "대중교통 환급 ‘모두의 카드’, 다음달부터 청소년도 쓸 수 있다 - Chosunbiz",
+      "source": "Google 뉴스 경제 (한국어)",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWXJUVmExVktiWksxb0xqS3BZNkhWSGdtYjUxbm1Ra0JWSG9YOUpsUkRRYi1MN2dGZ0FzMVZXTE1HUGpKbHRKMjZJeFdGaE9Cd1J6T1VVZkZEVnpSVVQtWkpMMUx6a1daQlhKeW41X2Zka2ktMk5vR2JuYS1hMUdhRWcxUGUxZ9IBmgFBVV95cUxPYURUZFgzNUlqcmlpdXI5Tlh6R1M3Q0x1VE5QTXZKUzlyNE1hQ3hCZldwUDNnbEdsRHlwb3dPQ2VBZUpyMWRKbHBMM2VUejUwTWZpSG1pZTVHNW1OUHF4T19kRkhRRnZwcHVGV1JLeEs3a1UyYWtGUjdNVGQ2ZnljWmVTb1lBelJZd3dRb3pyMURfN2xrMlVucFZn?oc=5",
+      "published": "2026-11-25T02:04:39+00:00"
+    },
+    {
+      "title": "“AI 거품 붕괴 머지않아…中企, 현금 확보·판로 다변화해야” - 이데일리",
+      "source": "Google 뉴스 (세계 경제)",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTkpHcDJJbGRvUGJpNnhzczlNZFR4eVZIU3puSGZ1c0pVemlUOFY4ZDZkT0VDc1lBNC0zMU5ad3dqbVhtWHV0eGhpMFM1LS1zdmRRYjh3bC1zYWdUVjNpMEU3NktCazJ6TC11bUZQQ0hmX3RwZlA4NGpGeDJRRTliSg?oc=5",
+      "published": "2026-11-25T02:04:39+00:00"
+    },
+    {
+      "title": "수출 1조달러 시대…韓 경제성장 절반 이상 수출이 이끌었다 - 머니투데이 - 머니투데이",
+      "source": "Google 뉴스 (세계 경제)",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5HRXB4Z0JXRHY0VHhKeW9pazhSS3ZyTFAtX2Y2SkpKQ3ktRWpueXVIZDJQLW5sUWpva3lfWloxd2x1dDlLQ29PbkhsR3NSV1JRWTlWa2EwQ1V2MVpjVUk3NFpJR3E1UEJRMk5TS2t6aWdNUdIBckFVX3lxTE5HRXB4Z0JXRHY0VHhKeW9pazhSS3ZyTFAtX2Y2SkpKQ3ktRWpueXVIZDJQLW5sUWpva3lfWloxd2x1dDlLQ29PbkhsR3NSV1JRWTlWa2EwQ1V2MVpjVUk3NFpJR3E1UEJRMk5TS2t6aWdNUQ?oc=5",
+      "published": "2026-11-25T02:04:23+00:00"
+    },
+    {
+      "title": "Intertwined — How Renewable Fuels Policy Helps Connect Diesel and Soybean Oil Prices - RBN Energy",
+      "source": "Google 뉴스 (oil prices)",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNX3hfZjhtaG9peVlLVkR1d1U0WVgyLWtocTJfZnM4MVRRTEN5WU5xVjVJSkZNS0YzX1BseGdkR19EYmpIc0xzckpCc19meXN2a2E0dklid2RDbEQzMEgyYVRrN1NyeFQxSS1XeWVmd2V4eGloR284M0hZVUd4UHYxaUFiMWY5SVFWUW1hLV9HYzZZems5R2FrclFzdnVBQVlOaDItMExKTjNuNDZDZGc?oc=5",
+      "published": "2026-11-25T02:04:08+00:00"
+    },
+    {
+      "title": "\"뚱뚱해 보이는 패딩은 싫어\"…2030 여성들 꽂힌 겨울옷 [권용훈의 트렌드워치]",
+      "source": "한국경제",
+      "link": "https://www.hankyung.com/article/202611258458i",
+      "published": "2026-11-25T02:00:05+00:00"
+    },
+    {
+      "title": "I’m in my 70s and buying a new BMW X1. Should I put my only son on the title?",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/im-in-my-70s-and-buying-a-new-bmw-x1-should-i-put-my-only-son-on-the-title-25731040?mod=mw_rss_topstories",
+      "published": "2026-11-25T02:00:00+00:00"
+    },
+    {
+      "title": "중견기업 수출 367억달러 '역대 최대'…반도체·바이오헬스가 견인 - 머니투데이 - 머니투데이",
+      "source": "Google 뉴스 (수출·반도체)",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE04cmxPWlBYbmw1ZmNHLThqNkhuUElkV3dTUmk5YXZwWXlxQmMySDVsVVpCX2dnbjF6QWxNam9XYlZILVhsM3F0Q1BaZ2VsX2hKamMtRHI3ZlVpbFF2dzhMZnh0dFMwT2dTZ0HSAW9BVV95cUxQQWpHT1NQNVZ1VHU4eF9zei1IYW42Uk5oSW9TQUNfUVl1RERyelNZN0Rrb0ZieHNCRGl3YjY1UW5XNDUzbVZSZ1ZkN2NqdlgxcnlUZE83N0taa1p3TEVJRVVWMExXbXoxRk1UTmI3eTA?oc=5",
+      "published": "2026-11-25T02:00:00+00:00"
+    },
+    {
+      "title": "반도체·바이오헬스 날았다…3분기 중견기업 수출 367.7억 달러 '사상 최대' - 월요신문",
+      "source": "Google 뉴스 (수출·반도체)",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE81bkJ4MHRlUERPb18zQU82blVUTXFPS012bzRSZ1paU0tmV2kydUx3R3dxbURUeVR2Uzhab3hla2tER2RoR00ycE01R255WGE5b19ic2o2VldBWGxSdmxpSHZ1MTJKYkNLZ1E?oc=5",
+      "published": "2026-11-25T02:00:00+00:00"
+    },
+    {
+      "title": "\"반도체 끌고 바이오 밀었다\"…중견기업 수출 역대 최대 - 뉴스1",
+      "source": "Google 뉴스 (수출·반도체)",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE10a3Awc0lBVkI2V3ptb0ZPWlRGRV9hUjZMeGthcTFRMjNPenRfWHR4dUVmXzNjc050cnZpYUZLTnp3eWVUZ0lMUHJPdTA5WGR2UkN4Q2htVUZiaXZI?oc=5",
+      "published": "2026-11-25T02:00:00+00:00"
+    },
+    {
+      "title": "‘반도체 훈풍’ 덕 중견기업 수출 ‘역대 최대’…3분기 367억달러 돌파 - 헤럴드경제",
+      "source": "Google 뉴스 (수출·반도체)",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8yTVhvZ1V6X1I4MzNQeHRhSHVtWGxydGNhaHNTSTBoU0dWSEE0eEplNklQbFMteUk3MWo1NHM5eEhzR2g3NkFpSlV1ZElVZTFEVlVVU2RB?oc=5",
+      "published": "2026-11-25T02:00:00+00:00"
+    },
+    {
+      "title": "국금센터 \"연말까지 외국인 배당 23.4조…환율 일시적 상승압력\" - 연합인포맥스",
+      "source": "Google 뉴스 경제 (한국어)",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FenVlOXNxamxvV0pJaW1SSHVtR2hMOGY4cjhFQ3JwdV9XZVl1TkFxbWZLdkZJUE9zZl9qcXI1VVQzbGl2TXpjSElKbDNjVXZYZ1JRQzJoY0xzRnVmYkJqWlV2SUt6M0NfVnJoUTFkM2I?oc=5",
+      "published": "2026-11-25T01:58:06+00:00"
+    },
+    {
+      "title": "양주시, 산북 도시재생 성과공유회 개최…27일까지 3일간 - 국제뉴스",
+      "source": "Google 뉴스 경제 (한국어)",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9FMXdvMkc0cjZFcUtVa0phVFB5YWJfeVJUVVJvSjE5SllCN2EtVGlMTlRVaHd0UjJhTkRlZmtqMTYtYUh3Wkp0Skw5YkNhZkFmU05JY0NVandiV3otODV3R3pPSktyT1MwMDRzM1FR?oc=5",
+      "published": "2026-11-25T01:52:30+00:00"
+    },
+    {
+      "title": "Japan’s services inflation hits 36-year high as pressure mounts for another interest rate hike - Nation Thailand",
+      "source": "Google 뉴스 (central bank rates)",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5XT21mRVl3aWktTm9BNy1uNFFBcXRhTEhuM0tLU09HN3RYVmR0b0ExUWZ1ZWkxTGhYVEc3R3NGQnpxQjBwUVhOVTBHRHZXNEo0aWNHalZLeUZTN292T0tj?oc=5",
+      "published": "2026-11-25T01:48:00+00:00"
+    },
+    {
+      "title": "Team Trump Plans New Wave Of US Tariffs, India, China On Hit List: Report - NDTV",
+      "source": "Google 뉴스 (trade tariffs)",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTUNxWWcycGx3dFF6NWR3SlJCRE9XSGVtMkxCNVAxTjJ1bVZVeGc1eHEtR2d4UTVjaTkyWTdfMHNTNW1XbWUtRGdvYVlONU5sWmE5THpRLTZvZEUwRGRDdkgwS0Z4QnJlMkFrSklTN2F3dUVIY0E2SmVlek9XM3ZMemNrS3dHWU5nVTY4Y09ReXhaNmNsVFo4Z0ZDWUtGU2lCYkVlaE13Y1JpVFc1VUpqWNIBuAFBVV95cUxPdDBKZEhEMEdkZjkydWxTTWVFak1ERUU2ekVlY1NuMjRrTjI0a09WdklCZXR4bHFUUzAxV3Y4SXVackJtQlJYR1JyWU5Bd3V2UG1sOWZmcDE4cEhDX211N0t2QU4wVk1uOVBTZmxpTGRSbjBwNTR5TDFYRGh1TjVxWnZmemtrMFNjaU5aekxXRUtMeUg5dGdnbWZyMERLYlhzN0UtUWR0SUtHVjVXQTNCUjA0dkd6TmZq?oc=5",
+      "published": "2026-11-25T01:41:58+00:00"
+    },
+    {
+      "title": "Dollar takes breather ahead of US data on Fed path; Aussie jumps on CPI - KELO-AM",
+      "source": "Google 뉴스 (Japan economy)",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSlJBVlJwYnhOZUlxejNia3U2YlEwY1RzNXdCVUNCUzc2R1ZNeG1XWGlZdS1qNndEZ3J3V3hSUDU1ckhVQWpNMXVCLWJHQVVCQ2R0X0pJRVF3SGdPTU5jc0pHWHcxVWt1VlNFaU9nbWl2eGlGRGphLUVQamlGaDJ3MHAtamk5dWJESjg4LTFQNW56VGZuUXg5UzdXNWlITFlC?oc=5",
+      "published": "2026-11-25T01:41:33+00:00"
+    },
+    {
+      "title": "中후난성 군수공장 마을서 젠슨황 옆자리까지…앨리스 황의 여정 - 연합뉴스",
+      "source": "Google 뉴스 경제 (한국어)",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1BcmpTS1B2SXZXTEQzU2tCRmJnX2VCY2ktT0gzZ0I2bjVKLVlKcTN6WHVNQ0ItYkdEQUFsMzJxV2x2M0xoSG45QXI0ekR4c0R5VnlBZ3p1VEdqbHPSAWBBVV95cUxNTGR4aHRNczFPc0pxOUMxa2ZkOUpqVU9DaWNJdGdKazMzYVZpTkd6MHdkUU1TYnY3QWZVd2VsYk5ESDlLemFPTjY5eDNRUlVCWnI5UEc5SkdxV3JRUnJGNUw?oc=5",
+      "published": "2026-11-25T01:41:32+00:00"
+    },
+    {
+      "title": "Dollar takes breather ahead of US data on Fed path; Aussie jumps on CPI - WKZO",
+      "source": "Google 뉴스 (central bank rates)",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNREVqRkJScXBPTTQzMlpkUExNd1lPZXloS3YySEsyd1dyS3dIM3hVelZhZzAzV2hGRF8tUW15NVpUREE5UTF5ZXRkcGlrTkpqajBXc2NUWGJNMkpiT2tXV0pMRlByX0tyVWlBYVd2OUdYbWtqOGMxaEZpR2N3MFUxdkI5dDlBcTFZek1xcTF4SjRBNUM1TUdmVlc1dkFnSHJL?oc=5",
+      "published": "2026-11-25T01:40:21+00:00"
+    },
+    {
+      "title": "Innovation, AI boosting foreign companies - China Daily",
+      "source": "Google 뉴스 (China economy)",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9GX091bzNqS3N0VjNDRi1HNXRhc0dncnRMaDhIYUQxSUZTU1NHeHdqLS1lSVRGN2ZwTE9EYWhjSVliWnRqXzRjWXg0ejNrejlmOTloRDRVNGNlN2ZEeFNuay1XTmVvQUcyN3U3LUx0blhaRl8yWUpXbDVMZ3Z0UQ?oc=5",
+      "published": "2026-11-25T01:38:13+00:00"
+    },
+    {
+      "title": "\"한국에 또 '돈벼락' 떨어지나\"…잘나가던 美 빅테크에 무슨 일이",
+      "source": "한국경제",
+      "link": "https://www.hankyung.com/article/202611258882g",
+      "published": "2026-11-25T01:33:22+00:00"
+    },
+    {
+      "title": "코스피 오를수록 外人은 주식 팔았다…\"주가·환율 같은 방향으로\" - 연합인포맥스",
+      "source": "Google 뉴스 경제 (한국어)",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE05dFl6bDJqRXJKMVpZd1ZMQmJzSDdELXlGQTJzZmQzTXkwT20wZTBYT1ljU2x3VWpYOEpzSWlvUkoxSjZ5OE93SXdPOS1Jd21nVHF6d3FYRzQ5XzhpbmZqMlhXSWpiaTFwb0JKN3FaQ1A?oc=5",
+      "published": "2026-11-25T01:32:00+00:00"
+    },
+    {
+      "title": "\"산단 혁신 아이디어 받습니다\"…산단공, 국민참여혁신단 모집",
+      "source": "한국경제",
+      "link": "https://www.hankyung.com/article/202611258874i",
+      "published": "2026-11-25T01:30:53+00:00"
+    },
+    {
+      "title": "[디지털자산법 대해부②] 원화코인 발행량 사전심사…공급 늦으면 '웃돈' - KB Think",
+      "source": "Google 뉴스 경제 (한국어)",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE0xbWdabUdqdTBwNEZnRDdKc1gweXBNY1hoR29uQXAwZElmT3pGZVdsVkZLajBNdm1UOGszTFFqUUxMLVRveThucjRFU252dmRRVzZuZGYyQlZyc2N3eTd3RDNqYkxVbWFhdnhORFVBTWpuZw?oc=5",
+      "published": "2026-11-25T01:30:02+00:00"
+    },
+    {
+      "title": "신한은행 땡겨요·롯데온 맞손…쇼핑·배달 최대 1만6000원 할인",
+      "source": "매일경제",
+      "link": "https://www.mk.co.kr/news/economy/12217841",
+      "published": "2026-11-25T01:29:17+00:00"
+    },
+    {
+      "title": "트럼프 과잉 생산 관세 임박 … K반도체, 美 현지 생산 압박 커지나 - 뉴데일리 경제",
+      "source": "Google 뉴스 (수출·반도체)",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBrRlFFcHdRWXQydTN6M1NicHVFbUYwYVNIdFc4NzRKZWZVeUY5aTNCZ2N3cV9mcDBVR0dERlVBX1YzNkQzcXM4ak5meEdkejM5dUdabjEzaXo3dDZJdVN6TmtBRDRBQWMxWmtMV2IyUjlCZEJEajBDdGFTc9IBgAFBVV95cUxNaEpyUU1icEhuM2IwLXNjLU5VR3RhV3pWUjZ2TW1EeFVUQU15OHlTRWVGbHFBbVRfbmZsZGY4cDVMWW1YdW1oTUZJeFRORnVTN2NVZVJvRUV3dlJ4aXVWT3lTX05fZ1RWTnV0aUlQTE5yaXhyaGVxN09RV0NjY25UZQ?oc=5",
+      "published": "2026-11-25T01:28:00+00:00"
+    },
+    {
+      "title": "중견기업 3분기 수출 367억달러···반도체·바이오헬스 날았다 - 이뉴스투데이",
+      "source": "Google 뉴스 (수출·반도체)",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1HNHhGSEgxOHEwVURiaFl1dTB4RjhCU0F5YnBTQzBrZmFpNGh2VFlUdEdtZnpwYTkwTXB0T09xSWVFUzQ0bE15Rk9icVNuMUJiQVhRdC1LV195M2otY0o5bmFzVVhtYmtrVnhEMlBCRHPSAXRBVV95cUxQeWpJVTVNWnJjZGhRRnc1MVZ5Z1htTV95cFVhdnBXaDFCZ05wXzBRMllSN3FSTDVwM1VPaEtFNUUxaGlKdnRHNm5qQjNJTzlMLUcxY3Brbk1xdTZWOVJXenl5ZU1QZUtJaUkxLW5fbzUxX3dGbA?oc=5",
+      "published": "2026-11-25T01:24:26+00:00"
+    },
+    {
+      "title": "DealBook Summit 2026: It’s Time to Fix Health Care",
+      "source": "NYT Business",
+      "link": "https://www.nytimes.com/2026/11/24/business/dealbook/health-care-task-force.html",
+      "published": "2026-11-25T01:24:19+00:00"
+    },
+    {
+      "title": "반도체 연 '수출 1조달러' 시대…재계, 내년 투자 밑그림 - 더팩트",
+      "source": "Google 뉴스 (수출·반도체)",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VTHVFeHpoemhXaWdzVXFPVFI3LUdpaWQzTEJaT0JkNXN5R0Yybi1aWmZtR1E4eE42SmJ0c1JqVFBJNXhoNExNYk8zdEZxNHV0WUNfOdIBVEFVX3lxTE1VTHVFeHpoemhXaWdzVXFPVFI3LUdpaWQzTEJaT0JkNXN5R0Yybi1aWmZtR1E4eE42SmJ0c1JqVFBJNXhoNExNYk8zdEZxNHV0WUNfOQ?oc=5",
+      "published": "2026-11-25T01:20:00+00:00"
+    },
+    {
+      "title": "삼성중공업 정기 임원인사…부사장 3명·상무 6명 승진 - 연합뉴스",
+      "source": "Google 뉴스 경제 (한국어)",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8ycUc3YWZZVElOSnpBSmRDRFp5bnRCRzMxOHpyUVBhZ1BXc2o2T1pCNFFkQlpsLUNQR01rdl81bG9zLU10X2FnY0pTZGp6b0Mtbk1DRW1qaDJLWVU?oc=5",
+      "published": "2026-11-25T01:19:12+00:00"
+    },
+    {
+      "title": "“1억이 1.2억 됐을때 바로 던졌다”…은행서 ETF 산 개미들, 급락장에 ‘평온’",
+      "source": "매일경제",
+      "link": "https://www.mk.co.kr/news/economy/12217830",
+      "published": "2026-11-25T01:17:53+00:00"
+    },
+    {
+      "title": "US ready to slap tariffs on China, EU and others over subsidized production, AP sources say - WTOP News",
+      "source": "Google 뉴스 (trade tariffs)",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQMGFNR0RQbFNlUE5acHozc3cxZGNwMU9VNHNtdFMzRWFQUnplR3hPWENFOWJ0X0dJNVE5WGNqaUpWVmFRS2xLWU5meGpkUnRWX21mMWQyRFo5eEFzSHF0bFBfb1M1bGJvcWNyYzlXOF9ob1NXZTVBR3BEVFIxMTI1TVNHamQ0YkFfeFdPT2h1S01MS3ZZLUxHZms4dzF6dTFLY1NDUXp1R19UNjVNTS1oci1raDF5RXV1dXF5d0llWGY4ZkMwWnlsZmxVdXdJSTRUOXE0dlBCaXo1VmZoQXlzWkVsUm96QQ?oc=5",
+      "published": "2026-11-25T01:17:02+00:00"
+    },
+    {
+      "title": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips",
+      "source": "CNBC World",
+      "link": "https://www.cnbc.com/2026/11/25/jensen-huang-nvidia-ai-talent-race.html",
+      "published": "2026-11-25T01:13:56+00:00"
+    },
+    {
+      "title": "Dell’s stock rises as the AI boom helps sales more than double",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/dells-stock-rises-as-the-ai-boom-helps-sales-more-than-double-cfb8cf65?mod=mw_rss_topstories",
+      "published": "2026-11-25T01:11:00+00:00"
+    },
+    {
+      "title": "월가 자금, 앤트로픽에서 엔비디아로?[박신영의 월가 아나토미]",
+      "source": "한국경제",
+      "link": "https://www.hankyung.com/article/202611258625i",
+      "published": "2026-11-25T01:06:39+00:00"
+    },
+    {
+      "title": "에스오에스랩, 엔비디아와 글로벌 라이다 시장 공략",
+      "source": "한국경제",
+      "link": "https://www.hankyung.com/article/202611258818i",
+      "published": "2026-11-25T01:05:51+00:00"
+    },
+    {
+      "title": "With Huang rescue, Trump riskily ties his political fortunes to Nvidia",
+      "source": "BBC Business",
+      "link": "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-25T01:03:05+00:00"
+    },
+    {
+      "title": "Bank of Korea Interest Rate Hike: Potential Thursday Announcement – Latest BOK Monetary Policy Update - 36Kr",
+      "source": "Google 뉴스 (central bank rates)",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8tR01qZFpxLWVPV3htQklycF9TWmJHOVIxdGtmTE1XazRqc2wtdERxbl9OTXdNVk1pd0Y4UkExc3RsVjFobl9oLWZubmIzUDBPSG44?oc=5",
+      "published": "2026-11-25T01:02:36+00:00"
+    },
+    {
+      "title": "美中 반도체 갈등에 희토류도 빨간불…LS에코에너지 부각 - 비즈워치",
+      "source": "Google 뉴스 (수출·반도체)",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1adnpGYXNOOGpwWXBKZjdEZnZYRElKRFdLMG9BSVExQTVwY2ZsckNPZEpGa2NjQWZycHVRSTBGX0ZNdFVOaFFnakVfUG9rcEdxLUItUHdSTlV1MmdPaVNVcld1dE00c1U4LTZ3Ug?oc=5",
+      "published": "2026-11-25T01:00:17+00:00"
+    },
+    {
+      "title": "Without reform, China’s AI push could worsen economic imbalances: S&P economist - South China Morning Post",
+      "source": "Google 뉴스 (China economy)",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOakRwUl9QNVliUDJJSVNoRVRpYnRMdmlHRTFxbFlBbHBtbGhLYmJSb1BqVC1SLVI4cE1tdzRURlJmQV9YaXJfYjRMYkNaLXhwYzFnNjBVeFJqeHhwcDdnRmw3SUtuZGpHQUgweThlWmlVbWp2SjQtX0NyVEIwVlphcDg1MlhIWVBTaTZsWnhMUjFONExxVUo0NTY3OGRaZGhOVG1aakhFMFNRcE4yWDJDN0ViSHA4bmVheHVMYtIBvAFBVV95cUxOOUtCWDZVbXBXTXphZjFILVJscTRIOVlfQWQzVFNQZVF3Mm4tQ0tIZzRRYnd2dXJ0dl9EQWYtQmFhVWJxZUplQzFVMWRGVlVEX0ZKTWpPek9VMXV6cFhiVkFFN3dMbGRQVFhUX3BCQ00yTE9hRmUxaDVBZWtBZnNqSS1vYl82QnQ5Zk1pdVhyblJHcHYteVFoWUVyNllfMWx6cFBqcVRIcjhCU1hPZ1VBZExJZEgxbmF5T0JvRA?oc=5",
+      "published": "2026-11-25T01:00:10+00:00"
+    },
+    {
+      "title": "The Diesel Crunch Isn't Over Yet - Crude Oil Prices Today | OilPrice.com",
+      "source": "Google 뉴스 (oil prices)",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaUNJOFJhQWFzX3NTTk1TemxERjVXTmhybnFDM01DcHp0RDNjTjZheDRYUjBRd2QyaHFwQTd4SzlWbHVtcEozQTJpalZRRkx2YV83OXFXNWdIY2J4azlJeTJxbDJ0dXNmYkowa19BTFRvZ1QxcmJvNEhPNHRKWld3WDV4Mk51QdIBiwFBVV95cUxOWUNXbXVhb0Z4clA0M1dtZkkydzI5VWxmR21weUdoZnZTaDhzVHRYMVdtRUVzMmxyMmx2V3ozSWxVc2lvLXMxY2dkZ2JKWVpBZjhoQlZDR3IzQ3RwNVkwRHZMRDkycFJRaXVvM2dDbDNOZWpnRW1OSUhNcUhGcjZnRTNyXzN3LUJ0Zldz?oc=5",
+      "published": "2026-11-25T01:00:00+00:00"
+    },
+    {
+      "title": "젠슨 황 복귀에 AI 신용시장 다시 '흔들'…코어위브 채권금리 17% 돌파 - 연합인포맥스",
+      "source": "Google 뉴스 경제 (한국어)",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5PNEUtRTdPN0ktUG5Gemdsa00ydWliWjFZYUgwd1cwaWN0TTUtWWllOEF3d3E2Q1B5SHlRem9XX2taWE1DYTRnZFB1OHRnUnBlZjFoSXVOYUptaTV4bUZVckR2ZUhDVkdJeXpUT0lQR2E?oc=5",
+      "published": "2026-11-25T01:00:00+00:00"
+    },
+    {
+      "title": "\"이젠 기름값 좀 떨어지려나\"…중동 긴장 속 공급증가 조짐",
+      "source": "한국경제",
+      "link": "https://www.hankyung.com/article/2026112587617",
+      "published": "2026-11-25T00:59:39+00:00"
+    },
+    {
+      "title": "韓 경제성장 절반 이끈 수출…반도체 쏠림은 과제 - 한스경제",
+      "source": "Google 뉴스 (수출·반도체)",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mazZEZUJsTEtwc21IRk1QVXpvUDQzZlNwOTMtNDN1RGtfYW1YS2ZRMzFfNkc5cDVHeklMNWctTU0tdGRQNFlacXpoVUxyem1KS3J3aDkxNE8zeEtud0x3ejdvRjBBUGc5MEhr0gFvQVVfeXFMTzB2djREVWVJZDFLLVVWX2hpSFphRDdEbUZGYklrcXNEbFZrN0Z5X3RpUnNnaWlZdVliamNvcHRodUVOYzd2dzhfdm5SaU5lRkRvY01Ob1VCTjh0RVlYazBIcXJtOFZxQjJpRTJNLUVR?oc=5",
+      "published": "2026-11-25T00:59:15+00:00"
+    },
+    {
+      "title": "환율, 1340원대서 등락…달러 강세 주춤해도 긴축 경계감 여전 - 뉴스투데이",
+      "source": "Google 뉴스 (환율·금리)",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9yRUU3czBYNXpkdFhyUktXbkFURlFPMGo5akRkb1lQZHlRNUg4WFJkY0RzWDdtaG5UWVBDb21YZUdMNFVOXzZRc05KeUFkMVI3QkZfbDVCVl9zWFRNZnc?oc=5",
+      "published": "2026-11-25T00:58:00+00:00"
+    },
+    {
+      "title": "Australia's financial conditions are clearly restrictive, RBA's Jacobs says - Yahoo Finance",
+      "source": "Google 뉴스 (central bank rates)",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONTVBUTlwZ2pxQ1R6NnZtcDRkTmhuWVRoTE5iamZYTUZiQUdSVWQ2UDE0OVRzNUZNWU5WcHkybzNBU2VSSE5qYlBmTzZYNFgwc1FwU1d2ZDJXcXZVaHBodnJldmJWYjdoWDQxTXpBcVN0RW03dmxXbkVuQko2ZTU1Y25mUGR0STJuaERiT2tkdWdZMWpxaHU0WkMtYlhBelB6OEwzV3JWMy1PbjFxaTNwZ2RUUHdJLWs?oc=5",
+      "published": "2026-11-25T00:56:15+00:00"
+    },
+    {
+      "title": "아이티아이즈, 화순전남대병원에 의료 AI 솔루션 공급 - 뉴스핌",
+      "source": "Google 뉴스 경제 (한국어)",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE53U2FKbGhPYUVJdmlESDc0aVE3RVJ2ZDNtMlFWNlpwMW9LYlFMTDFaNy1Na0xlQzFZcjVNR0pEbXBsUFNEZ2prMnIzNUl0anVINVdlWjV2dDVFazFw?oc=5",
+      "published": "2026-11-25T00:54:00+00:00"
+    },
+    {
+      "title": "China, EU view cooperation as the way forward - China Daily Global Edition",
+      "source": "Google 뉴스 (China economy)",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRVNPZk1DQllrMWFWc0V5eTVGRFNzYmFTWFl1dnFPeVJZMFFUZ2ZRQ1MwWXBsWDVwSnUyS09OTHF3ZTdrVW1IOHhKb05zX1F1MmJfODFCZzRwM29qSUdZcG5MWERnenVIbUJZVEZRLUpCNlhSVHhfTzlDeE9ucExMMEVB?oc=5",
+      "published": "2026-11-25T00:53:04+00:00"
+    },
+    {
+      "title": "\"장보기 무섭네\"…다시 7000원대 치솟은 계란값",
+      "source": "한국경제",
+      "link": "https://www.hankyung.com/article/202611258639g",
+      "published": "2026-11-25T00:52:39+00:00"
+    },
+    {
+      "title": "US preparing to unveil plan for new tariffs on global trading partners",
+      "source": "BBC Business",
+      "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-25T00:38:01+00:00"
+    },
+    {
+      "title": "US preparing to unveil new tariffs on global trading partners - BBC",
+      "source": "Google 뉴스 (world economy)",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nc0ZZdU1LSC1JM2lWbV80OFdPYXU1OFg5S2pXVHFZVGIxeUljazk5Z3Z2TWlQM1FoTUVVQXFOLTVJZjVOVTYxaXNNMWc3blMxUEEyODdCd1l6bXptRnc?oc=5",
+      "published": "2026-11-25T00:38:01+00:00"
+    },
+    {
+      "title": "서울반도체, OLED보다 3배 밝은 LCD 광원 양산",
+      "source": "한국경제",
+      "link": "https://www.hankyung.com/article/202611258602i",
+      "published": "2026-11-25T00:37:24+00:00"
+    },
+    {
+      "title": "Why tiny cars are taking off across Europe",
+      "source": "BBC Business",
+      "link": "https://www.bbc.co.uk/news/articles/cmwy9jne0g7qo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-25T00:34:05+00:00"
+    },
+    {
+      "title": "What will the energy cap changes mean for my bills?",
+      "source": "BBC Business",
+      "link": "https://www.bbc.co.uk/news/articles/cdd29v8mp9jo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-25T00:33:25+00:00"
+    },
+    {
+      "title": "KT·LG전자, 6G 핵심 기술 검증…데이터 업로드 용량 4.9배↑ - 뉴스1",
+      "source": "Google 뉴스 경제 (한국어)",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1BNzlFQWgxajVTTGxWZmw0RVhxWVM5M0dSTFdVSzgwdmFneVZTNzZCeEZsNkVFbFNnR0JVb1RyTEZFbEpXWGprTzNhcEZyLV9uRTZEaHQ1cVdiU3dyRmZuSw?oc=5",
+      "published": "2026-11-25T00:33:10+00:00"
+    },
+    {
+      "title": "'I only use the washing machine on a Sunday' - how we're keeping our energy bills down",
+      "source": "BBC Business",
+      "link": "https://www.bbc.co.uk/news/articles/c820qnznkrn4o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-25T00:30:52+00:00"
+    },
+    {
+      "title": "Households braced for soaring energy bills with new price cap to be announced",
+      "source": "BBC Business",
+      "link": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-25T00:29:58+00:00"
+    },
+    {
+      "title": "\"올해 3분기 중견기업 수출 또 역대 최대...반도체 덕\" - 뉴스핌",
+      "source": "Google 뉴스 (수출·반도체)",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5HZXRiZTNtQ2VhZkdha2J5LWd5UDVXcGtfcU9zOHB2M1BzWVBUXzhJa3pGLXlRRUdpc0RtUE1sUzJELVRRSU1VTXpscTcyOWFaZEZjZEs3ZWkwdkdm?oc=5",
+      "published": "2026-11-25T00:24:00+00:00"
+    },
+    {
+      "title": "Soybeans, Corn Lean Higher as New China Deal Trumps Tariffs - AgWeb",
+      "source": "Google 뉴스 (trade tariffs)",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNb212ZDhjWTVuanFuSV92Z0hZMy1HMlZkYnBFT1h6YXgtRmkyanR2S3hYSHh5cFFzOS1RYkxhc01mNERjbUd5dlpDdXFETU5XcHBxYTZsWEp5YUMxYVhuM2N2eFJyeWE5SzdtN0otZWtDQTlJbXR5azdFa1dNWWJzbzFkVE9NTE5odEVybnBn?oc=5",
+      "published": "2026-11-25T00:23:00+00:00"
+    },
+    {
+      "title": "Nvidia board joins Jensen Huang under scrutiny after reinstating embattled CEO - AP News",
+      "source": "Google 뉴스 비즈니스 (영문)",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdDBtR1FfWU5YMzBKWUlXWmc3YVotaWZ2eHBQTEdLd1ZJN0duSzA3RFNkQnFFM29rSXVrdnlzMk1ZYzJLbUd5dnJhYUQxb1pVYU9DT0wzMmlfSk84NW03TUZqTEtQNDNDRzQ0OWIyOWJ4OHNEdUV6c0hIWDNtRlk3WGFkbl9LbkpwNExRSS13SjFnQ0o2b0JrbjZKNHZJQmpmZ0VYMw?oc=5",
+      "published": "2026-11-25T00:21:00+00:00"
+    },
+    {
+      "title": "Heating oil costs hit businesses and homeowners as winter looms in the North Country - NCPR: North Country Public Radio",
+      "source": "Google 뉴스 (oil prices)",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPMkhQNVRTa2Y0NzZFZ3JPZHpjdzI2NEIyM1BWUnRTNEh4N05XV05wckVtQmN1MURESVBXdDl1NktaUEJUYXRCa2t4VzFfU3NJOXVtVVN6cG4taE5ib1ZVV2JLdFRwVm1qMmhFZTVpc2U3SW5wNDVMZVppTGxiLUNKdjViMUV5cWM0R253S2dFdXVWUWt3Ujg2WG1UVWo4eXFsd3Y0QmFDS3MteGlIdDJsd1V3aUx0ZGJMZnZTVnAzOFNRZ2RvTFgwUUNwd3lSQks5SXhuQnJWY1pKdlFWWFg5NkZfT08?oc=5",
+      "published": "2026-11-25T00:19:52+00:00"
+    },
+    {
+      "title": "대한상의 \"최근 경제성장 절반 이상 수출이 견인\"…반도체 편중은 과제 - www.ebn.co.kr",
+      "source": "Google 뉴스 (수출·반도체)",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Pc2o2bGkxcWduZnpZWW4wRWxFQ0lUdjVGRGRWcWtBRUZXd1pTaWFkU2hSbnFhMUlCVmd4NFNHRVV4bWVNM0V2MUJJcGxVLW5ybkxqUkN5N29DVDNvNWU2X0lHSUd0eXBj?oc=5",
+      "published": "2026-11-25T00:19:42+00:00"
+    },
+    {
+      "title": "집값·환율 진정됐지만 물가·가계빚은 ‘버티기’…한은, 26일 추가 인상 가닥 - 투데이신문",
+      "source": "Google 뉴스 (환율·금리)",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE02U3Q5SWo5eTVyX0tzNkpaNi0wN0M5RVY2NU42ZXRwYWxudVJ2NUlITmo0QkswMjZEblRURnBUZTlFZlZzSE42SGw5RGt0c0JPZzJadmpGSkcwdGZ5NHgwWXptdGFDSFFVWk51dWlQRdIBb0FVX3lxTE02U3Q5SWo5eTVyX0tzNkpaNi0wN0M5RVY2NU42ZXRwYWxudVJ2NUlITmo0QkswMjZEblRURnBUZTlFZlZzSE42SGw5RGt0c0JPZzJadmpGSkcwdGZ5NHgwWXptdGFDSFFVWk51dWlQRQ?oc=5",
+      "published": "2026-11-25T00:17:16+00:00"
+    },
+    {
+      "title": "코스피 5% 급락하며 '매도 사이드카'‥5천 선 반납 - MBC 뉴스",
+      "source": "Google 뉴스 경제 (한국어)",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9FM1ZuTU9DM0xPMEkwX1k5Y1k4Mmg5SHJMSm9iWnJxcDJxSmhWVWJBSllKcGcxVEQtVHVGOVd5N3pUVngzRnJGeWIwWXNDdUFBQXR6aXdtd2FmZ0tqRGZyM3NwbjlsYktYQWtXZEw2dGVPelpT0gF0QVVfeXFMTkpYZURlc2g5RHNka3NiWUhqSFlQZDBKUjI5N2owYmFQTTdEOFcxQ2QzVS1JX1RoSDRiUm5sSDBVUUc5cEdGOGV0TURHQ3ZWR1lFWlR1ZEhxR0c1cUtmNjNhUjEyVmVEVnNuVVhZdlVpZHh2M2E?oc=5",
+      "published": "2026-11-25T00:16:51+00:00"
+    },
+    {
+      "title": "Incoming Democratic chairs demand answers from Trump on Huang’s reinstatement - Politico",
+      "source": "Google 뉴스 비즈니스 (영문)",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVUJ2aHI0bkkxQlVkRlhYaTNMOWFORlVDMWNfOHhsSHowTWl2b1dFMjRKQm9sQVRkOFFZT2pyUnlkM1UxU2dZMWRRYS1WRjkzV3h1am9OYWZJdGNxdzd4MnFlYUZLclpfLXJTeXhMR3FqTnRtV251VERzSGFLS0c5bllzVndtVVE4Uzh2SHBhYmhtaFJ5NnBEQ3E2NUtPbm9yWWZFRw?oc=5",
+      "published": "2026-11-25T00:16:27+00:00"
+    },
+    {
+      "title": "My husband secretly sends his ex-wife $1,500 a month after she lost her job. We have $2.4 million saved. Has he lied by omission?",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/my-husband-secretly-sends-his-ex-wife-1-500-a-month-after-she-lost-her-job-we-have-2-4-million-saved-has-he-lied-by-omission-ede1972a?mod=mw_rss_topstories",
+      "published": "2026-11-25T00:05:00+00:00"
+    },
+    {
+      "title": "Jim Cramer sizes up six retail stocks after earnings — and names his two favorites - CNBC",
+      "source": "Google 뉴스 비즈니스 (영문)",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0wTV9uQTFVLU9HUUx4YV9IS2FaNGtfaUprTU9ST25ianVCNEtCdTRqYk9sdnBrSnZpSXZQUGNyenkxaW45MmJnWm1JUEtISUZQLUxJNWRkN25CNmdzUC1kUXByTTRDOVJaOHoyWC1XR0haSlQ1dEtLLTVB0gF_QVVfeXFMUFk4ZWRMbnhJLVhSNUszUWdsUm9OUG1sQmNoSm0zRkpWQThtbE4tRk1nYTF5ME52UmVFb2JxLWtNZ2VZdG90QTdXZGhFRW4wZUt2RnBZcnVlTFRONXNyOXpYdzF2ZnBEc0dHdXh5LTBHSjNub0hQUW9xSzZzV05qUQ?oc=5",
+      "published": "2026-11-25T00:04:00+00:00"
+    },
+    {
+      "title": "‘Thankful’ turn at the pump; Mobile gas prices drop nearly 16 cents ahead of Thanksgiving travel - fox10tv.com",
+      "source": "Google 뉴스 (oil prices)",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObnpsb19fOVh1WVQ0UVZPb1Nvdnl5TTgxTzdxUVhyT29hdEZPcUFmMk9EU1JKUmdKaWtRdnpLNGJtRmxTRENoLWwyZnBCcDVMVXV2d01Zc3JqWFp5OXVBc3F2MFhaSjYxWDNtejRnbmtEdVFCZFJjSDRMaVhlbEhKUEZZRWhyQlZvUDNoX3Fob3BwSmFBTUNMTkFfdnkydXdvNndlRmh2NEJ6Y1Nid0taNzhfbHNYV3BpSjYtczlPTm9ZTkk?oc=5",
+      "published": "2026-11-25T00:04:00+00:00"
+    },
+    {
+      "title": "1961년 오징어·돈모 수출하던 대한민국, 2025년 반도체-車-석유제품 - 에너지플랫폼뉴스",
+      "source": "Google 뉴스 (수출·반도체)",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9OMkdvcE5CZ1RXSTNfb3hZYVRIeTBxdEdYT0VNZzh1QWZwYU9Ja3ZsaFU2OWJaVVROR1gyRG5PdmpzMERvWTBHVG9DZHA0T1pmM3lqeXZ3UWE1WW0zRUp4YjZHX3o0U3NvSVlFVtIBcEFVX3lxTE54LXozZ2REM195cl9TcEtyNnpMSHFGbmZvNXg5WFNUaURFQkt1Y1Q2djJvaHhxeE5XYmJZVFhKUTJuaW1uSEcyQXVuNm1rTTZQUFk4Ujg5S0twd2RoLTM5U1hFb0VVdjMya0hUUExHdmQ?oc=5",
+      "published": "2026-11-25T00:03:25+00:00"
+    },
+    {
+      "title": "Thanksgiving travelers catch a break as gas prices fall in Oregon - Central Oregon Daily",
+      "source": "Google 뉴스 (oil prices)",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPYXp4bEtNR3FyX0NKNzZTM0pTcE5QZ0VFUk81bnZPcTlkbDNLU1hKa2cyRGxMaWpBdHZvQ2RnaXlpXzlrUC1GbGdsc0ZnOW04YWFWM0ljejFUbzhUUE1ZbU1qSmwyMWF6ZlMwZzZ0NnhkZmRjbzF2a3ZqNkpRc1RwTWZDLUREZ3FpdVNqLS1DOGN1QjFtOWUtaDBCMUpmc2c0NUhCU1FPQ1htZWRsQ3VFVEpOMDdheGVsQ0p1RlhoWWpGZ0RBOU9tMHRnWkw5dy1EWGE4NmZuOUpDSkhxZnc?oc=5",
+      "published": "2026-11-25T00:02:00+00:00"
+    },
+    {
+      "title": "Taylor Swift tops Forbes highest paid celebrity list - Yeni Safak English",
+      "source": "Google 뉴스 (world economy)",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUDFXLVRVaHBYZDdoQzVYN3RsR2dvOWg5NlZKLTdtNTFpQ01YWmlhZklyT3J5UzZkcTJ1Yjcyb0NoR3FuSlF2TGNwdVV2QzBXVVo5NFZhcnU1bUZFUkZSZjJmU2E3WFk3LTFWMEZsREZzVDJGZ3B3MGtMb3JaZk93RTViYmFDcGIxLW15NUdONDNnbHAyRW5GMg?oc=5",
+      "published": "2026-11-25T00:01:34+00:00"
+    },
+    {
+      "title": "방어 좋아하는 사람들 신났네…올겨울 뜻밖의 '희소식' [프라이스&]",
+      "source": "한국경제",
+      "link": "https://www.hankyung.com/article/202611247851i",
+      "published": "2026-11-25T00:00:07+00:00"
+    },
+    {
+      "title": "China’s Booming Exports Obscure Economic Strain at Home - Bloomberg.com",
+      "source": "Google 뉴스 (China economy)",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcy1XZVFtNF9ZTHNqeGNUZHBRTkw1SDlWbEMtTGpDS1FJY085WXNtMEFDSC1RT2xZVkhDMVk4cVotY3ZSU21oYlpLcUJRcFluTzBaN05kYThsTThFOFRLcHh0OHNmN3h3djk0M2pabEhybWVndi1OVWVxS2NrRWwxc2kzZjdmbTN0cFVSbnllY3JMTlBWWlNlZHdzdEd4X0VzdEIwU2E2SlJvN0hj?oc=5",
+      "published": "2026-11-25T00:00:00+00:00"
+    },
+    {
+      "title": "In Beijing, Ebrard pushes for more Mexican exports to China - Mexico News Daily",
+      "source": "Google 뉴스 (China economy)",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOE5iNERwaGU3UlRqNEVsWTY2ZWJtN1hBYlBPWlhON20zVFU3Y2RaUXV1anlza29DZzV4dWNNM0tfbUxEdjVXVnhJQ182Xzd1UEloTEpEejV6c3llelI4QkZVWU14SjNiSFBpY0dPdlVpczZzZjA5czNiY0xJOEFLMVlEYW5NT29x?oc=5",
+      "published": "2026-11-24T23:58:00+00:00"
+    },
+    {
+      "title": "Chicago-area gas prices fall ahead of Thanksgiving travel, but remain higher than last year - ABC7 Chicago",
+      "source": "Google 뉴스 (oil prices)",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSjhTR2ZlcVMxOVBwMlhLUU5sR1FoMDY5VVJmaktQUnVTNkY3SHRDQm9zczdyeHBKNGNzQUtEdFlhSlVFSjlxREYwaS1fSjI3Qmc0dmxBRko2Z3NWY0Q2WV82dW9aeS1XNTJRUHY0d0hHUGgtTUJmVC1wRE8teWdmU1JIWEpBcW5GUlNHWjlYLURCYVJqMlIySm9fQTJENzlMYzR1WThlUi11WTc3YXU3c1VKRXlsSV940gG-AUFVX3lxTE5wZGc3UEZVSVlYNkZhOEtuakdBMHRabW5WeDl1cFhYVGVVY2hldk5jS0pLMWhrd0VBOTBQTXFjakhBU204U0JQQzNYOVRIYXg3bFNEVTVLX1BWM2NJRXdXU3lxWUtvU2tuVVE5UGlnc2FuRHNxRGpfWWFlN2xmblJITXM3NXQzMHp0MWVRaG5zaUowdmtJbXlGT3ROaWxBMEhidmhCeFQxb0VNSFBzZUdLNHFuR3IyN0dRWks3SEE?oc=5",
+      "published": "2026-11-24T23:57:56+00:00"
+    },
+    {
+      "title": "Yen trades below 160.00 ahead of Tokyo CPI on a US holiday - www.tmgm.com",
+      "source": "Google 뉴스 (Japan economy)",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVGdSM3FXRFhaelJQQV9uVW5TYXNfaHBUYkM3UklmZE1RMFFQdHlVamItMGNaV190b1NFZm1wUkdvUlRUdFlwdWNUc1dtdmxwcW5pYW9OcV9LNTEtYjdZVEJCOVA2VkhmRFg5S1BXWjVYRkEtMEwyeVN0R0dJdF80dncxX0hlZTMwdmJoQm5UZEVtNDRYM1ZZZXk4R2dmbk1UY2J4TkwtX2piQlRVb1N5Tl81dlRjeDRRN2hGQ2NTR2szeG8?oc=5",
+      "published": "2026-11-24T23:55:44+00:00"
+    },
+    {
+      "title": "성장률 3.5%인데 소비는 2.3%…2027 한국경제 ‘반도체 호황’의 두 얼굴 - www.thepowernews.co.kr",
+      "source": "Google 뉴스 (수출·반도체)",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBOWjNFNGcxVjhzUF9WVTI4T3d6UTd2aWxVZWVPZWxQbngtUUU1cDlhckpqZzVSX2dGUUFOcndPQU1Cczk2bW9ORS1ERTI2dUxCeWhWOUJhc0trSHp4TkNrU3hGSEJJZTJkVVgxSHkxTmtFWmo0dS16M2d0SnhOQQ?oc=5",
+      "published": "2026-11-24T23:50:00+00:00"
+    },
+    {
+      "title": "“부부가 평생 꼬박꼬박 냈는데 0원”…배우자 떠나자 연금 ‘뚝’, 중복지급 상향은",
+      "source": "매일경제",
+      "link": "https://www.mk.co.kr/news/economy/12217731",
+      "published": "2026-11-24T23:46:34+00:00"
+    },
+    {
+      "title": "\"배달기사들 500m 걸어서 와라\"...청담 아파트 갑질에 '공분' - YTN",
+      "source": "Google 뉴스 경제 (한국어)",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5SVE9LTUxvYUtCM05xVUlDcFdEN2VxakVKeDVJY21kZWNmS3FMWU1qZ0hlRmVZU3B1bl9LX0NpY2lOck1XenlyZThHUmtZUi1pQVZvUlN2Tk5yTWZXRWZSYVRyRV9tbGJNN1dIeGZrcw?oc=5",
+      "published": "2026-11-24T23:34:00+00:00"
+    },
+    {
+      "title": "Blanche Downplays Questions Over Nvidia as Investigators Examine Company’s Customers",
+      "source": "NYT Business",
+      "link": "https://www.nytimes.com/2026/11/24/us/politics/nvidia-justice-department-todd-blanche.html",
+      "published": "2026-11-24T23:27:37+00:00"
+    },
+    {
+      "title": "Traditional rice wine brewing boosts local economy in Kengtou Village, China's Jiangxi - Xinhua",
+      "source": "Google 뉴스 (China economy)",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1SY2tvLW80WGRxY1RfYmw2Tm03dTNxZXI0VTEzQUNLZ0lIcTFVNXFmTFZvV0VTeTFvVTFwaHFRV1d0Wm52YVJlMzdmNVVOLURoTWk1SkQyOVA3eEQ1d2hVZURnVnoxaWFSN3FHQU1FeVpkWnN4SUhOX2cxVlM?oc=5",
+      "published": "2026-11-24T23:27:32+00:00"
+    },
+    {
+      "title": "Why Bank Of Japan Rate Normalisation In 2027 Will Shake Global Markets - ИФЗ РАН",
+      "source": "Google 뉴스 (Japan economy)",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNjR0UkE0WU1lbUxlaFBpbTl6ZnBzaF9PbHV2MHgyMkxsLUlFR3NjaS0xTWhPSnlTM1BKUEpWZkxLNFlBSE1sdS1PSkgzeVhBWnFFWExTMTFQUGxUTDB2dVVLY0RrU0dHQmZZWnBtdTduSWJzVWsxVFBOZjJyZUxDclRDOW1PSGM?oc=5",
+      "published": "2026-11-24T23:22:59+00:00"
+    },
+    {
+      "title": "Trump Readies New Tariff Hikes for Dozens of Countries - The Fiscal Times",
+      "source": "Google 뉴스 (trade tariffs)",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZzF4Q09yRlBMOXlLY1RILTIwTVFFOVJwelFYY1pnT1VMc1VFVDU2ZTM1MGdCNmNWTjc1enNwbzFYR1BNMG9pMks4UkxSRG8xQzlWSWNaSVpaUHpmb1hlcnBncGRfVTY2ejVZRlRhUW5SWXhZcndZV0dKZXRRU19hMndwVlFtVVNsZkZBNnZJVDhkSFk?oc=5",
+      "published": "2026-11-24T23:22:30+00:00"
+    },
+    {
+      "title": "Nation's opening-up fuels growth across Asia-Pacific - China Daily",
+      "source": "Google 뉴스 (China economy)",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9mbDkxYy1fU2J1S1ljdXdnU0xOZGdWYkV2ZFZnOXhBTjNiRHBJOU45NjF0b0lRSV85YW4ycEs3VjVEZ1hTbEJWOEtKUDdSazNwT05WeG4xdjQtTUVCQ3FiTTFMT2Rvc01PTEp1YmYwU3I3bmw4UktjZVVPU0owdw?oc=5",
+      "published": "2026-11-24T23:20:43+00:00"
+    },
+    {
+      "title": "Jensen Huang tells staff that Nvidia doesn't need a succession plan",
+      "source": "CNBC World",
+      "link": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-employee-meeting.html",
+      "published": "2026-11-24T23:13:49+00:00"
+    },
+    {
+      "title": "Yen holds under 160.00 with Tokyo CPI due on a US holiday - FXStreet",
+      "source": "Google 뉴스 (Japan economy)",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONjhKYUlNUFlycm5UcVl5RzFRRGNxWG95dklMSWkwb1hhQ0ktVnIxUjA1TEV3SWNjNmxpQUJKRlU5NXZHemd1UHNQYjVTWXRtekdwWHQzaGlKWXFWeTVrbUVjQVBON1JFbDZKb2lPZkhRTm1Fdkw2WWVlcnJBUnZPLVlMaGM4UFNhbzdpcE9BMk0xTmFlZ1ZUVVFZendSYVNG?oc=5",
+      "published": "2026-11-24T23:13:10+00:00"
+    },
+    {
+      "title": "Micron boosted CEO Sanjay Mehrotra’s security budget by 2,000%, new filing shows",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/micron-boosted-ceo-sanjay-mehrotras-security-budget-by-2-000-new-filing-shows-d6202acc?mod=mw_rss_topstories",
+      "published": "2026-11-24T23:11:00+00:00"
+    },
+    {
+      "title": "‘Carthage Resident Al Gore’ Buys His Hometown Tennessee Newspaper",
+      "source": "NYT Business",
+      "link": "https://www.nytimes.com/2026/11/24/business/media/al-gore-newspaper-carthage-courier.html",
+      "published": "2026-11-24T23:06:01+00:00"
+    },
+    {
+      "title": "“증여 잘 몰라 ‘세금 폭탄’ 걱정” … 세무조사 때 꼭 따져보는 세 가지",
+      "source": "매일경제",
+      "link": "https://www.mk.co.kr/news/economy/12217709",
+      "published": "2026-11-24T23:03:19+00:00"
+    },
+    {
+      "title": "DealBook Summit 2026: The Cost of Being Pragmatic in a Chaotic World",
+      "source": "NYT Business",
+      "link": "https://www.nytimes.com/2026/11/24/business/dealbook/world-chaos-pragmatism.html",
+      "published": "2026-11-24T23:03:18+00:00"
+    },
+    {
+      "title": "DealBook Summit 2026: Help Wanted to Succeed in an A.I. World",
+      "source": "NYT Business",
+      "link": "https://www.nytimes.com/2026/11/24/business/dealbook/work-jobs-task-force.html",
+      "published": "2026-11-24T23:01:20+00:00"
+    },
+    {
+      "title": "Could Trump’s Auto Tariffs Push Canada into China’s Arms? - Autoweek",
+      "source": "Google 뉴스 (trade tariffs)",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZDRLVm1CVlE0ZWRCR3V2NnpYT3J6TVVucmpuYTlMVHJnRHNiVVZvaThUTlRtQTRqRlpsckUwNkd4Vno4NkxIYzRlZjFSQkdtWHh2THVqNmQ3aENTbVBZZ1FldG9Ic0dfa1U0bmhZUkxOaWJ6czRnem15dHVvcnd1N2Z0SXd1Qk0?oc=5",
+      "published": "2026-11-24T23:01:00+00:00"
+    },
+    {
+      "title": "DealBook Summit 2026: After the Upheaval From the Midterm Elections, Who Has the Edge in 2028?",
+      "source": "NYT Business",
+      "link": "https://www.nytimes.com/2026/11/24/business/dealbook/midterm-elections-task-force.html",
+      "published": "2026-11-24T23:00:25+00:00"
+    },
+    {
+      "title": "박영사, '달라진 세상, 갈라진 세계' 출간 - 내외경제TV",
+      "source": "Google 뉴스 (세계 경제)",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1sQVdPazJHQlBiakU4cjVraEtrbnBkRW5lTE8yc3R4R3NnclpBZTJTaTJmc1VoeU5GcEt5MkEzMU9rajdfTFFVZlZoNWRfaGRYU1hyWHVDUUJlSUZmYVVXNDJZdGllcGZDdWhj?oc=5",
+      "published": "2026-11-24T23:00:00+00:00"
+    },
+    {
+      "title": "DealBook Summit 2026: Rein in A.I., but Don’t Pause It",
+      "source": "NYT Business",
+      "link": "https://www.nytimes.com/2026/11/24/business/dealbook/ai-task-force.html",
+      "published": "2026-11-24T22:59:27+00:00"
+    },
+    {
+      "title": "DealBook Summit 2026: Groundbreakers Tell What Is On Their Minds",
+      "source": "NYT Business",
+      "link": "https://www.nytimes.com/2026/11/24/business/dealbook/dealbook-summit-groundbreakers.html",
+      "published": "2026-11-24T22:57:53+00:00"
+    },
+    {
+      "title": "원·달러 환율, 1343.0원…달러, AI 관련 기술주 약세에 하락 - 조세일보",
+      "source": "Google 뉴스 (환율·금리)",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5fcVpKQnlyd3VxRThGTkFxXzdlYUI1bDB4NzRFd0s2Mk9EQWNjWVdkQ1J6TWxhYVE2M2J2TGRnak45WGx0ZnlpdDdIZC1PSlpvXzRqbzFvdXdkVzNERUFyeHZadGVqLVNpZHU5Sk9OeG9MQkh3?oc=5",
+      "published": "2026-11-24T22:56:50+00:00"
+    },
+    {
+      "title": "25 Years of DealBook Moments",
+      "source": "NYT Business",
+      "link": "https://www.nytimes.com/2026/11/24/business/dealbook/25-years-photographs-moments.html",
+      "published": "2026-11-24T22:56:21+00:00"
+    },
+    {
+      "title": "韓 경제성장 절반 이끈 수출…'제2의 반도체' 발굴해야 - 이데일리",
+      "source": "Google 뉴스 (세계 경제)",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZ2ZQeElEMjNjTUphTm5aYzRKdnhpVGlCZzNWVzQ3YUNPOWh5XzNCQW11a1lrWGliU2RSLTE4TVdQV2lmODltZk1Od0dYZHREaG1QQWc3R3NLZFZHTk8xQjZYN05lNFJnNzg5RzdSRkw1ZnhQcDcyUUlKRW5ZNVlxYw?oc=5",
+      "published": "2026-11-24T22:51:26+00:00"
+    },
+    {
+      "title": "Amazon customers may qualify for $309.5M settlement. See how - USA Today",
+      "source": "Google 뉴스 비즈니스 (영문)",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYlR6SkJKOU42UWFHemU0RV94REFWTS0xelB0UjIxQlJLb2pJNGRTS1MwRXpKNHV3YkUxWkdLVHlrRF9fU09qNG9Cd2MtQUlfTmJGZmZQSEdWMVh6SXZlb1c1WGZrNWdkWXlQUF81UDNod2lva056NHBuTzdpZnVjTE1SWUtURENEOFZnVHpmamRodmVJV3JRUHhoRW1sdnJnbWVWUDVORlpyLUM4MmZ4QUJSNXhvQ28?oc=5",
+      "published": "2026-11-24T22:32:00+00:00"
+    },
+    {
+      "title": "[밤사이 세계는] \"젠슨 황 복귀가 AI 산업 우려 해소는 아냐\" 外 - 파이낸셜포스트",
+      "source": "Google 뉴스 (세계 경제)",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBHcGMtMGc5Qm0zU1FZejVxcGZfY1ZGSF9JSXpRYWVTVnVOUDg2dk9Lb1NMNGZNcElnME50cHlVY1JzeXdMbDFZXzVxTVFaajdSeWlvcTlsQm1UY1NmZE05MzBXMzROclRUT0JoLTB4VXB2b3A5?oc=5",
+      "published": "2026-11-24T22:22:10+00:00"
+    },
+    {
+      "title": "Trump Account contributions from friends and family pass $1 billion mark, Treasury says",
+      "source": "CNBC World",
+      "link": "https://www.cnbc.com/2026/11/24/trump-accounts-family-contributions-billion.html",
+      "published": "2026-11-24T22:18:47+00:00"
+    },
+    {
+      "title": "Shein to pay $100 million to settle federal claims that it deceived U.S. customers - CBS News",
+      "source": "Google 뉴스 비즈니스 (영문)",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSWlLeWp5azljeGpxY3d0SlhMWXhwbFdEenBhRjczQ1VPWUIyVFByOE5oeXJSekJBd01PMXVHbE5qVFlMU2V5dFFSb1RKYnZGaDlqRDBDOTZ0d3NFWFRpa29DRklhdm80S2RINUJlSUhzbDB6QjU2Q3lSc3VmLU9wek10QXp3UVN2WEE?oc=5",
+      "published": "2026-11-24T22:13:39+00:00"
+    },
+    {
+      "title": "Cooperation seen as a win-win biz boost - Time Magazine",
+      "source": "Google 뉴스 (world economy)",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQmRmZFhZdlA5OHlPMEJUMm9TQVJsUVNLaUpVVHY1dDg4c3V2cmc0eUloei1YT1VSbWVON3ZvdVhsYkhtNExUODNpZVZ0Uk9YcjVldHVuNS1tWWNTdG4tLS1DR2paeHB0aU84TlVlcTY2UTRBN18zRkE0eTlSU01NUzBTdHhUSkpFUDJ6Ukln?oc=5",
+      "published": "2026-11-24T22:10:46+00:00"
+    },
+    {
+      "title": "“중국 전기차랑 뭐로 싸우라고요”…국산차 세액공제 제동 건 재경부",
+      "source": "매일경제",
+      "link": "https://www.mk.co.kr/news/economy/12217683",
+      "published": "2026-11-24T22:08:08+00:00"
+    },
+    {
+      "title": "Dell earnings beat on AI strength, company authorizes $25 billion buyback",
+      "source": "CNBC World",
+      "link": "https://www.cnbc.com/2026/11/24/dell-earnings-report-q3-2027.html",
+      "published": "2026-11-24T22:07:45+00:00"
+    },
+    {
+      "title": "Tech sell-off resumes as euphoria from Jensen Huang’s Nvidia return subsides",
+      "source": "Guardian Business",
+      "link": "https://www.theguardian.com/business/2026/nov/24/nvidia-stock-falls-jensen-huang",
+      "published": "2026-11-24T22:05:21+00:00"
+    },
+    {
+      "title": "ECB expands euro liquidity lifelines in push to challenge dollar dominance - megaproject.com",
+      "source": "Google 뉴스 (Europe economy)",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbWlQOUpvSWdJR3FUUHhuWjltWndIU0RFVHE2VkJjREtGc1dFdWVnajBsd29qa2RDWmxaOV83aElKU1JsSEtKWkpQZjU5X1NZVmE3QXNnRktqelFWV1JGVUdSelhDdm4zVWFtMmtxX002d0VadXdtTU9xWEs4ejB2NjZJM1NpVGpVU0xfQXBaVHdrV0tjaFBDZW9RRjJuS3lvOE9rQkxCMXN3cnBkdGcxUEpR?oc=5",
+      "published": "2026-11-24T22:05:11+00:00"
+    },
+    {
+      "title": "Nvidia live updates: Nvidia stock falls as exuberance fades after Jensen Huang's return as CEO - Yahoo Finance",
+      "source": "Google 뉴스 비즈니스 (영문)",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNYnBZTkhUUGlCUVBvdW9Mam9JbGJueElLNmRUenk3eTZ2YmhXSEJhb3VCTTlrQ0xDZzF1N3pURFZFNDROVkZhOW1Mc0JxQUhGQ25rSjdWZXdxMnZNLWFaNzJfdXdFeEpUMzFQMUl3alZfWVotcFRHRGxSRzNiWHJuSlpyaXVHTld1MDFLSy1rdDJCU1F6ME9vZDB1bzB2bS1PeHpZbTg5czJrQ1lzdFRHbUlmS3JzYlFvQnRjZ2xRT3hoR1FVMUQ2a0hNMXZwNEtYckw1Q0ZYOThJMTlobXZTY3JzdDFESjBN?oc=5",
+      "published": "2026-11-24T22:03:05+00:00"
+    },
+    {
+      "title": "Saudi national charged in OpenAI bugging to be released on $1 million bond",
+      "source": "CNBC World",
+      "link": "https://www.cnbc.com/2026/11/24/openai-bugging-aflozan-release-saudi.html",
+      "published": "2026-11-24T22:03:01+00:00"
+    },
+    {
+      "title": "Dell Technologies Smashes Q3 Estimates, Guides Above Views - Investor's Business Daily",
+      "source": "Google 뉴스 비즈니스 (영문)",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNXdYbXBXQm8tYUZuY2hDWnZNRTVEc3kySW0wZFVTR2VUMW0wd0dkOWlrNF93Q2l4bDdpZEl5MzVCUzFlSm5QM0lmTjV2QnE0YXprTGxIeVFYa1lEVUxQSVo5TlNPUzhsejBTVGhmRm5CYnE3QmFxMjZoMEpDczluaUM1VQ?oc=5",
+      "published": "2026-11-24T22:02:00+00:00"
+    },
+    {
+      "title": "ECB's Kaasik Says More Rate Hikes Needed to Get Inflation Near 2% - Briefs Finance",
+      "source": "Google 뉴스 (Europe economy)",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOM2s4ZmtRTXlpOXJZNEVhNnk2blBxOWpnS2N0STRmMU5kWmNsNmhTYjc0dlZFMEZpRGRGUmF2UDczdTg2WEl0dXFHWWM3T21hY1U2eU1ITkk1bjlHNHk4bndDR29Ga0NOdE15RVlmLXZjdTFNVEN6UDdEYjdELUNndm1UMEZqN3lnSUwyOFh6U0dZZw?oc=5",
+      "published": "2026-11-24T22:00:00+00:00"
+    },
+    {
+      "title": "한국 수출, 세계 평균 두 배 연평균 16.6% ↑…경제성장 기여 비중 52% - 뉴스1",
+      "source": "Google 뉴스 (세계 경제)",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBZQkxJbnJNYTBFYTdwSEh6NWJUbGJwa0VvNlluakE4RXdvMGsySUNlaDVsZ0UtcDQ5Q2F3NmE1ejJMbnhpTjhEZFJObHBQb0VXRTJjTlJCdFBWMGF1SjlDR2d0bzQ?oc=5",
+      "published": "2026-11-24T22:00:00+00:00"
+    },
+    {
+      "title": "Black Friday Deals Starting Earlier This Year? It’s Not Just in Your Head.",
+      "source": "NYT Business",
+      "link": "https://www.nytimes.com/2026/11/24/style/black-friday-sales-2026-earlier.html",
+      "published": "2026-11-24T21:54:50+00:00"
+    },
+    {
+      "title": "12 days of sardines and Croc charms: Are Advent calendars getting out of control?",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/12-days-of-sardines-and-croc-charms-are-advent-calendars-getting-out-of-control-81f24548?mod=mw_rss_topstories",
+      "published": "2026-11-24T21:53:00+00:00"
+    },
+    {
+      "title": "Equipment outage delays several flight at O’Hare - WGN-TV",
+      "source": "Google 뉴스 비즈니스 (영문)",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTTFTeU11blUxRkktRS1VSXpQelBvUDhHak9oNkdRVEg3bVdmMU00RnNqaHAxY2kwMEdaZDhfYWtETTRBMHVRN0wwVVJJSEMzUGY4YjZ5S1Jac29UcmJOYVJYUHBhYnR2a284OXdMNW13bFNQY0dUZVMwSlc5eF8zcm9TamdFMXZ0cWZQSUk1MNIBlAFBVV95cUxNaDk0c185aVZxTnhSenIyY2k5SWpyRHlqblppSzF5WkdvczBFLWowQlZXT1g0WlR6dXNYQi1aUmw1QnhhcUc2UFhEQnpHNFFRQTJTdkdJRXlDbHZwdEpITE9wS01CQ0NQQXpaUFVEa05XLXFnS1NJLUhzT3FEc3pFRzV5WjNiN05weXlyOU1RSHNNZ2VT?oc=5",
+      "published": "2026-11-24T21:46:36+00:00"
+    },
+    {
+      "title": "Anthropic’s stock just broke below its IPO price for the first time",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/anthropics-stock-just-broke-below-its-ipo-price-for-the-first-time-5dc82668?mod=mw_rss_topstories",
+      "published": "2026-11-24T21:46:00+00:00"
+    },
+    {
+      "title": "HPE just posted its strongest growth ever — but its stock is sinking",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/hpe-just-posted-its-strongest-growth-ever-and-its-stock-is-tacking-on-more-big-gains-4421cebb?mod=mw_rss_topstories",
+      "published": "2026-11-24T21:45:00+00:00"
+    },
+    {
+      "title": "Opinion | China’s Success Is Built on Lies - WSJ",
+      "source": "Google 뉴스 (China economy)",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWUpfZThrbTJtY0p4bFdZa05QcThIODdoU2Z0Vkw1YmdJZ0lTRmE0djNqeC1QdFRaR25HR0dOMkx0cFVIb0twcjZCbWYyYjR5V0hzd0xSWUlNZF8tNnIyZF9JSGx4WE1vOWRVQWxzcUVzaEVUMTRkTGl5b3VidFlqa3lUUk9vQVZNWVVScQ?oc=5",
+      "published": "2026-11-24T21:44:06+00:00"
+    },
+    {
+      "title": "젠슨황 약발 하루만에...나스닥 다시 급락 [월가월부]",
+      "source": "매일경제",
+      "link": "https://www.mk.co.kr/news/economy/12217655",
+      "published": "2026-11-24T21:34:36+00:00"
+    },
+    {
+      "title": "“노후자금으로 환경운동 마라”…퇴직연금서 ESG펀드 빼라는 트럼프",
+      "source": "매일경제",
+      "link": "https://www.mk.co.kr/news/economy/12217649",
+      "published": "2026-11-24T21:31:43+00:00"
+    },
+    {
+      "title": "How much more are richest Americans spending on the holidays compared to everyone else?",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/see-how-much-more-money-the-richest-americans-are-spending-on-the-holidays-compared-to-everyone-else-f0ff3f4b?mod=mw_rss_topstories",
+      "published": "2026-11-24T21:31:00+00:00"
+    },
+    {
+      "title": "A 66-year-old nurse is facing down retirement with just $500 saved. Who’s to blame?",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories",
+      "published": "2026-11-24T21:30:00+00:00"
+    },
+    {
+      "title": "Oil Prices Rebound as Shipping Risks Persist - WSJ",
+      "source": "Google 뉴스 (oil prices)",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMkpRNmtac0F4dkZ2QTRqVEhSc2piS0Vpd1JNaHVScnZZYmRfdzBEbWZXOUFjb0dhR29XZURYZnRUcTVkQW41Y3pOT1plS0ZDOU5NTm1Qel9OUWRMNU53Y2ZoUjBWU045YUczZFRfZGswa0UtY2hVMVJMS2g0b29qUmw3YjN4VHF0aGVTYjVZdl94WjcwdXkxZ3diaVNXSWZwcE9tM2V3b3JLcTRTU0o0aw?oc=5",
+      "published": "2026-11-24T21:28:00+00:00"
+    },
+    {
+      "title": "Micron’s stock falls as an analyst warns about a future supply glut",
+      "source": "MarketWatch",
+      "link": "https://www.marketwatch.com/story/microns-stock-falls-as-an-analyst-warns-about-a-future-supply-glut-f7fbeefb?mod=mw_rss_topstories",
+      "published": "2026-11-24T21:22:00+00:00"
+    },
+    {
+      "title": "Luxury Water Is Luring Drinkers Who Have Lost Their Thirst for Alcohol",
+      "source": "NYT Business",
+      "link": "https://www.nytimes.com/2026/11/24/business/luxury-water-fiji-evian-voss.html",
+      "published": "2026-11-24T21:18:42+00:00"
+    },
+    {
+      "title": "美 신형 반도체 수출통제 발효에 TSMC ‘中 16나노 이하 칩 설계사 수주 기준’ 강화 - 글로벌이코노믹",
+      "source": "Google 뉴스 (수출·반도체)",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOc2hyZDEyT2lWV2NhTk95dWFKaW5Jcl9uMFNQdWQ4V0tCRlc1bUhadzVmRnQySnY1TF9IZDAxY01DWS1Rb1o2aGgxTGFRa3dwclU0MlRWQUJfMzJoQloxWU5pVXh4NEh0M000SHo2X3laZHZqQ1JQRjRjODNfaDI5dDFhSEdiREl6?oc=5",
+      "published": "2026-11-24T21:15:00+00:00"
+    },
+    {
+      "title": "Trump wanted Jensen Huang back. Now, the president is all alone in Washington",
+      "source": "CNBC World",
+      "link": "https://www.cnbc.com/2026/11/24/trump-jensen-huang-nvidia.html",
+      "published": "2026-11-24T21:13:39+00:00"
+    },
+    {
+      "title": "Drugmaker Insmed shares rally 14% after Sanofi agrees to buy it in pharma’s biggest deal in three years",
+      "source": "CNBC World",
+      "link": "https://www.cnbc.com/2026/11/24/insmed-sanofi-deal-stock-pharma.html",
+      "published": "2026-11-24T21:07:19+00:00"
+    },
+    {
+      "title": "Utah moves to drop criminal charges after Kalshi blocks Utah users - KUER",
+      "source": "Google 뉴스 비즈니스 (영문)",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVVlFOU1ndWJxc0k1U0l4aWFXa3RLRmFDRmpjX1pfQjdyNElzUDB4V1RQSks4bXVjT202WjdYVm1VOThmNXFta1NncUx4MzJ3ckhkVU9RUWNsb0ZaY3JsS0RzS29kS0JnakxoVGEya0tSdVktNndDczRlSWhJTXZIQlNJZGEtVk8xeTlTQjhiTTdWYS1ob0M3bUJQSjlnaUZxYy1XUmhOYmxLLXRxem5qS0hDOA?oc=5",
+      "published": "2026-11-24T21:02:00+00:00"
+    },
+    {
+      "title": "Trump prepares a new round of targeted tariffs - Axios",
+      "source": "Google 뉴스 (trade tariffs)",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9IOXZTRnJTd1pRNzd0dUhFN0pGM3p5Vmcyc2kzT1BmZDMyNmxNWUV5RWFYUmNMdE5OblIxRFZyODdiaFdmWnFBWTdjYzMwX2c0d0NSSXNsSlhlTDl4S2xXTXJON1hkbDczcEw2RXFTZjROdGxO?oc=5",
+      "published": "2026-11-24T20:56:46+00:00"
+    },
+    {
+      "title": "An Adored Manhattan Grocery, and Seinfeld Favorite, May Close Its Doors - The New York Times",
+      "source": "Google 뉴스 비즈니스 (영문)",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM2NnallrQS1XYWxqQU9uQW1CeXhUaWZOd0w0Vk5TczdoSkNYQ1hKV0p4MDJQa3RXYXJXM1dNenFNYlVoLTk2ZGNERF9qOFc5a19pVHdtV3hUZVZUSU4wRnE0dl9namFPMENWMkxnVVZpc0ExV1h4THkzb2V1eFFMVzRIRVRqbDRMR2RDZXZ5OUpDNUUw?oc=5",
+      "published": "2026-11-24T20:56:32+00:00"
+    },
+    {
+      "title": "\"글로벌 경제 쇼크 더 커진다\" - 캐나다 한국일보",
+      "source": "Google 뉴스 (세계 경제)",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YTGNLNmdGemNYTkRab2VRRkhlR1pBeWZEWUM3MW9fVEdadUtCSGZwakZxVEJBaUxWSXQyaWhwMjE4cXM3eHVXUnZSWmxSTlJmQXdr?oc=5",
+      "published": "2026-11-24T20:55:30+00:00"
+    },
+    {
+      "title": "The Next Tariff Fight Is Taking Shape. What It Means for the U.S.-China Truce. - Barron's",
+      "source": "Google 뉴스 (trade tariffs)",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTnlURUVGYlVHRTBQYmgtZWRwNFR4UzYzRVFSYkpkc3dPeTI2RVgtd1dNMkhwbWxyMGRYMFJtV0hneS1SMS1IZms4S0dXSW45MzFRVTkxRl91VjY5LUV0SElNMGFsaDNiSmd4RXZYWElwUWpmN1Qza0RaTjVIY3hRc0ZsRUpTOEp1MTNidU9aVQ?oc=5",
+      "published": "2026-11-24T20:51:00+00:00"
+    },
+    {
+      "title": "Trump's New Tariffs Put American Farmers on Alert - AgroLatam",
+      "source": "Google 뉴스 (trade tariffs)",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZGhoRTRPMzVuNjZzdENkRl9JSGRDMDcxTmFvTXVINjBLdFlJSHZzc3pJd2RhWmtCLXFUM3ZyRHoxU1BEbjFsWHo3MUkwaXV4OHNiRlFWSElTOE42UE83NGpVMEhJWHpnSzJKVXZRZkgtQU5uRzAwX3hwUmM4cDBVcnRuLUlnTXVfRGlweQ?oc=5",
+      "published": "2026-11-24T20:47:41+00:00"
+    },
+    {
+      "title": "나랏돈으로 생계 유지합니다…보조금에 기대는 성인, 200만명 훌쩍",
+      "source": "매일경제",
+      "link": "https://www.mk.co.kr/news/economy/12217615",
+      "published": "2026-11-24T20:43:42+00:00"
+    },
+    {
+      "title": "Thanksgiving dinner prices hit an all-time high – and one staple is driving the surge - Fox Business",
+      "source": "Google 뉴스 비즈니스 (영문)",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSWlSalB3SS1lV1l0a0dIaFhwZFdZMEJBcGRyaENXWm1RVHYxTzJXOUlzcm9kWUxGTENkSTRSRzRhbGQ0NHpqUGFhVDgzRm5NcEUzdjlzeWg2dGh6MDU4amJRU25KTW5LZUpPVTNxbnFOdmZRWEFxVVJMTzRDMFNYZ0tUdTd6OHE5WG8zRWVnblptTFlRdXJEODhWWWRCTUlNd2prRzJ2TG_SAa4BQVVfeXFMUGJnamZHUlpqZjlrSnVaTUxraUViM19pdEZNa29kYkdqRlNueHJZVzR5a1VaaXZzU0JUU1FaR19QMDFKYlZ3WEZBcWFLS0F0bHFsSGd6THRzTWY1U3RocXdtQzQ1ejVvQ1RJRFFXczJnaE93Rl9WOWJtU0NSUnZNakpYS05uRkg2VEhvbFM3aENMbEZ2UzUwYU91LTc1QURwRXR4QXkxQzc4OVdjbXNn?oc=5",
+      "published": "2026-11-24T20:37:00+00:00"
+    },
+    {
+      "title": "What’s going on with the Riemann hypothesis? - Ars Technica",
+      "source": "Google 뉴스 비즈니스 (영문)",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUDVYSU4taWVWWXlzeFZzM19JWEpGa09NUlhmdmhLRzVQZVpoNHdkVUFzQVZhQmY5TDU4YlczZ2pYWUJFWmNxM2NFcWtaWlJQTGxwcnJGX1hlVkNFdTBDZ3V2ZWkwTk5IR0RUeVJGeWMwTC1xRnJXX2o3dVFXOWotNlhiOS0?oc=5",
+      "published": "2026-11-24T20:34:53+00:00"
+    },
+    {
+      "title": "Williams says Fed should take action ‘over time’ on inflation - American Banker",
+      "source": "Google 뉴스 (central bank rates)",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdElzZXd0RzhxVi1Hd2tvQ1ZBRE1LXzF3ZlZfS0R1SXVLV0h2cTJCSF9WLU10MjREN1JpMnZPb3RYZFJqeFFoZ3E1SFJOLUZCUlZYdEZwZFBSaEZFWjZxZHc4cUxMN1o4Wk1qbTlVbnFwUDlxeFdkX2t3TFZDNk5xMy1pZDgwQUZJN2t0Q0hvV21iNFdtX3VtbjVJU29IQXV2dXJVLWxxamdCMUk?oc=5",
+      "published": "2026-11-24T20:34:01+00:00"
+    },
+    {
+      "title": "Nvidia CEO Jensen Huang apologizes to staff: ‘I made some terrible mistakes’",
+      "source": "Guardian Business",
+      "link": "https://www.theguardian.com/technology/2026/nov/24/jensen-huang-nvidia-apologizes-staff",
+      "published": "2026-11-24T20:32:02+00:00"
+    },
+    {
+      "title": "Will I get the £100 energy payment and when will I receive it?",
+      "source": "BBC Business",
+      "link": "https://www.bbc.co.uk/news/articles/c35yn8x748e9o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-24T20:16:24+00:00"
+    },
+    {
+      "title": "롤러코스터 장세에 靑·정부 움직인다…관망서 '적극 대응' 기조 전환 - 뉴스1",
+      "source": "Google 뉴스 경제 (한국어)",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FcUNPUHZmVGUtQUc5Tko0NnZ4elVTWGRNU2pWQ05lNnVrQ2FyVzBXY0FTaURPVGFwU09sbFA3X3FHOG5PekxkdHl1N19FNDE2RWlFcmtyOEc5cTQ?oc=5",
+      "published": "2026-11-24T20:05:00+00:00"
+    },
+    {
+      "title": "A Side of Savings: Pump Prices Drop Ahead of Thanksgiving - AAA",
+      "source": "Google 뉴스 (oil prices)",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcDNyTE8zUGxYVUJVdnVFN2J5d2hHQlVIOE05TU1kQkUxWmc2SWJrNjhiY0JqQldKSm1ZUElYdEhiXzNZYmd4ZjhGejZtRFA5eDdYdU5zMkwwbUMydENvd3dRanhLYzhXWkJWbzl0Q0wzekw2NzQwWkY4bkFpVVhWaXRSTFJSbWJnaGhZWmN3?oc=5",
+      "published": "2026-11-24T20:03:39+00:00"
+    },
+    {
+      "title": "[책]세계 경제 이끌 차세대 화폐는 - 이데일리",
+      "source": "Google 뉴스 (세계 경제)",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPd2JWbnNIUzRmaDRyQVo2M1d4YkxfU2ZWZ3pzMmVHVE5yc0FkZzhzVm5LSXMzaDBoY2lUTi0zaGh6bEQ4QmE3WTZzcnNYVDY1NEFkS3ctX3Jxa1ZzTFMzcEN0LTJVbDhjNlRwdFRkc1NuejkzTTZZSFpNV0VNcVJ6bg?oc=5",
+      "published": "2026-11-24T20:01:01+00:00"
+    },
+    {
+      "title": "Trump’s Nvidia Push Shows Companies’ Importance in Global Economic War",
+      "source": "NYT Business",
+      "link": "https://www.nytimes.com/2026/11/24/business/economy/trump-nvidia-national-security-us-economics.html",
+      "published": "2026-11-24T19:54:59+00:00"
+    },
+    {
+      "title": "Trump’s Nvidia Push Shows Companies’ Importance in Global Economic War - The New York Times",
+      "source": "Google 뉴스 (world economy)",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQakQ0a2JfUmZTVkdhSmRUR3lpNF96cTVzdDVyaEtyYmhlbkdiWHJYNFRhdEpjUzhHeUc0UnJ4M0FoMFJHWExrYnMwQU12c29tVzJJXzYxLXBTTy1GbldPSWQ3bTEwSndFWmhNbWstLVNxNlJkQWVTdnFGOHVyN1F1cXlCSUxZbTM3ajdiRGNBaUF2ZG9uelFrYkhnVnlEbmtFcFE?oc=5",
+      "published": "2026-11-24T19:54:59+00:00"
+    },
+    {
+      "title": "Russia & Saudi Arabia Sparring for Global Oil Primacy - Yeni Safak English",
+      "source": "Google 뉴스 (world economy)",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVmx0RFNJbHNYdlk5SEQwSFVEU2o2aFROelVmZjltVGgtNlBtQVd4eW53SlBXRTh0Q3M1R2dtc1pEQXRySndjb1l4SmZ5UllKM0JLN3o3a3FQWkFPN1Z5YVBtNkV0bjdOWnFtaG9DNkdXQjFvbUxqaUE4YktqVl8wQUxyaUdKdkJhZ2NPNWNYS2FwM29SUUI4?oc=5",
+      "published": "2026-11-24T19:37:34+00:00"
+    },
+    {
+      "title": "Putting Socially Conscious Investments in 401(k) Plans Could Get Harder",
+      "source": "NYT Business",
+      "link": "https://www.nytimes.com/2026/11/24/your-money/401k-esg-rules.html",
+      "published": "2026-11-24T19:29:19+00:00"
+    },
+    {
+      "title": "Anthropic Stock Sinks Below IPO Price. What History Says Happens Next. - Barron's",
+      "source": "Google 뉴스 비즈니스 (영문)",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRG8xbE9VS2k4WFBkbmRUcFNPa2tkOTFzVVBnLWJfaERmNllLa0ItdVYtR1hmbDFUcnI5ZGlDN0IteFAzem9XclBheHd0VmFzSGZucEVzdmxhT283dTF5M2FRVVRvVHpicFVNT05TQzJRR2p6U01fMTNqWFh6emdvQkxsaW8yUQ?oc=5",
+      "published": "2026-11-24T19:17:00+00:00"
+    },
+    {
+      "title": "Tesla shares halted after CEO suggest taking it private - Yeni Safak English",
+      "source": "Google 뉴스 (world economy)",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWFdtMmhDX3AtSFZTREdkNlA2M0dGV2UtbFdMakF4S3o1eUZkZ2ZTR29yVGo5NUJYbE1EeDZwcEw2VFhxaXdpUnNlbzJKamo0SGVIQ0ZXMzRsQjN4WWNlYjBDQl9OM2R4UVIyLURVbHNzbDIzTkJQMm94SERuQTFiVE94TVlFRG5Scko3WlZqeEtEMDdCOFhyeHd5alo?oc=5",
+      "published": "2026-11-24T19:04:12+00:00"
+    },
+    {
+      "title": "ECB’s Vujčić cautions against economic isolation amid mounting global shocks - INSIGHT EU MONITORING",
+      "source": "Google 뉴스 (Europe economy)",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZmJ2YlNIY0N5Z0xrbEtSN01vM3RGSnItOGY3Y0JCemlwUms5Vmx5WWp2X2tXNktDOVkyMzRlWTZWQ25pc2pUMnZnQ3pkUHc0TGVnTWJhVFFGaVFTckludXFsTXU0Mm52NE16RmFkN3VIQzBZcmpXZ1RjU3lFWkZ2dXdNT2RsWDVjdjdQaVBZRXhxZVF5bWpRZlBheFVud1FaMWNTdFpCT1ZqUmRvS0NramJIS2RWLXdvZGo3a2FsT2FnOUZ4V205SWxPdUMtNFBkcEU2TC1jMG16Zw?oc=5",
+      "published": "2026-11-24T19:01:57+00:00"
+    },
+    {
+      "title": "Oil Prices Rise On Hormuz Vessel Attacks - Marine News Magazine",
+      "source": "Google 뉴스 (oil prices)",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNOGMySUxZTnMtcm9wbzhtcUdnUjBZLXFkNGoxclJKd0xxcWtHUmVYRTl2RG40QWdTeENLdzhoT190WmdlaHVxNnkxY2NCY1czc1ZSYTBVMDRJN1AwdElmbENhSS1fblFqSW92Ykp3UmF2RWNtMUdNUFFyVTdVVm5GQ1ln?oc=5",
+      "published": "2026-11-24T18:56:16+00:00"
+    },
+    {
+      "title": "Trump administration set to unveil new tariffs after probe on excess factory capacity, sources say - Reuters",
+      "source": "Google 뉴스 (trade tariffs)",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNklFaE54bEV6OGdKT29ScUxHUlZwRDNyREJ0MzBSZzZGdnptTkVxaXNHeWx2WjFWYVMzMzdMeU92dC1PVmYyZ1BTT3lCTWVRVnJ5ODFEb0NXYWpDd1ZQUlg4bkZ5QVAyck9KQUhMbldjY2FqMmtsZGs3MTFUY0xLZm9wMWRRTFAyS3VvZUZ6Wnk0VzlxTjR3VS1GSkJ1S3VCU2xmZ09FX1E5dUVjTUhfR21wMG1pcktxdGc?oc=5",
+      "published": "2026-11-24T18:48:05+00:00"
+    },
+    {
+      "title": "New York governor Kathy Hochul signs AI toy ban into law - NBC News",
+      "source": "Google 뉴스 비즈니스 (영문)",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQc2p2VFNqOHU5NTlQdkphdV9lS1pObWJTdnFtRngwSlhQQW95TnJHMGhoUHFCYklDdVdDNHpCRlh1ci02QUNTZTlYdHFxdk11RU9HZFpETk9yMnpVVi1zV05adEk3ejYzaW11TW5GQlA0S1VRd096WU1sMUtJZGtNMlNUUTlqX0ZCNmMxZC13clZvaXJLYVJhYTRwQk1LQ005V2c?oc=5",
+      "published": "2026-11-24T18:47:00+00:00"
+    },
+    {
+      "title": "Marine fuel prices respond differently across European ports, study finds - EurekAlert!",
+      "source": "Google 뉴스 (oil prices)",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0tSXZ5WGdQVlFZQm93Zm5SOFlXcjFCczY5U1VFbk1NR3pDMFcwR3liSlRmRHRVcUs4Q0gwQ2tYajVubk9WMzVOOS1mYkIzR01xemxSYTVHTmx1RzNR?oc=5",
+      "published": "2026-11-24T18:41:47+00:00"
+    },
+    {
+      "title": "Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist",
+      "source": "CNBC Economy",
+      "link": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html",
+      "published": "2026-11-24T18:34:43+00:00"
+    },
+    {
+      "title": "US preparing to raise tariffs on China, EU and a dozen other countries - EL PAÍS English",
+      "source": "Google 뉴스 (trade tariffs)",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPb1hGZllMX3hJd0QyV3k3aVJ1eVhYMnY4M3JLQzN4blkwdDM0YzJGRjRfNENEdlc3akt5dDdFSk1ZTVczNjlxdGtyNkJ5QmZidFFLbDM2OWs3QzdrbDZJVmthNkZQRS03di0tYlJ1dVVsYmNkeW1jVEp2d0doN0IzTTJVYVVjakVQYXBoNzUwQUhKeEROWlVvOEtFVm53MV9STUZkSHVuUFdNeE5aWlZpODBRRHg3UnNheVVqbjhTVVowNDBNUzhodjlKRVJDd9IB4gFBVV95cUxQX1VXTW5NVHdydjFTb3BEVzNtVWlNNW9HUGJYTHhSVjhsQzFnRmVNS0JqUTJuTUxBVk5mQkZhV2NMOG5BX3Fiek82X0VHQlFDbUVjOFR3OEVhWXRMZEN0YVIzWEJ3QU9ySmNZSTZkV3I2TTF1Z2J1eV9iSWFMbENUWkhfLW4xcHpaeU9sbjVsYnBGOFRka29iZjRfa21EWEZVdFpnUVJfclAyWWsxNi1LWG50dmJqVFR4S2ZRdmdUdmVWNk9PM3czZ3VzcTJlOU9OWTZHekZFZGRJSF9VTENHbjhn?oc=5",
+      "published": "2026-11-24T18:33:06+00:00"
+    },
+    {
+      "title": "Laos sheds 'least developed' label, but economic dependence on China looms - Nikkei Asia",
+      "source": "Google 뉴스 (China economy)",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMWZEWHBFVU9mLThOa3V2WFZodXZPSmdMZVF1eGVJWnBtYmRxYUNBQWJoQVFxRFAzQ0JNM202ZzRHRHNhX3NJdW9qYm15UmFjOWFsb1dqLWdNLTY5UmFBNS1DUGhFS1h4YWp2dkFyTVFzT1JxaHNiN3h3VTlFemNUMngwRW9ITTFWZFNCb21lY1E4ZVJDQUZWcmdNM1JOZ3F0SFptYndB?oc=5",
+      "published": "2026-11-24T18:28:00+00:00"
+    },
+    {
+      "title": "France to approve first crypto-issuers as new rules loom - Yeni Safak English",
+      "source": "Google 뉴스 (world economy)",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcWlDR1Bva0JiTmk5UzJwczdidVI2RnZfTW5PWXAyZXZSNFJOMEQ5ZHItTVVNUlF3dU1hb0Fha2ZkLWZUellIRWFCMDd0NlRXdVU1aloxYzdGVHBsaVB0ZU41UlEzTUNsT01ybzN4eE83elR2ekRCSHdsX0VoYms4T3QwQWNEZDMzUmkyajNydzJ4UTRCVnpmZ0t2X2NZdw?oc=5",
+      "published": "2026-11-24T18:24:52+00:00"
+    },
+    {
+      "title": "Faisal Islam: Fears over the AI boom haven't gone away",
+      "source": "BBC Business",
+      "link": "https://www.bbc.co.uk/news/articles/c6894evgpel5o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-24T18:21:43+00:00"
+    },
+    {
+      "title": "Macklem admits BoC offered mixed messaging on core inflation in past - Investment Executive",
+      "source": "Google 뉴스 (central bank rates)",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWDAwdnhkWHhnVWxJcG5DSm5kSmdKN3Y2TmIzNGxmWFJVSGVUUDVuZFRVMDI4QXdmLVpNMFZpaF9qQ2NYejA2RS1SVmFzSmo1NmJ2R1JzN2x5dFprVUJnMzZKcDZtbEVySEtDMDlheGJwcVpPYy1ZWEg0RGlGZHpObk41V1dGSlotNG9GWFNyUE1ZdlI4ZHNoQTdNSC05TmExZmFUOGJHNXlJQUFVNkpSOF9USTl1VXdPWEE?oc=5",
+      "published": "2026-11-24T18:06:48+00:00"
+    },
+    {
+      "title": "Pressure Builds at American Airlines as It Lags Delta and United",
+      "source": "NYT Business",
+      "link": "https://www.nytimes.com/2026/11/24/business/american-airlines-delta-united.html",
+      "published": "2026-11-24T18:06:24+00:00"
+    },
+    {
+      "title": "Jensen Huang to face DC grilling the same day Nvidia releases new products at GTC",
+      "source": "CNBC World",
+      "link": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-congress-gtc.html",
+      "published": "2026-11-24T17:51:45+00:00"
+    },
+    {
+      "title": "Top CD rates today, Nov. 24, 2026: Lock in up to up to 5.10% - Fortune",
+      "source": "Google 뉴스 (central bank rates)",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBPdDZ2cXNTNnJiQWMzREJtSHpVamZIR3Fwd2IyLU1EMkVscVJqODNVVjU0a20xcFFjOFZjSkhFZmhmbmhzcWE0OExRX3UyYVlIRlhmU09NenVrQQ?oc=5",
+      "published": "2026-11-24T17:23:00+00:00"
+    },
+    {
+      "title": "Grains Mixed Sorting Through New China Trade Deal vs. New Tariffs - AgWeb",
+      "source": "Google 뉴스 (trade tariffs)",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdjM2LUwxdG5SaFNJaHA2VzFqcGhxaXd0U00xc0Y3TzVnamFRMjJCOTdKVkVLTnV4YXlKQTNmNUp6amdQdjhnQmhnc2d4aUhqY1dJRkFxbW1YZHpWS1laQ0hESWE0Y29RMkVPRTJ0TUZEUTV3UjE1SjE4eFVoYS1kZVo3RnNoTFJfb21uMmlvNm1pbUx5RnpIdUhn?oc=5",
+      "published": "2026-11-24T17:04:00+00:00"
+    },
+    {
+      "title": "What Jensen Huang's return to Nvidia says about the company's role in the global economy - WBUR",
+      "source": "Google 뉴스 (world economy)",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE15d04yeE1BVk1yZ09Ed3NIV19TTzY0N3BtZ0twZU9pekN6ZkpObXA2T0hFODlMNV9PM0JGZ1BNclNaNHBuYU84WlFvdzkwQTZ1TkVnNGJfekFsWXViUm5KOEdWYy1Bak14OTM3NW9qaUw?oc=5",
+      "published": "2026-11-24T17:01:14+00:00"
+    },
+    {
+      "title": "EXCLUSIVE: Microsoft declares 'Code Red' after historic outage, internal memos show - Reuters",
+      "source": "Google 뉴스 비즈니스 (영문)",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZWlZRm9kdXdaMDkwUWdXZVZPM2NTakFfZTFDa3Iwcm5yNXh4enZZVWRpWjBuc2ZpVERzOElVc0h5NjY4eXZnb0w5YUZ4Wm1nRmUwd04xQmNKZDQxOFlQWk12N0FCd3hSQTVLVFFWZmJKbm01S0pCM1AwRXVRZklpdWJfdkJ1N0FDdS1EZGNqTzd4WjZoUy1qZ1QwNktXdUlMWlBDYW9jYlozNEVDV01DSGZlVVc?oc=5",
+      "published": "2026-11-24T16:57:17+00:00"
+    },
+    {
+      "title": "Renewed US tariff concerns drive safe-haven demand for Japanese Yen - www.tmgm.com",
+      "source": "Google 뉴스 (Japan economy)",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQaTg4YUJocjluZHBlaTg2VmI0dWlIVFYzX2ZQUkZHOW02c3FSekJDWXJtNXctR0E0QmxLLVNUY2hNX04yZzk0QlFQY1liSUlxMTZTN3FfMlBpQ0xNeE9rLWhVY0JYTnhkWTlocnFseENWMnBGSHJoV2hENDZqT1A3cklway1lejdKbi1WTlppelNnMi1XMC02ZFpRYUMxWjFjamNwWnVjQ25nU2ZXM3ZOYmNkaW4yTzc3c3Bmamctczk2dXViamRuQVd5cWpTTTVuZGhz?oc=5",
+      "published": "2026-11-24T16:54:14+00:00"
+    },
+    {
+      "title": "Bank of England officials hint at faster rate hikes ahead - Mortgage Professional America",
+      "source": "Google 뉴스 (central bank rates)",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQWRWTTRHcFg2R3V4bWtTb01QLXJtQzI4SGxCdUpncXNSbG1JZHp0ZmQyaEd5QXZuclppdW1sdHJFdVhjMUJaRFJDOTItRkZLRV9xa09STThzVHVTUWRyeXV1ZERZd0RoeGM2aHN0YzhtUTRCOEUtUkc0SS1SaGVMbHliOTAwNDRUdm5mY1pIZVdiYjAyUnBJMXUxam9tQS1RT1N1QmVB?oc=5",
+      "published": "2026-11-24T16:30:39+00:00"
+    },
+    {
+      "title": "Trump administration tees up tariff hikes on EU, China, others - Politico",
+      "source": "Google 뉴스 (trade tariffs)",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNHdmanQya1ZpbmtJaGc1SHh1NFItcHdxWXlLX2VGZG9NLUlDeV9RYWRVek5GWVlxdXpfNFRmRmlLMnpBZl9fWDVmTkx4ZFd0TnlGanhsbFA1XzJ3SjM3di1wMFl0MzREQ1RYWGJ5SDAtbmVYNm01YllCS29qN0ZfenB2N05OVXoxNVJFX1oxRkV1TFIwZ2U1RA?oc=5",
+      "published": "2026-11-24T16:18:00+00:00"
+    },
+    {
+      "title": "Japanese Yen attracts safe-haven flows as US tariff concerns resurface - FXStreet",
+      "source": "Google 뉴스 (Japan economy)",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcDh5TEJxM3hablo3M0xIeS1PZloxcGlNQ3pMXzBSdVcwTDJvaWRxMjlnNXlxc24zMHh1Slh0VlFmdWp5MlNpUTZRR29sTExrcEJBbXp1MGlBa3FZaDBGek9qYVFFMXc0R2RqOXVYZGZycEhmblBVd19nMDFNeTBudUVJTHRwQzhGN0tBd0hGUE9IN1dOeVJQMlhPVV9vcDhUQTdWLU54SmVRZzBVaDAtLUVhaw?oc=5",
+      "published": "2026-11-24T16:15:21+00:00"
+    },
+    {
+      "title": "European Central Bank: December hike seen as almost certain – Nordea - www.tmgm.com",
+      "source": "Google 뉴스 (Europe economy)",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObGpMU0VLTTdwdm44OFhIQm9DbFFJNXhUU3p1MWJ1dXdzeXRTR0syWnlxbGdXMDBwMEdkMXVPQ2RJc3ZJOXFMM29zbXlBbDBwY3dpNzREd3N4Q2QxOXVUaHptTWNrQXlBeTZGdlR1RzVvT3lYeU0tdTJSeFgxd0FhdER2N1I0TWxjZFBZUk5UX3QxWDJVdWFYdGkzdktsLVc0UGdqb3lvTFdVaXRKUkRKZFFWYkN0WUhwMy10U3N0bHYtQlBSckhMeVJGNmFnOWM?oc=5",
+      "published": "2026-11-24T15:56:34+00:00"
+    },
+    {
+      "title": "Nigerian central bank retains interest rate 23% - APAnews - Agence de Presse Africaine",
+      "source": "Google 뉴스 (central bank rates)",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5HbFJPNHo3emRWQkRpOElKS0IxbWtuMzlhSEtGMDRoa2lxSllnZTZockxQTkxndGVwLW5KMFlha0p5YlViaEZYZ3BYUXB0ancwb0pyOU5yVk0zN0xsVy0zRU5UX1l2S0VpaDhMc2FRVWczODBvYnc?oc=5",
+      "published": "2026-11-24T15:46:44+00:00"
+    },
+    {
+      "title": "New Trump Tariffs Won’t Top Trade Deal Levels, Will Be Targeted - Bloomberg.com",
+      "source": "Google 뉴스 (trade tariffs)",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRk9ydWRwa1d2aXFHT0FvQW16SWMyemgzS1VCc1g3MVRlb2hhM21HTl9RdWMzTUVQcnNJbVpRMzFQellZZVBCbG44RXhpekczWkg0TnRwaVJVT3didFhjc2oySHpxUFFheC05NVB4a0Y1dnVXM2tmSjE0YVhwYjNHVnI4WmhTS2dna2dmeDA1ZVRwV0oyS1pmZG9BeXI0SEVIMjh5QVE0YkRRTW1xR2R5Z3ZfRQ?oc=5",
+      "published": "2026-11-24T15:45:27+00:00"
+    },
+    {
+      "title": "CF40 Research: China’s real estate adjustment may be nearing its end—and its external surplus could stop widening - Pekingnology",
+      "source": "Google 뉴스 (China economy)",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1TSWQwa2U0TVhmX3MxUVhpNjhFMXI4SXRSS2FLdDFIOHNqMWp1ZF9KSUJDbjRiYi1NV2pjTFVncnI5Y1F0SGp4SzlCRGZIOUN0OXNYSmFHQ0xYTHkya29DVW1xbjhPNHA1TXRoOHFxY1k?oc=5",
+      "published": "2026-11-24T15:40:24+00:00"
+    },
+    {
+      "title": "Dollar Weighed Down by Falling T-Note Yields and Trade Tensions - TradingView",
+      "source": "Google 뉴스 (Japan economy)",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTHQ2YWVEcEY2a0JhOEVWVVVpVzFzRDMwWFhIWEhWa1VFSVhvMnhBci0zUzIwNTNTb2xDU0dKOGdMY3FhTkRBQURud196ZUpKWEdSMDJoYWtXMkxpbWRMY0QtSm5fYmdfbDNHclljUVJ1bi1DSW1qUU9FV1ZSYmNGeU9mTFUzY2YtVlQwMER3dUlPQW9Ia2diQl9TT2xEYi1oeWF4QTBaOW5ScFducmszQW9kQkQtc3ZTY1l4N21qQQ?oc=5",
+      "published": "2026-11-24T15:36:17+00:00"
+    },
+    {
+      "title": "Chinese airline places order for 50 Boeing jets as Trump hints at bigger deal - South China Morning Post",
+      "source": "Google 뉴스 (China economy)",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcDRyNzRBc2I2alhwcGtSWmxqWmdKb2ZieVB2djZpdlQyOVRROFRvUWFUTTdUS25nYW1aQjNQZmpOY2dXeWw4U2xJNktseDkyZlFBYmoyTlVMT2RrYXZKU3h1Uk1GR2xxY2dSNVFtMFBDckpvR0FsX1YtTHppak5fUlhKZjN3cWdjbjk1emtKX3ZBdGM5em9DeWlBUmFGeDM2dkNRMFladVlrVG4xanVfSTI0Q2RwNUFIb2pabWNUM0NhQ2N50gHEAUFVX3lxTE5wLUZNWXowS2NGbVZMOFB6NHVDNTh2dDZURFFFSWluR0ZTd2xlRHM2QzdxMnNXeFgyS0pzZnFqaFI3NGdfby04ZWlibWJZeG15bHdmZ293b2RoclNWTlhwSWNQV3FLSnh5dldScGlCXzVuVjk2R2hlZE1WN3BwaVZ6VlpuRF9OZTY1QVEtemJreHdMcFc3QmNvWDMxNms4X2pLYmZUbUR0alh4TzlUVU5JLWZDenVMWnduaDBoLUFSNFJMVGk?oc=5",
+      "published": "2026-11-24T15:28:01+00:00"
+    },
+    {
+      "title": "Europe's Moment of Truth: Democracy and Power in a Changing World - Trinity College Dublin",
+      "source": "Google 뉴스 (Europe economy)",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQeGV0TVZUbHlSWWRkTVZJSWY2MFN4ZUNvekVOanhqa3BkV05tTkNJUUxxV29SeHhrV28yVGU5T1A5Qnp0aHl0aUdrNHMzeXd4RzRtYVh5Y0w0WDZraGI3QkVZMUJsX1hNM29Md2ozbldXVDNwZmhOdFpvR1U4cUtMSDhn?oc=5",
+      "published": "2026-11-24T15:27:34+00:00"
+    },
+    {
+      "title": "Insured crabs, tea help China's farmers avoid extreme weather losses - Yeni Safak English",
+      "source": "Google 뉴스 (world economy)",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQjNNTmI3RmhfbHdWN0s3MEVRdzNRZGN3NjJIVkt6aE1SU1FuT0QyMzlvemhacDdWM2FfQ2ZKTExvaUtDT3BJdVRfTXFxMmNjVXhDb25Fdk8wRE5HVHpVckl1ZGlrUFNKeDRsTm5lbFhsWVZ6ZVhCaXJEYVBKWEJ5UGlWZmRkZUtmY2ZkcWRLODFpVGFKR2JZYy15SVNneWFhWmZtRzh1Y2pJcHM?oc=5",
+      "published": "2026-11-24T15:21:46+00:00"
+    },
+    {
+      "title": "ECB policy direction clear for December but uncertain after, Sleijpen says - Reuters",
+      "source": "Google 뉴스 (central bank rates)",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPX3NvS1RRNnRjN2c0bk5lS19FVEl4X3VwczBEUmI1R19XVTMxR2VjRGZaQ3dvZ0Z1MmM1NXdGVWZNTDVRX3dQTm9wYnRYR1p6MFVza1AxOFZONGNWT0JzNW5SYnJFVC1XRXBPTGhlcWxfNFMyanBabTlJcXBZSWFmTW1UV2ZSUk9GUjhMTnVPNVhSWVNscWhaZjRBOU5NVTlxcGpsTXkzblQxdlpudl9mQ2hKQ2FyOWM?oc=5",
+      "published": "2026-11-24T15:20:35+00:00"
+    },
+    {
+      "title": "Bill Ackman says the U.S. economy could be headed for another recession—and is blaming Kevin Warsh’s Fed - Fortune",
+      "source": "Google 뉴스 (world economy)",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQN3VCOE5ObEdOWFpHOUdKMmRIa2RKNjdkVEFia3VpTzFLSlZyZkhoaVVhSDNZQVdwMElQNG9ya0ZFZXhFcTFnS0ZkdDZ6T1hWYWRVQTV1V0diTzVjSldtQmFmdmZFQzllQjBHNVJCcFhnSXNRZTlqZXVLS0JvQUZaWEtndFY5QU5aV0VRN1VMdw?oc=5",
+      "published": "2026-11-24T14:59:00+00:00"
+    },
+    {
+      "title": "Romania’s Central Bank Held Rates While Inflation Crept Back Up - Finimize",
+      "source": "Google 뉴스 (central bank rates)",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOb2ppeW5yWWthTjJqM3JldzRGNTJEVlJWZXZXdzQ2c1lSeTZGS2J5QkVqRWxCSG1aS2lQZm1SX2xFVXh0YU54bUN6ck4yc2JoRU1UTzVDdUJVZXdYM2l6cFh6aFNBelNlTmF2UXB5UlJuaXlWLXlaZ1dUZEtxN2hsR2VsdTRwdVZVcFZfWmc2SFVJc0YxM2c?oc=5",
+      "published": "2026-11-24T14:44:50+00:00"
+    },
+    {
+      "title": "Japan Government Keeps Gradual Economic Recovery Outlook;Notes Sluggish Consumer Spending amid Rising Costs, Warns of Inflationary Impact of Iran War - TradingView",
+      "source": "Google 뉴스 (Japan economy)",
+      "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNQjNkU0JGdXByYThaZ1lpakNuX2Z2d3JMT1pheTJxVWxPU0M4OWg4aEtQV0g0SXh5Z2t6ZWUyOHR2LU5naVMyY3oyUW9HSWxsczFaaUxia1ZZWjQwOW5aMGg5bzE2WVdsZmFZRF9lZmthRzBQZXpmSmV6WFZkcnJrZ3ZldWUtWkkya3FLYi1Eb0VMRk5WUzluMFVJVVBGRWJXa2tibUdmRUEyakc1Y3ZlN1FVUE5hSTdDUW5WRUxFdkNyYmNpTmVKZEQ1M19JQWlOWDdic2JuWlp4Rlh0Y051azNtVHItN1R5NWJQcVlIbUZaRTZySF9FTlVCdU5jQ0VFTnY1anBtVndKRlgzaUlzQ1Z0WldPUzJUSXp2Z2kyTE8yWnZybm4xdjM0eHpEbXJp?oc=5",
+      "published": "2026-11-24T14:07:00+00:00"
+    },
+    {
+      "title": "Analysis: Central Bank eyes scenarios as markets seek rate guidance - Valor International",
+      "source": "Google 뉴스 (central bank rates)",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWjF0eUl2czhHUjVISDZ5WHhrajZ2ZjB6clphV1p4dWdSUHp0anZRWTBzYzlsSWtRU1R0b0U1ME9mWmlQTk9LbjZiQVMxVThuNXFrTkl0V2JWcVp2YXQ5RTFod1Y3ZWNBcDJTSmx3NmxRdG9oR0ZXMnQ1TWhJM1YzVHVYN096MzhJRF91UkQ4SlRaenk1UVpaRUF5UTFiWHlMZXRCMzRnM0lyd29zLXV5UVBwdjltZUh2dk14blRwSEtpd3k3ZHQwWnVTRnE5Z9IB3AFBVV95cUxOTzVTZ3hEeWdWalR0ekVrVmVTa2NlOFZQQWZwT3NUVDNscnFPSktyV2hWd3A4NTBGYW9uUF9FazktTGhQdkNDSTBIRVl6RExvRkpEZDFEbTZOR2puNHowOGxlaHFhR29OMG1RWUlQX1RFYjJ1RjhJc0loZndHMG9mdExCTUQzSkVDSUc3Tl9nRy1IUlpCQmFmMzc2X0Q4b3pqa1Z0ZldtVEdIb21JLUVZcjlkSUNnS1haNmlMYWMzdXlnSUFJaTRKSGQzYXEtZEN5N2V1cWYwam54Z1lY?oc=5",
+      "published": "2026-11-24T14:01:28+00:00"
+    },
+    {
+      "title": "서부발전, 재무·경영 불확실성 선제 대응…사장 주도 재무위험 관리 강화 - 부산일보",
+      "source": "Google 뉴스 (환율·금리)",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE16eGVNR1Zla3h5OVEyaXpIVTZlYUdWVFVHS09jdUJVOFFUYXVmSHdGS1lQSE0ybElWTk4zMDctNkRZaHg2dnJWLXdVRkdYRDJUVENRRFprSUM5TjNGaFItQ1A0cmV2MXFZSl9iNzBWODlIS1JTVzRPcnVJYw?oc=5",
+      "published": "2026-11-24T13:54:47+00:00"
+    },
+    {
+      "title": "As ‘AI bubble’ debate heats up, what’s the impact on China?: Global Times editorial - Global Times",
+      "source": "Google 뉴스 (China economy)",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4zTlZRVmVYS3B5Z2FMVzZMRU0xS2hsV3lXNTJGQ0ljQ1F2ZndfR0VwdzNpMjJPTHdVZXdXYkxSQ2JNb3ExZFVRQ1VQcV9KcmlZUjdUdHFBX1ZrUVpsRFB1Zzh3?oc=5",
+      "published": "2026-11-24T13:38:00+00:00"
+    },
+    {
+      "title": "Why Are Oil Prices Falling to 3-Month Lows? - Yahoo Finance",
+      "source": "Google 뉴스 (oil prices)",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMUQ1bFJ4QXNRdjBiOG5wUl93WlBXWnFlVmYzTWQyX1ltRjJ2Njl0bk9fQ083V3VpOFdGR3ZuZUtrUHlxR0dORFUyZkZtdnJyOTZLaEFkSlBKdktPSU5mTjlIWndaYUNfa0o0U0VvbHNYZUFPcFNmQmx2NHdLTk80NTI5enUxZ2c3?oc=5",
+      "published": "2026-11-24T13:33:16+00:00"
+    },
+    {
+      "title": "New Chatham House Programme Director for Global Economy and Finance appointed - Chatham House",
+      "source": "Google 뉴스 (world economy)",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdDByMW1PS0VTSGxKelFPNGhSUjU0QjZoV1V5MGg1ZXBnWFZRNnNvczhFWVBnVHZpN1VRdk9RN2gtdTNUeWFLM0l0aFo0TmQ2OS1sSGNIZWo1TzY1djF4UV81MFhvRFJ0Z01SWmx5bFFFd09oSFA5aDQ5RVRQaTR1bnBqRDVnTFpScVdhMjllV29sbGZlREpuMEJHSlhITEhaZFpQNlNTSjhFc2NuNnRR?oc=5",
+      "published": "2026-11-24T13:30:10+00:00"
+    },
+    {
+      "title": "investingLive European news wrap: US futures give back Nvidia-led gains - investingLive",
+      "source": "Google 뉴스 (Europe economy)",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNkp0R3ZYSW12MFFra0Z4REp3djhmY0NoVy1sMm9tU0tobUc3NURxSUdKd1d3eHhkZlFnX3NFZ1NDeDlJNTdiZVptZENmb3FrQW80Y0VXczNvUE9YNHpHYllEY29Pbms2UUtkRC1OUGpjaTdaYXd1c0VybjVyYllteFU4cEtSd1RGTG1BVGlKS3FHbV9Scm5DT0Y3cjhPb2xDTXVRMQ?oc=5",
+      "published": "2026-11-24T13:26:23+00:00"
+    }
+  ],
+  "regions": [
+    {
+      "name": "미국",
+      "mood": "부정"
+    },
+    {
+      "name": "중국",
+      "mood": "부정"
+    },
+    {
+      "name": "유럽",
+      "mood": "중립"
+    },
+    {
+      "name": "한국",
+      "mood": "부정"
+    },
+    {
+      "name": "일본",
+      "mood": "부정"
+    },
+    {
+      "name": "아시아",
+      "mood": "부정"
+    },
+    {
+      "name": "중동",
+      "mood": "부정"
+    },
+    {
+      "name": "기타",
+      "mood": "중립"
+    }
+  ],
+  "sectors": [
+    {
+      "name": "금리",
+      "positive_percent": 20
+    },
+    {
+      "name": "물가",
+      "positive_percent": 30
+    },
+    {
+      "name": "무역",
+      "positive_percent": 30
+    },
+    {
+      "name": "에너지",
+      "positive_percent": 40
+    },
+    {
+      "name": "기술",
+      "positive_percent": 30
+    },
+    {
+      "name": "환율",
+      "positive_percent": 30
+    },
+    {
+      "name": "증시",
+      "positive_percent": 10
+    },
+    {
+      "name": "고용",
+      "positive_percent": 70
+    },
+    {
+      "name": "부동산",
+      "positive_percent": 20
+    },
+    {
+      "name": "기타",
+      "positive_percent": 50
+    }
+  ]
+}
