@@ -8,8 +8,11 @@
 하는 일 (순서대로)
   1. config/feeds.json 의 RSS 주소에서 경제 기사 제목·짧은 설명을 가져와요
   2. config/indicators.json 의 경제 지표(환율, 주가 등)를 가져와요
-  3. Claude API 에게 기사 목록을 주고 이슈로 묶어서 분석해 달라고 해요
-  4. 결과를 site/data/today.json 과 site/data/archive/날짜.json 에 저장해요
+  3. AI(Gemini 무료 또는 Claude)에게 기사를 주고 이슈로 묶어서 분석해요
+  4. 🇰🇷 한국 집중 분석 (scripts/korea.py)
+  5. 📖 오늘의 경제 용어 사전 (scripts/glossary.py)
+  6. 결과를 site/data/today.json 과 site/data/archive/날짜.json 에 저장해요
+  7. 일요일이면 📅 주간 정리도 만들어요 (scripts/weekly.py)
 """
 
 import argparse
@@ -27,22 +30,11 @@ CONFIG = ROOT / "config"
 DATA = ROOT / "site" / "data"
 KST = timezone(timedelta(hours=9))
 
-# 어떤 AI를 쓸지: GEMINI_API_KEY 가 있으면 Gemini(무료 등급), 없고 ANTHROPIC_API_KEY 가 있으면 Claude(유료)
-CLAUDE_MODEL = os.environ.get("CLAUDE_MODEL") or "claude-sonnet-5-5"
-# Gemini 모델: 앞에서부터 시도하고, 안 되면(없어졌거나 한도 초과) 다음 모델로 넘어가요.
-GEMINI_MODELS = [m.strip() for m in (os.environ.get("GEMINI_MODEL") or
-                 "gemini-3.6-flash,gemini-3.5-flash,gemini-3.5-flash-lite").split(",") if m.strip()]
-
-
-def provider():
-    if os.environ.get("GEMINI_API_KEY"):
-        return "gemini"
-    if os.environ.get("ANTHROPIC_API_KEY"):
-        return "claude"
-    return None
-
-
-MODEL = CLAUDE_MODEL  # 사이트에 표시할 모델 이름 (실행 중에 실제 사용한 모델로 바뀌어요)
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import ai  # noqa: E402  (AI 부르는 도우미)
+from glossary import make_glossary, update_dictionary  # noqa: E402
+from korea import analyze_korea  # noqa: E402
+from weekly import is_weekly_day, make_weekly  # noqa: E402
 
 REGIONS = ["미국", "중국", "유럽", "한국", "일본", "아시아", "중동", "기타"]
 SECTORS = ["금리", "물가", "무역", "에너지", "기술", "환율", "증시", "고용", "부동산", "기타"]
@@ -123,37 +115,53 @@ def sparkline(values, width=70, height=20):
     return " ".join(pts)
 
 
+def fetch_one(yf, ind):
+    """지표 하나의 1년 치 하루 종가를 가져와요. (날짜 목록, 값 목록)"""
+    try:
+        h = yf.Ticker(ind["symbol"]).history(period="1y")["Close"].dropna()
+    except Exception as e:
+        print(f"  ! {ind['name']} 실패: {e}")
+        return [], []
+    mult = ind.get("multiplier", 1)
+    return [d.strftime("%Y-%m-%d") for d in h.index], [round(float(v) * mult, 4) for v in h.tolist()]
+
+
+def summarize_indicator(ind, closes):
+    if len(closes) < 2:
+        return {"name": ind["name"], "value": "—", "change": "—", "direction": "flat", "points": ""}
+    last, prev = closes[-1], closes[-2]
+    d = ind.get("decimals", 2)
+    if ind.get("suffix") == "%":  # 금리는 %p 차이로 보여줘요
+        diff = last - prev
+        change = f"{diff:+.{d}f}%p"
+    else:
+        diff = (last - prev) / prev * 100
+        change = f"{diff:+.2f}%"
+    return {
+        "name": ind["name"],
+        "value": f"{last:,.{d}f}{ind.get('suffix', '')}",
+        "change": change,
+        "direction": "up" if diff > 0 else "down" if diff < 0 else "flat",
+        "points": sparkline(closes[-20:]),
+    }
+
+
 def fetch_indicators(cfg):
+    """세계 지표와 한국 지표를 가져와요. 큰 그래프용 1년 기록(history)도 같이 돌려줘요."""
     import yfinance as yf
 
-    result = []
-    for ind in cfg["indicators"]:
-        try:
-            hist = yf.Ticker(ind["symbol"]).history(period="1mo")["Close"].dropna().tolist()
-        except Exception as e:
-            print(f"  ! {ind['name']} 실패: {e}")
-            hist = []
-        if len(hist) < 2:
-            result.append({"name": ind["name"], "value": "—", "change": "—", "direction": "flat", "points": ""})
-            continue
-
-        last, prev = hist[-1], hist[-2]
-        d = ind.get("decimals", 2)
-        if ind.get("suffix") == "%":  # 금리는 %p 차이로 보여줘요
-            diff = last - prev
-            change = f"{diff:+.{d}f}%p"
-        else:
-            diff = (last - prev) / prev * 100
-            change = f"{diff:+.2f}%"
-        result.append({
-            "name": ind["name"],
-            "value": f"{last:,.{d}f}{ind.get('suffix', '')}",
-            "change": change,
-            "direction": "up" if diff > 0 else "down" if diff < 0 else "flat",
-            "points": sparkline(hist[-20:]),
-        })
-        print(f"  - {ind['name']}: {result[-1]['value']} ({change})")
-    return result
+    groups, history = {}, {}
+    for group in ("indicators", "korea_indicators"):
+        groups[group] = []
+        for ind in cfg.get(group, []):
+            if ind["name"] not in history:
+                dates, closes = fetch_one(yf, ind)
+                history[ind["name"]] = {"symbol": ind["symbol"], "suffix": ind.get("suffix", ""),
+                                        "decimals": ind.get("decimals", 2), "dates": dates, "closes": closes}
+            summary = summarize_indicator(ind, history[ind["name"]]["closes"])
+            groups[group].append(summary)
+            print(f"  - {ind['name']}: {summary['value']} ({summary['change']})")
+    return groups["indicators"], groups["korea_indicators"], history
 
 
 # ─────────────────────────────── 3. AI 분석 ───────────────────────────────
@@ -241,8 +249,7 @@ SYSTEM_PROMPT = """당신은 세계 경제 뉴스를 분석하는 애널리스�
 - 기사 문장을 그대로 베끼지 말고 자기 말로 요약해요.
 - market_effects 는 '예상'이에요. 확실하지 않으면 direction 을 flat 으로 해요.
 - 투자 추천(사라/팔아라)은 하지 마세요.
-- article_ids 에는 반드시 주어진 기사 id 만 넣어요.
-- 결과는 반드시 publish_report 도구로 제출해요."""
+- article_ids 에는 반드시 주어진 기사 id 만 넣어요."""
 
 
 def build_user_message(articles, indicators):
@@ -256,67 +263,8 @@ def build_user_message(articles, indicators):
 
 
 def analyze(articles, indicators):
-    if provider() == "gemini":
-        report = analyze_gemini(articles, indicators)
-    else:
-        report = analyze_claude(articles, indicators)
-    return normalize_report(report)
-
-
-def analyze_gemini(articles, indicators):
-    """Google Gemini API (무료 등급)로 분석해요. 추가 설치 없이 파이썬 기본 기능만 써요."""
-    global MODEL
-    import time
-    import urllib.error
-    import urllib.request
-
-    prompt = (
-        SYSTEM_PROMPT.replace("결과는 반드시 publish_report 도구로 제출해요.",
-                              "결과는 아래 JSON 스키마에 맞는 JSON 하나로만 답해요. 다른 글은 쓰지 마세요.")
-        + "\n\n## JSON 스키마\n" + json.dumps(REPORT_TOOL["input_schema"], ensure_ascii=False)
-    )
-    body = json.dumps({
-        "systemInstruction": {"parts": [{"text": prompt}]},
-        "contents": [{"role": "user", "parts": [{"text": build_user_message(articles, indicators)}]}],
-        "generationConfig": {"responseMimeType": "application/json", "temperature": 0.3},
-    }).encode()
-
-    last_error = None
-    for model in GEMINI_MODELS:
-        for attempt in range(2):
-            url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
-            req = urllib.request.Request(url, data=body, method="POST", headers={
-                "Content-Type": "application/json",
-                "x-goog-api-key": os.environ["GEMINI_API_KEY"],
-            })
-            try:
-                with urllib.request.urlopen(req, timeout=300) as resp:
-                    data = json.loads(resp.read())
-            except urllib.error.HTTPError as e:
-                detail = e.read().decode(errors="replace")[:300]
-                last_error = f"{model}: HTTP {e.code} {detail}"
-                print(f"  ! {last_error}")
-                if e.code == 429 and attempt == 0:  # 잠깐 한도 초과면 1분 쉬고 다시
-                    time.sleep(60)
-                    continue
-                break  # 없는 모델(404) 등은 다음 모델로
-            except Exception as e:
-                last_error = f"{model}: {e}"
-                print(f"  ! {last_error}")
-                continue
-
-            try:
-                text = "".join(p.get("text", "") for p in data["candidates"][0]["content"]["parts"])
-                report = json.loads(re.sub(r"^```(?:json)?|```$", "", text.strip()).strip())
-            except Exception as e:
-                last_error = f"{model}: 답을 JSON으로 읽지 못했어요 ({e})"
-                print(f"  ! {last_error}")
-                continue
-            usage = data.get("usageMetadata", {})
-            print(f"  - 모델 {model}, 토큰: 입력 {usage.get('promptTokenCount')}, 출력 {usage.get('candidatesTokenCount')}")
-            MODEL = model
-            return report
-    raise RuntimeError(f"Gemini 분석 실패: {last_error}")
+    raw = ai.call_ai("세계 분석", SYSTEM_PROMPT, build_user_message(articles, indicators), REPORT_TOOL["input_schema"])
+    return normalize_report(raw)
 
 
 def normalize_report(report):
@@ -380,31 +328,9 @@ def normalize_report(report):
     return report
 
 
-def analyze_claude(articles, indicators):
-    import anthropic
-
-    client = anthropic.Anthropic()  # ANTHROPIC_API_KEY 환경변수를 자동으로 읽어요
-    user_msg = build_user_message(articles, indicators)
-
-    for attempt in range(2):  # 한 번 실패하면 한 번 더 시도해요
-        resp = client.messages.create(
-            model=MODEL,
-            max_tokens=16000,
-            system=SYSTEM_PROMPT,
-            tools=[REPORT_TOOL],
-            messages=[{"role": "user", "content": user_msg}],
-        )
-        for block in resp.content:
-            if block.type == "tool_use" and block.name == "publish_report":
-                print(f"  - 토큰 사용량: 입력 {resp.usage.input_tokens}, 출력 {resp.usage.output_tokens}")
-                return block.input
-        print(f"  ! AI가 결과를 도구로 내지 않았어요 (시도 {attempt + 1})")
-    raise RuntimeError("AI 분석 결과를 받지 못했어요")
-
-
 # ─────────────────────────────── 4. 결과 정리·저장 ───────────────────────────────
 
-def build_output(articles, indicators, report, sample=False):
+def build_output(articles, indicators, report, sample=False, korea=None, korea_indicators=None, glossary=None):
     """AI 결과에 실제 기사 링크를 붙여요. (링크는 AI가 아니라 RSS에서 온 진짜 주소만 써요)"""
     by_id = {a["id"]: a for a in articles}
     issues = []
@@ -424,7 +350,7 @@ def build_output(articles, indicators, report, sample=False):
         "generated_at": now.isoformat(timespec="minutes"),
         "date": now.strftime("%Y-%m-%d"),
         "sample": sample,
-        "model": "샘플 데이터" if sample else MODEL,
+        "model": "샘플 데이터" if sample else (ai.used_model or "AI"),
         "article_count": len(articles),
         "briefing": report.get("briefing", {}),
         "indicators": indicators,
@@ -432,6 +358,9 @@ def build_output(articles, indicators, report, sample=False):
         "all_articles": [{k: a[k] for k in ("title", "source", "link", "published")} for a in articles],
         "regions": report.get("regions", []),
         "sectors": report.get("sectors", []),
+        "korea": korea,
+        "korea_indicators": korea_indicators or [],
+        "glossary": glossary or [],
     }
 
 
@@ -451,6 +380,9 @@ def save(output):
     if not output["sample"]:
         (DATA / "archive" / f"{output['date']}.json").write_text(text, encoding="utf-8")
     write_archive_index()
+    if output.get("glossary") and not output["sample"]:
+        total = update_dictionary(DATA / "glossary.json", output["glossary"], output["date"])
+        print(f"  - 용어 사전: 오늘 {len(output['glossary'])}개, 전체 {total}개")
     print(f"저장 완료: site/data/today.json (이슈 {len(output['issues'])}개)")
 
 
@@ -458,24 +390,34 @@ def save(output):
 
 def sample_data():
     """인터넷과 API 키 없이 사이트가 잘 나오는지 확인하기 위한 가짜 데이터예요."""
-    sample = json.loads((ROOT / "scripts" / "sample_report.json").read_text(encoding="utf-8"))
-    return sample["articles"], sample["indicators"], sample["report"]
+    return json.loads((ROOT / "scripts" / "sample_report.json").read_text(encoding="utf-8"))
 
 
 # ─────────────────────────────── 실행 ───────────────────────────────
 
+def step(name, fn, *args):
+    """추가 기능(한국 분석, 용어 사전, 주간 정리)은 실패해도 오늘 분석은 저장되게 해요."""
+    try:
+        return fn(*args)
+    except Exception as e:
+        print(f"  ! {name} 실패 (건너뛰고 계속해요): {e}")
+        return None
+
+
 def main():
     parser = argparse.ArgumentParser(description="세계경제 AI 데이터 만들기")
     parser.add_argument("--sample", action="store_true", help="인터넷·API 없이 샘플 데이터로 실행")
+    parser.add_argument("--weekly", action="store_true", help="요일과 상관없이 주간 정리도 만들기")
     args = parser.parse_args()
 
     if args.sample:
         print("샘플 모드로 실행해요")
-        articles, indicators, report = sample_data()
-        save(build_output(articles, indicators, normalize_report(report), sample=True))
+        s = sample_data()
+        save(build_output(s["articles"], s["indicators"], normalize_report(s["report"]), sample=True,
+                          korea=s.get("korea"), korea_indicators=s.get("korea_indicators"), glossary=s.get("glossary")))
         return
 
-    if not provider():
+    if not ai.provider():
         sys.exit("AI 키가 없어요. GEMINI_API_KEY(무료) 또는 ANTHROPIC_API_KEY 를 넣어 주세요. README 의 '3단계'를 확인해 주세요.")
 
     print("1) 뉴스 수집")
@@ -484,13 +426,30 @@ def main():
         sys.exit(f"기사가 너무 적어요 ({len(articles)}개). 피드 주소를 확인해 주세요. 기존 데이터는 그대로 둬요.")
 
     print("2) 경제 지표 수집")
-    indicators = fetch_indicators(json.loads((CONFIG / "indicators.json").read_text(encoding="utf-8")))
+    indicators, korea_indicators, history = fetch_indicators(
+        json.loads((CONFIG / "indicators.json").read_text(encoding="utf-8")))
+    DATA.mkdir(parents=True, exist_ok=True)
+    if any(h["closes"] for h in history.values()):
+        (DATA / "indicators.json").write_text(json.dumps(history, ensure_ascii=False), encoding="utf-8")
 
-    print(f"3) AI 분석 (기사 {len(articles)}개, {provider()})")
+    print(f"3) 세계 분석 (기사 {len(articles)}개, {ai.provider()})")
     report = analyze(articles, indicators)
+    world = build_output(articles, indicators, report)  # 이슈 id·기사 연결이 된 상태
 
-    print("4) 저장")
-    save(build_output(articles, indicators, report))
+    print("4) 한국 집중 분석")
+    korea = step("한국 분석", analyze_korea, articles, world["issues"], korea_indicators)
+
+    print("5) 경제 용어 사전")
+    glossary = step("용어 사전", make_glossary, world["issues"], korea) or []
+
+    print("6) 저장")
+    output = build_output(articles, indicators, report, korea=korea, korea_indicators=korea_indicators, glossary=glossary)
+    save(output)
+
+    today = datetime.now(KST).date()
+    if args.weekly or os.environ.get("FORCE_WEEKLY") == "true" or is_weekly_day(today):
+        print("7) 주간 정리")
+        step("주간 정리", make_weekly, DATA, today, history)
 
 
 if __name__ == "__main__":

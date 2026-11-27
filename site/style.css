@@ -164,3 +164,127 @@ footer .wrap { padding-top: 24px; padding-bottom: 24px; display: flex; flex-wrap
 }
 .notice.past { border-style: solid; border-color: var(--accent); align-items: center; flex-wrap: wrap; }
 .notice.past a { margin-left: auto; font-weight: 700; text-decoration: none; }
+
+/* ───────── v3: 메뉴·새 화면·용어·그래프·앱 ───────── */
+.logo span { white-space: nowrap; }
+nav.menu { overflow-x: auto; scrollbar-width: none; flex-wrap: nowrap; }
+nav.menu::-webkit-scrollbar { display: none; }
+nav.menu a { white-space: nowrap; }
+.install-btn, .search-main { font: inherit; }
+.install-btn { min-height: 44px; padding: 0 14px; border-radius: 10px; border: 1px solid var(--accent); background: transparent; color: var(--accent); font-weight: 700; cursor: pointer; }
+.search-main { width: 100%; max-width: 420px; height: 44px; padding: 0 14px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); color: var(--text); font-size: 15px; }
+.updated { white-space: nowrap; }
+
+button.ticker { font: inherit; color: inherit; text-align: left; cursor: pointer; width: 100%; }
+button.ticker:hover { border-color: var(--line-strong); }
+button.ticker:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.ticker .zoom { color: var(--line-strong); font-size: 12px; }
+button.ticker:hover .zoom { color: var(--accent); }
+
+.page-head { display: flex; flex-direction: column; gap: 6px; }
+.page-head h1 { font-size: 30px; font-weight: 800; letter-spacing: -0.02em; }
+.lead { margin: 0; font-size: 19px; line-height: 1.7; color: var(--text); }
+.brief-title { font-size: 26px; font-weight: 800; line-height: 1.4; }
+.korea-brief { display: flex; flex-direction: column; gap: 10px; border-color: #2F3A48; }
+.korea-brief h2 { font-size: 18px; font-weight: 800; }
+.korea-brief p { margin: 0; color: var(--text-2); }
+.more-link { font-weight: 700; text-decoration: none; font-size: 14px; padding: 6px 0; align-self: flex-start; }
+.rel-link { display: block; padding: 10px 0; text-decoration: none; color: var(--text); }
+
+/* 한국·주간 카드 */
+.kpoints { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
+.kpoint { display: flex; flex-direction: column; gap: 8px; }
+.kpoint .meta { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-size: 12px; }
+.kpoint h3 { font-size: 18px; font-weight: 700; line-height: 1.4; }
+.kpoint p { margin: 0; color: var(--text-2); font-size: 14px; }
+.kpoint .easy { background: var(--bg); border-radius: 10px; padding: 10px 12px; }
+.kpoint .easy b { color: var(--accent); margin-right: 6px; font-size: 13px; }
+.rank-s { color: var(--accent); font-weight: 600; }
+.w2k-list { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 12px; }
+.w2k { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; display: flex; flex-direction: column; gap: 6px; }
+.w2k-from { font-weight: 700; }
+.w2k-from a { color: var(--text); text-decoration-color: var(--line-strong); }
+.w2k-arrow { color: var(--accent); font-weight: 800; }
+.w2k-to { color: var(--text-2); font-size: 14px; }
+.w2k-to .small { margin-top: 6px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.ksectors { display: flex; flex-direction: column; gap: 10px; }
+.ksector { display: grid; grid-template-columns: auto auto 1fr; gap: 4px 10px; align-items: center; padding-bottom: 10px; border-bottom: 1px solid var(--line); }
+.ksector:last-child { border-bottom: 0; padding-bottom: 0; }
+.ksector .small { grid-column: 1 / -1; }
+.watch { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 6px; color: var(--text-2); font-size: 14px; }
+.day-links { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip-link { font-size: 13px; text-decoration: none; padding: 6px 10px; border-radius: 999px; background: var(--chip); }
+
+/* 📖 용어 */
+button.term {
+  font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: help;
+  text-decoration: underline dotted var(--accent); text-decoration-thickness: 2px; text-underline-offset: 3px;
+}
+button.term:hover { color: var(--accent); }
+.term-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
+button.chip-term { text-decoration: none; padding: 8px 12px; border-radius: 999px; background: var(--chip); border: 1px solid var(--line); font-size: 14px; min-height: 40px; }
+.term-pop {
+  position: fixed; z-index: 50; left: 50%; bottom: 24px; transform: translateX(-50%);
+  width: min(440px, calc(100vw - 32px)); background: #1F2630; border: 1px solid var(--line-strong); border-radius: 16px;
+  padding: 16px 18px; box-shadow: 0 12px 40px rgba(0,0,0,.5); display: flex; flex-direction: column; gap: 8px;
+}
+.term-pop p { margin: 0; }
+.tp-head { display: flex; align-items: center; gap: 10px; }
+.tp-head b { font-size: 17px; }
+.tp-close { margin-left: auto; width: 40px; height: 40px; border-radius: 10px; border: 1px solid var(--line); background: transparent; color: var(--text); cursor: pointer; font: inherit; }
+.g-tools { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.g-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 14px; }
+.gterm { display: flex; flex-direction: column; gap: 8px; scroll-margin-top: 20px; }
+.gterm-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.gterm h2 { font-size: 20px; font-weight: 800; }
+.gterm p { margin: 0; color: var(--text-2); }
+.gterm.flash { border-color: var(--accent); }
+
+/* 📈 큰 그래프 */
+.chart-modal {
+  width: min(760px, calc(100vw - 24px)); max-height: calc(100vh - 24px); padding: 20px 22px; border-radius: 18px;
+  border: 1px solid var(--line-strong); background: var(--surface); color: var(--text);
+}
+.chart-modal::backdrop { background: rgba(0,0,0,.6); }
+.chart-head { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+.chart-head h2 { font-size: 20px; font-weight: 800; }
+.chart-head .tp-close { margin-left: auto; }
+.chart-top { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; align-items: flex-end; margin-bottom: 12px; }
+.chart-val { font-size: 26px; font-weight: 600; }
+.chart-wrap { position: relative; }
+.chart-wrap svg { width: 100%; height: 260px; display: block; touch-action: pan-y; }
+.chart-wrap .grid { stroke: var(--line); stroke-dasharray: 4 4; }
+.chart-wrap .cross { stroke: var(--muted); stroke-width: 1; }
+.chart-tip { position: absolute; top: 0; width: 120px; text-align: center; font-size: 12px; background: var(--bg); border: 1px solid var(--line-strong); border-radius: 8px; padding: 4px 6px; pointer-events: none; }
+
+/* 📱 휴대폰 */
+@media (max-width: 640px) {
+  header.top .wrap { gap: 10px 12px; }
+  .logo { font-size: 18px; }
+  nav.menu { order: 5; width: 100%; }
+  .datenav { order: 6; width: 100%; }
+  .dn-select { flex: 1; min-width: 0; }
+  .updated { display: none; }
+  main { padding-top: 18px; gap: 20px; }
+  .tickers { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .ticker { padding: 12px; }
+  .ticker .value { font-size: 17px; }
+  .ticker svg { display: none; }
+  .brief { padding: 20px; }
+  .brief h1 { font-size: 21px; }
+  .lead { font-size: 17px; }
+  .issue { padding: 18px; gap: 12px; }
+  .issue .rank { width: 22px; font-size: 22px; }
+  .detail-title, .page-head h1 { font-size: 26px; }
+  .kpoints, .g-list { grid-template-columns: 1fr; }
+  .chart-wrap svg { height: 200px; }
+  .chart-modal { padding: 16px; }
+  footer .wrap { padding-bottom: calc(24px + env(safe-area-inset-bottom)); }
+}
+
+main.wrap { padding-top: 28px; padding-bottom: 56px; }
+header.top .spacer { flex: 1 1 0; }
+.w2k-tag { display: inline-block; font-size: 11px; font-weight: 700; padding: 1px 8px; border-radius: 999px; margin-right: 6px; vertical-align: 1px; }
+.w2k-tag.world { background: var(--chip); color: var(--text-2); }
+.w2k-tag.kr { background: #3A2E12; color: var(--accent); }
+@media (max-width: 640px) { main.wrap { padding-top: 18px; } }

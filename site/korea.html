@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>한국 집중 분석 — 세계경제 AI</title>
+<meta name="description" content="AI가 매일 세계 경제 뉴스를 읽고 정리하는 대시보드">
+<meta name="theme-color" content="#0E1116">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="경제 AI">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header data-page="korea"></header>
+
+<main class="wrap" id="app">
+  <div class="notice past" data-past hidden><b>지난 기록</b><span></span><a href="index.html">최신으로 가기 →</a></div>
+  <div class="notice" data-sample hidden><b>샘플</b><span>지금은 테스트용 샘플 데이터예요. 진짜로 실행하면 AI가 수집한 내용으로 바뀌어요.</span></div>
+
+  <div class="page-head">
+    <h1>한국 집중 분석</h1>
+    <p class="small">오늘 뉴스와 세계 이슈가 한국 경제에 어떤 영향을 주는지 AI가 따로 분석했어요.</p>
+  </div>
+
+  <section id="tickers" class="tickers" aria-label="한국 경제 지표 (누르면 큰 그래프)"></section>
+
+  <div id="korea-body" style="display:flex;flex-direction:column;gap:28px">
+    <section class="box brief" aria-labelledby="ks-h">
+      <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap"><span class="badge">오늘의 한국 경제</span><span id="k-mood"></span></div>
+      <h2 id="ks-h" class="sr">한국 경제 요약</h2>
+      <p id="k-summary" class="lead"></p>
+    </section>
+
+    <section aria-labelledby="kp-h" style="display:flex;flex-direction:column;gap:14px">
+      <div class="section-head"><h2 id="kp-h">오늘 한국 경제 핵심</h2><span class="small">중요한 순서</span></div>
+      <div id="k-points" class="kpoints"></div>
+    </section>
+
+    <div class="columns">
+      <section class="main-col" aria-labelledby="kw-h">
+        <div class="section-head"><h2 id="kw-h">세계 이슈 → 한국에 주는 영향</h2></div>
+        <ul id="k-world" class="w2k-list"></ul>
+      </section>
+      <aside class="side-col">
+        <section class="box" aria-labelledby="ksec-h">
+          <h2 id="ksec-h">산업별 오늘의 분위기</h2>
+          <div id="k-sectors" class="ksectors"></div>
+        </section>
+        <section class="box" aria-labelledby="kwatch-h">
+          <h2 id="kwatch-h">앞으로 지켜볼 것</h2>
+          <ul id="k-watch" class="watch"></ul>
+        </section>
+      </aside>
+    </div>
+
+    <section class="box" aria-labelledby="ka-h">
+      <h2 id="ka-h" style="font-size:18px;margin-bottom:8px">근거가 된 기사</h2>
+      <ul class="src-list" id="k-articles"></ul>
+    </section>
+  </div>
+</main>
+
+<footer><div class="wrap">
+  <span>세계경제 AI · 뉴스 요약은 AI가 생성하며, 모든 기사는 원문 출처로 연결돼요.</span>
+  <span>투자 조언이 아니에요</span>
+</div></footer>
+
+<script src="app.js"></script>
+<script>initKorea();</script>
+</body>
+</html>

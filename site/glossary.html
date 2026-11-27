@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>경제 용어 사전 — 세계경제 AI</title>
+<meta name="description" content="AI가 매일 세계 경제 뉴스를 읽고 정리하는 대시보드">
+<meta name="theme-color" content="#0E1116">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="경제 AI">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header data-page="glossary"></header>
+
+<main class="wrap" id="app">
+
+  <div class="page-head">
+    <h1>경제 용어 사전</h1>
+    <p class="small">매일 뉴스에 나온 어려운 경제 용어를 AI가 쉽게 설명해서 모아두는 나만의 사전이에요. <span id="g-count"></span></p>
+  </div>
+  <div class="g-tools">
+    <label for="g-q" class="sr">용어 검색</label>
+    <input id="g-q" type="search" class="search-main" placeholder="용어 검색 (예: 금리, 관세)">
+    <button type="button" class="chip-btn" id="g-new" aria-pressed="false">최근 새로 나온 용어만</button>
+  </div>
+  <div id="g-list" class="g-list"></div>
+</main>
+
+<footer><div class="wrap">
+  <span>세계경제 AI · 뉴스 요약은 AI가 생성하며, 모든 기사는 원문 출처로 연결돼요.</span>
+  <span>투자 조언이 아니에요</span>
+</div></footer>
+
+<script src="app.js"></script>
+<script>initGlossary();</script>
+</body>
+</html>

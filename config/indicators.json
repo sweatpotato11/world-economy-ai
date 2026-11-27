@@ -1,11 +1,80 @@
 {
-  "_설명": "대시보드 맨 위에 보여줄 경제 지표예요. symbol은 야후 파이낸스 기호예요.",
+  "_설명": "대시보드에 보여줄 경제 지표예요. symbol은 야후 파이낸스 기호예요. korea_indicators 는 '한국' 화면에 나와요. multiplier 는 값에 곱할 수 (예: 엔화는 100엔 기준).",
   "indicators": [
-    {"name": "원/달러 환율", "symbol": "KRW=X", "decimals": 2, "suffix": ""},
-    {"name": "코스피", "symbol": "^KS11", "decimals": 2, "suffix": ""},
-    {"name": "S&P 500", "symbol": "^GSPC", "decimals": 2, "suffix": ""},
-    {"name": "미국 10년 금리", "symbol": "^TNX", "decimals": 2, "suffix": "%"},
-    {"name": "WTI 유가", "symbol": "CL=F", "decimals": 2, "suffix": ""},
-    {"name": "금 (온스)", "symbol": "GC=F", "decimals": 2, "suffix": ""}
+    {
+      "name": "원/달러 환율",
+      "symbol": "KRW=X",
+      "decimals": 2,
+      "suffix": ""
+    },
+    {
+      "name": "코스피",
+      "symbol": "^KS11",
+      "decimals": 2,
+      "suffix": ""
+    },
+    {
+      "name": "S&P 500",
+      "symbol": "^GSPC",
+      "decimals": 2,
+      "suffix": ""
+    },
+    {
+      "name": "미국 10년 금리",
+      "symbol": "^TNX",
+      "decimals": 2,
+      "suffix": "%"
+    },
+    {
+      "name": "WTI 유가",
+      "symbol": "CL=F",
+      "decimals": 2,
+      "suffix": ""
+    },
+    {
+      "name": "금 (온스)",
+      "symbol": "GC=F",
+      "decimals": 2,
+      "suffix": ""
+    }
+  ],
+  "korea_indicators": [
+    {
+      "name": "코스피",
+      "symbol": "^KS11",
+      "decimals": 2,
+      "suffix": ""
+    },
+    {
+      "name": "코스닥",
+      "symbol": "^KQ11",
+      "decimals": 2,
+      "suffix": ""
+    },
+    {
+      "name": "원/달러 환율",
+      "symbol": "KRW=X",
+      "decimals": 2,
+      "suffix": ""
+    },
+    {
+      "name": "원/엔 (100엔)",
+      "symbol": "JPYKRW=X",
+      "decimals": 2,
+      "suffix": "",
+      "multiplier": 100
+    },
+    {
+      "name": "원/위안",
+      "symbol": "CNYKRW=X",
+      "decimals": 2,
+      "suffix": ""
+    },
+    {
+      "name": "원/유로",
+      "symbol": "EURKRW=X",
+      "decimals": 2,
+      "suffix": ""
+    }
   ]
 }

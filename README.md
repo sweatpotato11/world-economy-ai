@@ -9,16 +9,34 @@ AI가 매일 아침 세계 경제 뉴스를 읽고, 이슈별로 묶고, 쉽게 
                      └── GitHub Actions가 매일 오전 6시에 자동 실행
 ```
 
+## 기능
+
+| 화면 | 내용 |
+|---|---|
+| **오늘** (`index.html`) | AI 브리핑, 핵심 이슈, 지역·분야별 분위기, 읽은 기사 전체, 날짜 고르기 |
+| **한국** (`korea.html`) | 한국 경제 핵심, 세계 이슈가 한국에 주는 영향, 산업별 분위기, 원/엔·원/위안 등 한국 지표 |
+| **주간 정리** (`weekly.html`) | 매주 일요일, 지난 7일을 AI가 정리한 리포트와 이번 주 숫자 |
+| **용어 사전** (`glossary.html`) | 매일 뉴스에 나온 어려운 용어가 쌓이는 사전. 본문에 밑줄 친 용어를 누르면 바로 설명이 나와요 |
+| **큰 그래프** | 지표 카드를 누르면 1개월~1년 그래프 |
+| **앱 설치** | 휴대폰에서 '홈 화면에 추가'하면 앱처럼 열려요 |
+
 ## 폴더 구성
 
 | 파일 | 하는 일 |
 |---|---|
 | `scripts/collect.py` | 뉴스·지표 수집 → AI 분석 → 데이터 저장 (프로그램의 핵심) |
+| `scripts/ai.py` | Gemini(무료)·Claude 를 부르는 도우미 |
+| `scripts/korea.py` | 한국 집중 분석 |
+| `scripts/glossary.py` | 경제 용어 사전 |
+| `scripts/weekly.py` | 주간 정리 (일요일) |
 | `config/feeds.json` | 뉴스를 가져올 언론사 RSS 주소 목록 |
 | `config/indicators.json` | 맨 위에 보여줄 경제 지표 목록 |
 | `site/` | 사이트 화면 (`index.html` 홈, `issue.html` 이슈 상세) |
 | `site/data/today.json` | 오늘의 분석 결과 (자동으로 만들어져요) |
 | `site/data/archive/` | 날짜별 기록 (매일 하나씩 쌓여요) |
+| `site/data/weekly/` | 주간 정리 기록 |
+| `site/data/glossary.json` | 지금까지 모은 용어 사전 |
+| `site/data/indicators.json` | 큰 그래프용 1년 치 지표 |
 | `.github/workflows/update.yml` | 매일 자동 실행 설정 |
 
 ---
@@ -63,10 +81,18 @@ AI가 매일 아침 세계 경제 뉴스를 읽고, 이슈별로 묶고, 쉽게 
 3. 2~3분 기다리면 초록 체크 ✅
 4. 사이트 주소: `https://내아이디.github.io/world-economy-ai/`
 
-이제 매일 오전 6시에 알아서 업데이트돼요! 🎉
-(GitHub 사정에 따라 몇십 분 늦게 실행될 때도 있어요.)
+이제 매일 새벽에 알아서 업데이트돼요! 🎉
+(예약은 새벽 4시 17분인데, GitHub 사정에 따라 몇 시간 늦게 실행될 때도 있어요.)
+
+**주간 정리를 지금 바로 만들고 싶으면:** Run workflow 를 누를 때 나오는 **"주간 정리도 지금 만들기"** 를 체크해요. (기록이 3일 이상 있어야 해요)
 
 ---
+
+## 휴대폰에 앱처럼 설치하기
+
+- **안드로이드(크롬):** 사이트 접속 → 오른쪽 위 ⋮ → **홈 화면에 추가** (또는 **앱 설치**)
+- **아이폰(사파리):** 사이트 접속 → 아래 공유 버튼 → **홈 화면에 추가**
+- **컴퓨터(크롬):** 사이트 오른쪽 위 **앱 설치** 버튼, 또는 주소창 오른쪽 설치 아이콘
 
 ## 내 컴퓨터에서 미리 보기
 
@@ -97,8 +123,8 @@ python scripts/collect.py
 ## 바꿔 보기
 
 - **언론사 추가/삭제:** `config/feeds.json` 에 `{"name": "이름", "url": "RSS 주소"}` 추가
-- **지표 추가:** `config/indicators.json` 에 야후 파이낸스 기호 추가 (예: 닛케이 `^N225`, 비트코인 `BTC-USD`)
-- **업데이트 시간:** `update.yml` 의 `cron: "0 21 * * *"` (UTC 기준이라 한국 시간에서 9시간 빼기. 오전 7시 → `0 22 * * *`)
+- **지표 추가:** `config/indicators.json` 에 야후 파이낸스 기호 추가 (예: 닛케이 `^N225`, 비트코인 `BTC-USD`). 한국 화면 지표는 `korea_indicators` 에
+- **업데이트 시간:** `update.yml` 의 `cron: "17 19 * * *"` (UTC 기준이라 한국 시간에서 9시간 빼기. 정각(00분)은 GitHub가 바빠서 늦어지기 쉬워요)
 - **모델 바꾸기:** Settings → Secrets and variables → Actions → **Variables** 탭 → `GEMINI_MODEL` 에 원하는 Gemini 모델 이름 (쉼표로 여러 개 쓰면 앞에서부터 시도). 기본값은 `gemini-3.6-flash,gemini-3.5-flash,gemini-3.5-flash-lite`
 - **AI 분석 방식:** `scripts/collect.py` 의 `SYSTEM_PROMPT` 를 고치면 AI가 쓰는 글의 스타일이 바뀌어요
 

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>주간 정리 — 세계경제 AI</title>
+<meta name="description" content="AI가 매일 세계 경제 뉴스를 읽고 정리하는 대시보드">
+<meta name="theme-color" content="#0E1116">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="경제 AI">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header data-page="weekly"></header>
+
+<main class="wrap" id="app">
+
+  <div class="page-head">
+    <div class="section-head">
+      <h1>이번 주 세계 경제</h1>
+      <div><label for="week-select" class="sr">주 고르기</label><select id="week-select" class="dn-select"></select></div>
+    </div>
+    <p class="small" id="w-period"></p>
+  </div>
+
+  <section class="box brief" aria-labelledby="w-title">
+    <div style="display:flex;align-items:center;gap:10px"><span class="badge">AI 주간 리포트</span><span id="w-mood"></span></div>
+    <h2 id="w-title" class="brief-title"></h2>
+    <p id="w-summary" class="lead"></p>
+  </section>
+
+  <section aria-labelledby="wn-h" style="display:flex;flex-direction:column;gap:12px">
+    <h2 id="wn-h">이번 주 숫자</h2>
+    <div id="w-numbers" class="tickers"></div>
+  </section>
+
+  <section aria-labelledby="ws-h" style="display:flex;flex-direction:column;gap:14px">
+    <h2 id="ws-h">이번 주 가장 중요했던 이야기</h2>
+    <div id="w-stories" class="kpoints"></div>
+  </section>
+
+  <div class="columns">
+    <section class="box main-col" aria-labelledby="wk-h">
+      <h2 id="wk-h">이번 주 한국 경제</h2>
+      <p id="w-korea" style="margin:0;color:var(--text-2)"></p>
+    </section>
+    <section class="box side-col" aria-labelledby="wx-h">
+      <h2 id="wx-h">다음 주에 지켜볼 것</h2>
+      <ul id="w-next" class="watch"></ul>
+    </section>
+  </div>
+</main>
+
+<footer><div class="wrap">
+  <span>세계경제 AI · 뉴스 요약은 AI가 생성하며, 모든 기사는 원문 출처로 연결돼요.</span>
+  <span>투자 조언이 아니에요</span>
+</div></footer>
+
+<script src="app.js"></script>
+<script>initWeekly();</script>
+</body>
+</html>

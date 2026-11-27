@@ -1,0 +1,21 @@
+{
+  "name": "세계경제 AI",
+  "short_name": "경제 AI",
+  "description": "AI가 매일 세계 경제 뉴스를 읽고 정리하는 대시보드",
+  "lang": "ko",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0E1116",
+  "theme_color": "#0E1116",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "한국 집중 분석", "url": "korea.html"},
+    {"name": "주간 정리", "url": "weekly.html"},
+    {"name": "용어 사전", "url": "glossary.html"}
+  ]
+}

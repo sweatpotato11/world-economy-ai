@@ -2,35 +2,27 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>이슈 상세 — 세계경제 AI</title>
+<meta name="description" content="AI가 매일 세계 경제 뉴스를 읽고 정리하는 대시보드">
+<meta name="theme-color" content="#0E1116">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="경제 AI">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="top">
-  <div class="wrap">
-    <a href="index.html" class="logo">
-      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true"><circle cx="16" cy="16" r="13" stroke="#F5A524" stroke-width="2"/><path d="M3 16h26M16 3c4 4 5 8.5 5 13s-1 9-5 13M16 3c-4 4-5 8.5-5 13s1 9 5 13" stroke="#F5A524" stroke-width="1.6"/></svg>
-      세계경제 AI
-    </a>
-    <nav class="menu" aria-label="주요 메뉴">
-      <a href="index.html">오늘</a>
-      <a href="index.html#regions-h">지역별</a>
-      <a href="index.html#sectors-h">분야별</a>
-      <a href="index.html#tickers">경제 지표</a>
-    </nav>
-    <div class="spacer"></div>
-    <div class="datenav" data-datenav hidden></div>
-    <span class="updated" data-updated></span>
-  </div>
-</header>
+<header data-page="issue"></header>
 
 <main class="wrap" id="app">
   <a href="index.html" class="back" data-keep-date>← 오늘의 이슈로</a>
   <div class="notice past" data-past hidden><b>지난 기록</b><span></span><a href="index.html">최신으로 가기 →</a></div>
-  <div class="notice" data-sample hidden><b>샘플</b><span>지금은 테스트용 샘플 데이터예요.</span></div>
+  <div class="notice" data-sample hidden><b>샘플</b><span>지금은 테스트용 샘플 데이터예요. 진짜로 실행하면 AI가 수집한 내용으로 바뀌어요.</span></div>
 
   <div style="display:flex;flex-direction:column;gap:12px">
     <div id="tags" style="display:flex;flex-wrap:wrap;gap:8px;align-items:center"></div>
@@ -49,6 +41,11 @@
           </div>
         </div>
         <ol id="lines"></ol>
+      </section>
+
+      <section class="box korea-brief" id="to-korea" aria-labelledby="tk-h" hidden>
+        <div class="section-head"><h2 id="tk-h">한국에는 어떤 영향?</h2><span data-impact></span></div>
+        <p></p>
       </section>
 
       <section aria-labelledby="why-h" style="display:flex;flex-direction:column;gap:10px">
