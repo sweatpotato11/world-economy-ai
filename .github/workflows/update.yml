@@ -1,10 +1,16 @@
-# 매일 아침 6시(한국 시간)에 뉴스를 모으고, AI로 분석하고, 사이트를 새로 올려요.
+# 매일 새벽(한국 시간 4시 17분 예약)에 뉴스를 모으고, AI로 분석하고, 사이트를 새로 올려요.
+# GitHub가 예약 실행을 늦게 시작할 때가 많아서, 일부러 일찍 + 정각이 아닌 시간으로 잡았어요.
 name: 세계경제 AI 업데이트
 
 on:
   schedule:
-    - cron: "0 21 * * *"   # UTC 21시 = 한국 시간 다음 날 오전 6시
+    - cron: "17 19 * * *"  # UTC 19:17 = 한국 시간 새벽 4:17 (일요일 실행 때는 주간 정리도 만들어요)
   workflow_dispatch:        # Actions 화면에서 'Run workflow' 버튼으로 바로 실행 가능
+    inputs:
+      weekly:
+        description: "주간 정리도 지금 만들기"
+        type: boolean
+        default: false
   push:
     branches: [main]
     paths: ["site/**"]      # 사이트 디자인만 고쳤을 때는 분석 없이 다시 올리기만 해요
@@ -42,6 +48,7 @@ jobs:
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}  # 유료 (나중에 바꾸고 싶을 때)
           CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+          FORCE_WEEKLY: ${{ inputs.weekly }}
         run: python scripts/collect.py
 
       - name: 결과 저장 (기록 남기기)
